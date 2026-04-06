@@ -48,7 +48,7 @@ const translations = {
     "footer-map-title": "Βρείτε μας εδώ",
 
     // Menu page
-    "menu-page-title": "Το Κατάλογος μας",
+    "menu-page-title": "Το menu μας",
     "menu-page-subtitle": "Ανακαλύψτε τις γεύσεις μας",
 
     // Menu categories
