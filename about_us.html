@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Σχετικά – Cup of Cake</title>
+  <title>Σχετικά - Cup of Cake</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
   <style>
@@ -93,10 +93,24 @@
 
     /* ── Hero banner ───────────────────────────────── */
     .about-hero {
-      background: linear-gradient(135deg, var(--primary-dark) 0%, var(--primary-light) 100%);
-      padding: 5rem 1.5rem 4rem;
+      background-image: linear-gradient(to top, rgba(0,0,0,0.85) 0%, rgba(0,0,0,0.5) 40%, rgba(0,0,0,0.2) 100%), url('assets/cover.avif');
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      height: 520px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
       text-align: center;
       color: var(--text-light);
+    }
+    @media (max-width: 767px) { .about-hero { height: 340px; } }
+    .about-hero h1 {
+      text-shadow: 0 3px 10px rgba(0,0,0,0.7);
+    }
+    .about-hero p {
+      text-shadow: 0 2px 8px rgba(0,0,0,0.6);
     }
 
     /* ── Section headings ──────────────────────────── */
@@ -203,7 +217,7 @@
   <!-- ══════════ HERO ══════════ -->
   <div class="about-hero">
     <h1 class="text-4xl font-extrabold mb-3" data-i18n="about-page-title">Σχετικά με εμάς</h1>
-    <p class="text-lg opacity-85 max-w-xl mx-auto">Cup of Cake – Περιστέρι, Αθήνα GR</p>
+    <p class="text-lg opacity-85 max-w-xl mx-auto">Cup of Cake - Περιστέρι, Αθήνα</p>
   </div>
 
   <!-- ══════════ MAIN CONTENT ══════════ -->
@@ -246,7 +260,7 @@
       <div>
         <h2 class="section-title" data-i18n="about-atmosphere-title">Η Ατμόσφαιρά μας</h2>
         <p class="mt-4 text-gray-600 leading-relaxed" data-i18n="about-atmosphere-text">
-          Ο χώρος μας είναι σχεδιασμένος για να νιώθετε σαν στο σπίτι σας. Ζεστά χρώματα, άνετα καθίσματα και μουσική που σας χαλαρώνει – όλα εκεί για να κάνουν την επίσκεψή σας αξέχαστη.
+          Ο χώρος μας είναι σχεδιασμένος για να νιώθετε σαν στο σπίτι σας. Ζεστά χρώματα, άνετα καθίσματα και μουσική που σας χαλαρώνει - όλα εκεί για να κάνουν την επίσκεψή σας αξέχαστη.
         </p>
       </div>
       <div>
@@ -290,22 +304,25 @@
   <!-- ══════════ FOOTER ══════════ -->
   <footer class="pt-12 pb-6 px-6">
     <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-10">
+      <!-- Brand -->
       <div>
-        <div class="text-2xl font-bold mb-3">Cup of Cake</div>
+        <div class="text-2xl font-bold mb-3"> Cup of Cake</div>
         <p class="text-sm opacity-80" data-i18n="footer-address">Μωρογιάννη 83 & Ηρακλέους, Περιστέρι 12133, Αθήνα</p>
         <p class="text-sm opacity-80 mt-1" data-i18n="footer-phone">Τηλ.: +30  210 574 7222</p>
         <div class="flex mt-4">
-          <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
           <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
-          <a href="#" class="social-icon"><i class="fab fa-tiktok"></i></a>
+          <a href="https://www.e-food.gr/delivery/peristeri/cup-of-cake-8827353" class="social-icon"><img src="assets/efood_icon.png" alt="efood" style="height: 1.4rem; width: 1.4rem; object-fit: contain;"></a>
+          <a href="#" class="social-icon"><img src="assets/box_icon.png" alt="box" style="height: 1.4rem; width: 1.4rem; object-fit: contain;"></a>
         </div>
       </div>
+      <!-- Hours -->
       <div>
         <h3 class="font-bold text-lg mb-3" data-i18n="footer-hours-title">Ωράριο Λειτουργίας</h3>
-        <p class="text-sm opacity-80" data-i18n="footer-hours-weekdays">Δευτέρα – Παρασκευή: 08:00 – 22:00</p>
-        <p class="text-sm opacity-80 mt-1" data-i18n="footer-hours-saturday">Σάββατο: 09:00 – 23:00</p>
-        <p class="text-sm opacity-80 mt-1" data-i18n="footer-hours-sunday">Κυριακή: 10:00 – 21:00</p>
+        <p class="text-sm opacity-80" data-i18n="footer-hours-weekdays">Δευτέρα - Παρασκευή: 08:00 - 22:00</p>
+        <p class="text-sm opacity-80 mt-1" data-i18n="footer-hours-saturday">Σάββατο: 09:00 - 23:00</p>
+        <p class="text-sm opacity-80 mt-1" data-i18n="footer-hours-sunday">Κυριακή: 10:00 - 21:00</p>
       </div>
+      <!-- Nav links -->
       <div>
         <h3 class="font-bold text-lg mb-3">Links</h3>
         <div class="flex flex-col gap-1">
@@ -316,7 +333,7 @@
       </div>
     </div>
     <div class="max-w-7xl mx-auto border-t border-white/20 mt-8 pt-4 text-center text-sm opacity-70">
-      <span data-i18n="footer-copy">© 2025 Cup of Cake. Με επιφύλαξη παντός δικαιώματος.</span>
+      <span data-i18n="footer-copy">© 2025 Cup of Cake. All rights reserved.</span>
     </div>
   </footer>
 
