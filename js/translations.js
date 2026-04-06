@@ -39,9 +39,9 @@ const translations = {
 
     // Footer
     "footer-hours-title": "Ωράριο Λειτουργίας",
-    "footer-hours-weekdays": "Δευτέρα – Παρασκευή: 08:00 – 22:00",
-    "footer-hours-saturday": "Σάββατο: 09:00 – 23:00",
-    "footer-hours-sunday": "Κυριακή: 10:00 – 21:00",
+    "footer-hours-weekdays": "Δευτέρα – Παρασκευή: 07:00-20:00",
+    "footer-hours-saturday": "Σάββατο: 08:00-20:00",
+    "footer-hours-sunday": "Κυριακή: 09:30-17:00",
     "footer-address": "Μωρογιάννη 83, Περιστέρι 12133, Αθήνα",
     "footer-phone": "Τηλ.: +30 210 123 4567",
     "footer-copy": "© 2025 Cup of Cake. Με επιφύλαξη παντός δικαιώματος.",
@@ -202,9 +202,9 @@ const translations = {
 
     // Footer
     "footer-hours-title": "Opening Hours",
-    "footer-hours-weekdays": "Monday – Friday: 08:00 – 22:00",
-    "footer-hours-saturday": "Saturday: 09:00 – 23:00",
-    "footer-hours-sunday": "Sunday: 10:00 – 21:00",
+    "footer-hours-weekdays": "Monday – Friday: 07:00-20:00",
+    "footer-hours-saturday": "Saturday: 08:00-20:00",
+    "footer-hours-sunday": "Sunday: 09:30-17:00",
     "footer-address": "Morogianni 83, Peristeri 12133, Athens",
     "footer-phone": "Tel.: +30 210 123 4567",
     "footer-copy": "© 2025 Cup of Cake. All rights reserved.",
