@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Σχετικά – Cup of Cake</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <style>
+    :root {
+      --primary-dark: #6F2DA8;
+      --primary-light: #A92D90;
+      --pale-1: #D8E9D8;
+      --pale-2: #FDE0F1;
+      --pale-3: #FDFBE2;
+      --text-dark: #2D2D2D;
+      --text-light: #FFFFFF;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: var(--text-dark);
+      background-color: var(--pale-3);
+      margin: 0;
+    }
+
+    /* ── Sticky Navbar ─────────────────────────────── */
+    #navbar {
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      background: linear-gradient(135deg, var(--primary-dark), var(--primary-light));
+      box-shadow: 0 2px 12px rgba(0,0,0,0.15);
+    }
+
+    .nav-logo {
+      font-size: 1.5rem;
+      font-weight: 800;
+      color: var(--text-light);
+      text-decoration: none;
+      letter-spacing: 1px;
+    }
+    .nav-logo span { color: var(--pale-2); }
+
+    .nav-link {
+      color: var(--text-light);
+      text-decoration: none;
+      font-weight: 500;
+      padding: 0.4rem 0.8rem;
+      border-radius: 6px;
+      transition: background 0.25s;
+    }
+    .nav-link:hover, .nav-link.active { background: rgba(255,255,255,0.18); }
+
+    .lang-btn {
+      cursor: pointer;
+      padding: 0.3rem 0.7rem;
+      border-radius: 20px;
+      border: 1.5px solid rgba(255,255,255,0.6);
+      background: transparent;
+      color: var(--text-light);
+      font-size: 0.8rem;
+      font-weight: 600;
+      transition: background 0.2s, border-color 0.2s;
+    }
+    .lang-btn:hover { background: rgba(255,255,255,0.2); }
+    .lang-btn.lang-active {
+      background: var(--text-light);
+      color: var(--primary-dark);
+      border-color: var(--text-light);
+    }
+
+    #nav-toggle { display: none; }
+    #mobile-menu { display: none; }
+    @media (max-width: 767px) {
+      #nav-toggle { display: block; }
+      #mobile-menu { background: var(--primary-dark); padding: 0.5rem 1rem 1rem; }
+      #mobile-menu.open { display: block; }
+      #mobile-menu .nav-link { display: block; padding: 0.5rem 0; }
+    }
+
+    /* ── Hero banner ───────────────────────────────── */
+    .about-hero {
+      background: linear-gradient(135deg, var(--primary-dark) 0%, var(--primary-light) 100%);
+      padding: 5rem 1.5rem 4rem;
+      text-align: center;
+      color: var(--text-light);
+    }
+
+    /* ── Section headings ──────────────────────────── */
+    .section-title {
+      font-size: 1.8rem;
+      font-weight: 800;
+      color: var(--primary-dark);
+      position: relative;
+      display: inline-block;
+      margin-bottom: 0.5rem;
+    }
+    .section-title::after {
+      content: '';
+      display: block;
+      height: 4px;
+      border-radius: 2px;
+      background: linear-gradient(90deg, var(--primary-dark), var(--primary-light));
+      margin-top: 6px;
+    }
+
+    /* ── Info cards ────────────────────────────────── */
+    .info-card {
+      background: #fff;
+      border-radius: 16px;
+      padding: 2rem;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+      transition: transform 0.25s, box-shadow 0.25s;
+    }
+    .info-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 28px rgba(111,45,168,0.14);
+    }
+
+    /* ── Value pills ───────────────────────────────── */
+    .value-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.5rem 1.2rem;
+      border-radius: 30px;
+      background: linear-gradient(135deg, var(--primary-dark), var(--primary-light));
+      color: var(--text-light);
+      font-weight: 600;
+      font-size: 0.95rem;
+      transition: transform 0.2s;
+    }
+    .value-pill:hover { transform: scale(1.05); }
+
+    /* ── Team photo placeholder ────────────────────── */
+    .photo-placeholder {
+      width: 100%;
+      height: 320px;
+      border-radius: 16px;
+      object-fit: cover;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+      transition: transform 0.4s;
+    }
+    .photo-placeholder:hover { transform: scale(1.02); }
+
+    /* ── Map section ───────────────────────────────── */
+    #map-section { background: var(--pale-1); }
+
+    /* ── Footer ────────────────────────────────────── */
+    footer {
+      background: linear-gradient(135deg, var(--primary-dark), var(--primary-light));
+      color: var(--text-light);
+    }
+    footer a { color: var(--pale-2); transition: color 0.2s; }
+    footer a:hover { color: #fff; }
+    .social-icon {
+      font-size: 1.4rem;
+      margin-right: 0.8rem;
+      transition: transform 0.2s, color 0.2s;
+    }
+    .social-icon:hover { transform: scale(1.2); color: var(--pale-2); }
+  </style>
+</head>
+<body>
+
+  <!-- ══════════ NAVBAR ══════════ -->
+  <nav id="navbar">
+    <div class="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between flex-wrap gap-2">
+      <a href="index.html" class="nav-logo">☕ Cup of <span>Cake</span></a>
+      <div class="hidden md:flex items-center gap-1">
+        <a href="index.html" class="nav-link" data-i18n="nav-home">Αρχική</a>
+        <a href="menu.html" class="nav-link" data-i18n="nav-menu">Μενού</a>
+        <a href="about_us.html" class="nav-link active" data-i18n="nav-about">Σχετικά</a>
+      </div>
+      <div class="flex items-center gap-2">
+        <button class="lang-btn lang-active" data-lang="el">🇬🇷 ΕΛ</button>
+        <button class="lang-btn" data-lang="en">🇬🇧 EN</button>
+        <button id="nav-toggle" class="text-white ml-2 text-2xl" onclick="document.getElementById('mobile-menu').classList.toggle('open')">
+          <i class="fa fa-bars"></i>
+        </button>
+      </div>
+    </div>
+    <div id="mobile-menu">
+      <a href="index.html" class="nav-link" data-i18n="nav-home">Αρχική</a>
+      <a href="menu.html" class="nav-link" data-i18n="nav-menu">Μενού</a>
+      <a href="about_us.html" class="nav-link" data-i18n="nav-about">Σχετικά</a>
+    </div>
+  </nav>
+
+  <!-- ══════════ HERO ══════════ -->
+  <div class="about-hero">
+    <h1 class="text-4xl font-extrabold mb-3" data-i18n="about-page-title">Σχετικά με εμάς</h1>
+    <p class="text-lg opacity-85 max-w-xl mx-auto">Cup of Cake – Περιστέρι, Αθήνα 🇬🇷</p>
+  </div>
+
+  <!-- ══════════ MAIN CONTENT ══════════ -->
+  <main class="max-w-6xl mx-auto px-4 py-14 space-y-16">
+
+    <!-- Story + image -->
+    <section class="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+      <div>
+        <h2 class="section-title" data-i18n="about-story-title">Η Ιστορία μας</h2>
+        <p class="mt-4 text-gray-600 leading-relaxed" data-i18n="about-story-text">
+          Το Cup of Cake γεννήθηκε από την αγάπη για τον καλό καφέ και τα χειροποίητα γλυκά. Ξεκινήσαμε το 2018 με ένα μικρό μαγαζάκι στο Περιστέρι και σήμερα έχουμε γίνει ο αγαπημένος προορισμός όλων όσων αναζητούν ποιοτική γεύση και ζεστή ατμόσφαιρα.
+        </p>
+      </div>
+      <div>
+        <img
+          class="photo-placeholder"
+          src="https://images.unsplash.com/photo-1559305616-3f99cd43e353?w=800&q=80"
+          alt="Cup of Cake interior" />
+      </div>
+    </section>
+
+    <!-- Mission + image -->
+    <section class="grid grid-cols-1 md:grid-cols-2 gap-10 items-center" style="background:var(--pale-2); border-radius:20px; padding:2rem;">
+      <div class="order-2 md:order-1">
+        <img
+          class="photo-placeholder"
+          src="https://images.unsplash.com/photo-1498804103079-a6351b050096?w=800&q=80"
+          alt="Barista making coffee" />
+      </div>
+      <div class="order-1 md:order-2">
+        <h2 class="section-title" data-i18n="about-mission-title">Η Αποστολή μας</h2>
+        <p class="mt-4 text-gray-600 leading-relaxed" data-i18n="about-mission-text">
+          Στόχος μας είναι να προσφέρουμε μια μοναδική εμπειρία σε κάθε επίσκεψη. Χρησιμοποιούμε μόνο φρέσκα, τοπικά υλικά και αγαπάμε να πειραματιζόμαστε με νέες γεύσεις χωρίς να χάνουμε την αυθεντικότητά μας.
+        </p>
+      </div>
+    </section>
+
+    <!-- Atmosphere + image -->
+    <section class="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+      <div>
+        <h2 class="section-title" data-i18n="about-atmosphere-title">Η Ατμόσφαιρά μας</h2>
+        <p class="mt-4 text-gray-600 leading-relaxed" data-i18n="about-atmosphere-text">
+          Ο χώρος μας είναι σχεδιασμένος για να νιώθετε σαν στο σπίτι σας. Ζεστά χρώματα, άνετα καθίσματα και μουσική που σας χαλαρώνει – όλα εκεί για να κάνουν την επίσκεψή σας αξέχαστη.
+        </p>
+      </div>
+      <div>
+        <img
+          class="photo-placeholder"
+          src="https://images.unsplash.com/photo-1445116572660-236099ec97a0?w=800&q=80"
+          alt="Cozy café atmosphere" />
+      </div>
+    </section>
+
+    <!-- Values -->
+    <section class="text-center" style="background:var(--pale-1); border-radius:20px; padding:2.5rem;">
+      <h2 class="section-title mx-auto" data-i18n="about-values-title">Οι Αξίες μας</h2>
+      <div class="flex flex-wrap justify-center gap-4 mt-8">
+        <span class="value-pill"><i class="fa fa-star"></i> <span data-i18n="about-val1">Ποιότητα σε κάθε λεπτομέρεια</span></span>
+        <span class="value-pill"><i class="fa fa-heart"></i> <span data-i18n="about-val2">Ζεστή εξυπηρέτηση</span></span>
+        <span class="value-pill"><i class="fa fa-leaf"></i> <span data-i18n="about-val3">Τοπικά & φρέσκα υλικά</span></span>
+        <span class="value-pill"><i class="fa fa-recycle"></i> <span data-i18n="about-val4">Βιώσιμες πρακτικές</span></span>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ══════════ MAP ══════════ -->
+  <section id="map-section" class="py-12 px-6">
+    <div class="max-w-5xl mx-auto">
+      <h2 class="text-2xl font-extrabold text-center mb-8" style="color:var(--primary-dark)" data-i18n="footer-map-title">Βρείτε μας εδώ</h2>
+      <iframe
+        title="Cup of Cake location"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3144.0!2d23.6897!3d37.9984!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14a1bd1f067782a3%3A0x2736354576668bfe!2sMorogianni%2083%2C%20Peristeri%20121%2033!5e0!3m2!1sel!2sgr!4v1700000000000!5m2!1sel!2sgr"
+        width="100%"
+        height="380"
+        style="border:0; border-radius:12px; box-shadow:0 4px 20px rgba(0,0,0,0.12);"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </div>
+  </section>
+
+  <!-- ══════════ FOOTER ══════════ -->
+  <footer class="pt-12 pb-6 px-6">
+    <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-10">
+      <div>
+        <div class="text-2xl font-bold mb-3">☕ Cup of Cake</div>
+        <p class="text-sm opacity-80" data-i18n="footer-address">Μωρογιάννη 83, Περιστέρι 12133, Αθήνα</p>
+        <p class="text-sm opacity-80 mt-1" data-i18n="footer-phone">Τηλ.: +30 210 123 4567</p>
+        <div class="flex mt-4">
+          <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+          <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+          <a href="#" class="social-icon"><i class="fab fa-tiktok"></i></a>
+        </div>
+      </div>
+      <div>
+        <h3 class="font-bold text-lg mb-3" data-i18n="footer-hours-title">Ωράριο Λειτουργίας</h3>
+        <p class="text-sm opacity-80" data-i18n="footer-hours-weekdays">Δευτέρα – Παρασκευή: 08:00 – 22:00</p>
+        <p class="text-sm opacity-80 mt-1" data-i18n="footer-hours-saturday">Σάββατο: 09:00 – 23:00</p>
+        <p class="text-sm opacity-80 mt-1" data-i18n="footer-hours-sunday">Κυριακή: 10:00 – 21:00</p>
+      </div>
+      <div>
+        <h3 class="font-bold text-lg mb-3">Links</h3>
+        <div class="flex flex-col gap-1">
+          <a href="index.html" data-i18n="nav-home">Αρχική</a>
+          <a href="menu.html" data-i18n="nav-menu">Μενού</a>
+          <a href="about_us.html" data-i18n="nav-about">Σχετικά</a>
+        </div>
+      </div>
+    </div>
+    <div class="max-w-7xl mx-auto border-t border-white/20 mt-8 pt-4 text-center text-sm opacity-70">
+      <span data-i18n="footer-copy">© 2025 Cup of Cake. Με επιφύλαξη παντός δικαιώματος.</span>
+    </div>
+  </footer>
+
+  <script src="js/translations.js"></script>
+</body>
+</html>
