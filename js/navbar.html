@@ -1,15 +1,17 @@
 <!-- ══════════ NAVBAR ══════════ -->
 <nav id="navbar">
   <div class="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between flex-wrap gap-2">
-    <a href="index.html" class="nav-logo"><img src="assets/logo.jpg" alt="Cup of Cake logo"> Cup of <span>Cake</span></a>
-    <div class="hidden md:flex items-center gap-1">
+    <a href="index.html" class="nav-logo"><img src="assets/logo.jpg" alt="Cup of Cake logo">Cup of Cake</a>
+    <div class="hidden md:flex items-center gap-3">
       <a href="index.html" class="nav-link" data-i18n="nav-home">Αρχική</a>
       <a href="menu.html" class="nav-link" data-i18n="nav-menu">Κατάλογος</a>
       <a href="about_us.html" class="nav-link" data-i18n="nav-about">Σχετικά</a>
     </div>
     <div class="flex items-center gap-2">
-      <button class="lang-btn lang-active" data-lang="el">GR ΕΛ</button>
-      <button class="lang-btn" data-lang="en">US EN</button>
+      <div class="lang-toggle">
+        <button class="lang-btn lang-active" data-lang="el">GR ΕΛ</button>
+        <button class="lang-btn" data-lang="en">US EN</button>
+      </div>
       <button id="nav-toggle" class="text-white ml-2 text-2xl" onclick="document.getElementById('mobile-menu').classList.toggle('open')">
         <i class="fa fa-bars"></i>
       </button>
