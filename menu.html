@@ -16,12 +16,28 @@
     <p class="text-lg opacity-85" data-i18n="menu-page-subtitle">Ανακαλύψτε τις γεύσεις μας</p>
   </div>
 
+  <!-- Category Buttons -->
+  <div class="py-4 px-4 bg-gradient-to-b from-white to-gray-50 sticky top-[70px] z-40">
+    <div class="max-w-7xl mx-auto">
+      <div class="flex flex-wrap gap-3 justify-center">
+        <button class="menu-category-btn active" data-category="brunch" data-i18n="cat-brunch">Brunch</button>
+        <button class="menu-category-btn" data-category="waffles" data-i18n="cat-waffles">Βάφλες</button>
+        <button class="menu-category-btn" data-category="pancakes" data-i18n="cat-pancakes">Pancakes Γλυκά</button>
+        <button class="menu-category-btn" data-category="sweets" data-i18n="cat-sweets">Γλυκά</button>
+        <button class="menu-category-btn" data-category="sandwiches" data-i18n="cat-sandwiches">Sandwiches</button>
+        <button class="menu-category-btn" data-category="sfolies" data-i18n="cat-sfolies">Σφολιάτες</button>
+        <button class="menu-category-btn" data-category="snacks" data-i18n="cat-snacks">Snacks</button>
+        <button class="menu-category-btn" data-category="coffees" data-i18n="cat-coffees">Καφέδες</button>
+        <button class="menu-category-btn" data-category="drinks" data-i18n="cat-drinks">Ροφήματα</button>
+      </div>
+    </div>
+  </div>
+
   <!-- Menu Items -->
-  <main class="max-w-7xl mx-auto px-4 py-12 space-y-16">
+  <main class="max-w-7xl mx-auto px-4 py-6">
 
     <!-- Brunch -->
-    <section id="brunch">
-      <span class="cat-badge"><span data-i18n="cat-brunch">Brunch</span></span>
+    <section id="brunch" class="menu-section active">
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
         <div class="menu-card">
           <div class="item-name" data-i18n="brunch-1-name">Ομελέτα γαλοπούλα</div>
@@ -52,8 +68,7 @@
     </section>
 
     <!-- Waffles -->
-    <section id="waffles">
-      <span class="cat-badge"><span data-i18n="cat-waffles">Βάφλες</span></span>
+    <section id="waffles" class="menu-section">
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
         <div class="menu-card">
           <div class="item-name" data-i18n="waffles-1-name">Βάφλα choco</div>
@@ -84,8 +99,7 @@
     </section>
 
     <!-- Pancakes -->
-    <section id="pancakes">
-      <span class="cat-badge"><span data-i18n="cat-pancakes">Pancakes Γλυκά</span></span>
+    <section id="pancakes" class="menu-section">
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
         <div class="menu-card">
           <div class="item-name" data-i18n="pancakes-1-name">Pancakes cinnamon</div>
@@ -121,8 +135,7 @@
     </section>
 
     <!-- Sweets -->
-    <section id="sweets">
-      <span class="cat-badge"><span data-i18n="cat-sweets">Γλυκά</span></span>
+    <section id="sweets" class="menu-section">
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
         <div class="menu-card">
           <div class="item-name" data-i18n="sweets-1-name">Cheesecake</div>
@@ -193,8 +206,7 @@
     </section>
 
     <!-- Sandwiches -->
-    <section id="sandwiches">
-      <span class="cat-badge"><span data-i18n="cat-sandwiches">Sandwiches</span></span>
+    <section id="sandwiches" class="menu-section">
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
         <div class="menu-card">
           <div class="item-name" data-i18n="sandwiches-1-name">Τορτίγια κοτόπουλο</div>
@@ -215,8 +227,7 @@
     </section>
 
     <!-- Sfoliates -->
-    <section id="sfolies">
-      <span class="cat-badge"><span data-i18n="cat-sfolies">Σφολιάτες</span></span>
+    <section id="sfolies" class="menu-section">
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
         <div class="menu-card">
           <div class="item-name" data-i18n="sfolies-1-name">Τυρόπιτα</div>
@@ -247,8 +258,7 @@
     </section>
 
     <!-- Snacks -->
-    <section id="snacks">
-      <span class="cat-badge"><span data-i18n="cat-snacks">Snacks</span></span>
+    <section id="snacks" class="menu-section">
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
         <div class="menu-card">
           <div class="item-name" data-i18n="snacks-1-name">Μπάρα δημητριακών φρούτα του δάσους</div>
@@ -274,8 +284,7 @@
     </section>
 
     <!-- Coffees -->
-    <section id="coffees">
-      <span class="cat-badge"><span data-i18n="cat-coffees">Καφέδες</span></span>
+    <section id="coffees" class="menu-section">
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
         <div class="menu-card">
           <div class="item-name" data-i18n="coffees-1-name">Espresso</div>
@@ -346,8 +355,7 @@
     </section>
 
     <!-- Drinks -->
-    <section id="drinks">
-      <span class="cat-badge"><span data-i18n="cat-drinks">Ροφήματα</span></span>
+    <section id="drinks" class="menu-section">
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
         <div class="menu-card">
           <div class="item-name" data-i18n="drinks-1-name">Σοκολάτα</div>
@@ -416,87 +424,10 @@
         </div>
       </div>
     </section>
-
-    <!-- Soft Drinks -->
-    <section id="soft">
-      <span class="cat-badge"><span data-i18n="cat-soft">Αναψυκτικά</span></span>
-      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-        <div class="menu-card">
-          <div class="item-name" data-i18n="softdrinks-1-name">Pepsi 330ml</div>
-          <div class="item-desc" data-i18n="softdrinks-1-desc">Η αυθεντική Pepsi! Νερό, ζάχαρη, διοξείδιο του άνθρακα, χρωστική (εναμμώνιο θειώδες καραμελόχρωμα), αρωματικές ύλες (περιέχουν καφείνη), μέσο οξίνισης (φωσφορικό οξύ), γλυκαντικές ουσίες (ακεσουλφαμικό κάλιο, σουκραλόζη)</div>
-          <div class="item-price">€1.50</div>
-        </div>
-        <div class="menu-card">
-          <div class="item-name" data-i18n="softdrinks-2-name">Pepsi twist 330ml</div>
-          <div class="item-desc" data-i18n="softdrinks-2-desc">Η αυθεντική Pepsi Twist Νερό, σιρόπι φρουκτόζης - γλυκόζης, ζάχαρη, χυμός λεμονιού από συμπυκνωμένο χυμό λεμονιού (1%), διοξείδιο του άνθρακα, χρωστική (εναμμώνιο θειώδες καραμελόχρωμα), φυσικές αρωματικές ύλες, καφείνη, μέσο οξίνισης (φωσφορικό οξύ), ρυθμιστής οξύτητας (κιτρικό νάτριο), συντηρητικό (βενζοϊκό νάτριο).</div>
-          <div class="item-price">€1.50</div>
-        </div>
-        <div class="menu-card">
-          <div class="item-name" data-i18n="softdrinks-3-name">Pepsi max 330ml</div>
-          <div class="item-desc" data-i18n="softdrinks-3-desc">MAXIMUM γεύση, ZERO ζάχαρη. Νερό, διοξείδιο του άνθρακα, χρωστική (εναμμώνιο θειώδες καραμελόχρωμα), γλυκαντικές ουσίες (ασπαρτάμη και ακεσουλφαμικό κάλιο), μέσα οξίνισης (φωσφορικό οξύ και κιτρικό οξύ), ρυθμιστής οξύτητας (κιτρικό νάτριο), αρωματικές ύλες, καφείνη. Περιέχει πηγή φαινυλαλανίνης.</div>
-          <div class="item-price">€1.50</div>
-        </div>
-        <div class="menu-card">
-          <div class="item-name" data-i18n="softdrinks-4-name">7up 330ml</div>
-          <div class="item-desc" data-i18n="softdrinks-4-desc">Δροσιστείτε με ένα αυθεντικό 7UP® με 100% φυσικές γεύσεις και το εμβληματικό του άρωμα λεμόνι-lime!</div>
-          <div class="item-price">€1.50</div>
-        </div>
-        <div class="menu-card">
-          <div class="item-name" data-i18n="softdrinks-5-name">Σουρωτή 330ml</div>
-          <div class="item-desc" data-i18n="softdrinks-5-desc">Για πάνω από έναν αιώνα η souroti ξεδιψά και ανακουφίζει χιλιάδες ανθρώπους κάθε μέρα.</div>
-          <div class="item-price">€1.60</div>
-        </div>
-        <div class="menu-card">
-          <div class="item-name" data-i18n="softdrinks-6-name">Hell classic 250ml</div>
-          <div class="item-desc" data-i18n="softdrinks-6-desc">Άμεση δόση ενέργειας για κάθε στιγμή της ημέρας.</div>
-          <div class="item-price">€1.20</div>
-        </div>
-        <div class="menu-card">
-          <div class="item-name" data-i18n="softdrinks-7-name">Hell strong apple 250ml</div>
-          <div class="item-desc" data-i18n="softdrinks-7-desc">Άμεση δόση ενέργειας για κάθε στιγμή της ημέρας.</div>
-          <div class="item-price">€1.20</div>
-        </div>
-        <div class="menu-card">
-          <div class="item-name" data-i18n="softdrinks-8-name">Hell black cherry 250ml</div>
-          <div class="item-desc" data-i18n="softdrinks-8-desc">Το HELL Black Cherry χάρη στην ιδιαίτερη γεύση του μαύρου κερασιού, μπορεί να δημιούργήσει μια πραγματική αφρώδη ατμόσφαιρα στην καθημερινότητά σας! Διατίθεται σε κομψή μωβ-μαύρη συσκευασία, με τη συνήθη περιεκτικότητα σε καφείνη 32mg/100ml και 5 τύπους βιταμινών Α, χωρίς συντηρητικά και σε ανακυκλώσιμο κουτί αλουμινίου</div>
-          <div class="item-price">€1.20</div>
-        </div>
-        <div class="menu-card">
-          <div class="item-name" data-i18n="softdrinks-9-name">Monster Ultra Zero 500ml</div>
-          <div class="item-desc" data-i18n="softdrinks-9-desc">Ελαφρύ και αναζωογονητικό με εσπεριδοειδή! ́Ένα νέο ποτό Monster, λιγότερο γλυκό, με πιο ελαφριά γεύση και μηδέν θερμίδες, αλλά με μια γεμάτη δόση του ενεργειακού μας μείγματος Monster.</div>
-          <div class="item-price">€2.40</div>
-        </div>
-        <div class="menu-card">
-          <div class="item-name" data-i18n="softdrinks-10-name">Νερό 500ml</div>
-          <div class="item-desc" data-i18n="softdrinks-10-desc">Καθαρό, φυσικό, απαραίτητο! Η δροσιά που χρειάζεσαι κάθε στιγμή της ημέρας!</div>
-          <div class="item-price">€0.50</div>
-        </div>
-        <div class="menu-card">
-          <div class="item-name" data-i18n="softdrinks-11-name">Pepsi max lime 330ml</div>
-          <div class="item-desc" data-i18n="softdrinks-11-desc">MAXIMUM γεύση, ZERO ζάχαρη με άρωμα Lime Νερό, διοξείδιο του άνθρακα, χρωστική (εναμμώνιο θειώδες καραμελόχρωμα), μέσα οξίνισης (κιτρικό οξύ, φωσφορικό οξύ), αρωματικές ύλες (περιέχουν φυσικές αρωματικές ύλες μοσχολέμονου με άλλες φυσικές αρωματικές ύλες), καφείνη, γλυκαντικές ουσίες (ασπαρτάμη, ακεσουλφαμικό κάλιο), ρυθμιστής οξύτητας (κιτρικό νάτριο). Περιέχει πηγή φαινυλαλανίνης.</div>
-          <div class="item-price">€1.50</div>
-        </div>
-        <div class="menu-card">
-          <div class="item-name" data-i18n="softdrinks-12-name">Monster Mango Loco 500ml</div>
-          <div class="item-desc" data-i18n="softdrinks-12-desc">Εξωτικό Μάνγκο! Τρελά ωραία γεύση μαζί με δόση από την μαγεία του Monster που θα κάνει το πάρτι να διαρκέσει για μέρες…</div>
-          <div class="item-price">€2.40</div>
-        </div>
-        <div class="menu-card">
-          <div class="item-name" data-i18n="softdrinks-13-name">Monster πράσινο - Energy 500ml</div>
-          <div class="item-desc" data-i18n="softdrinks-13-desc">Γλυκό και Αλμυρό - Κλασσική γεύση...Monster!</div>
-          <div class="item-price">€2.40</div>
-        </div>
-        <div class="menu-card">
-          <div class="item-name" data-i18n="softdrinks-14-name">Monster Absolutely Zero 500ml</div>
-          <div class="item-desc" data-i18n="softdrinks-14-desc">Γλυκό και Αλμυρό To νέο Monster Energy No Sugar, είναι εδώ! Μηδέν Ζάχαρη, 100% Μονστερ Energy.</div>
-          <div class="item-price">€2.40</div>
-        </div>
-      </div>
-    </section>
-
   </main>
 
   <script src="js/translations.js"></script>
   <script src="js/load-components.js"></script>
+  <script src="js/menu-tabs.js"></script>
 </body>
 </html>

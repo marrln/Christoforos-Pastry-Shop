@@ -2,8 +2,8 @@
 // Exclude carousel, navbar, hero sections, and map from scroll reveal
 const revealElements = [];
 
-// Get sections but exclude carousel, hero sections, and map
-document.querySelectorAll('section:not(#carousel):not(.menu-hero):not(.about-hero):not(#map-section)').forEach(el => revealElements.push(el));
+// Get sections but exclude carousel, hero sections, map, and menu sections (which have their own animation)
+document.querySelectorAll('section:not(#carousel):not(.menu-hero):not(.about-hero):not(#map-section):not(.menu-section)').forEach(el => revealElements.push(el));
 
 // Get cards and pills
 document.querySelectorAll('.feat-card, .menu-card, .info-card, .value-pill').forEach(el => revealElements.push(el));
