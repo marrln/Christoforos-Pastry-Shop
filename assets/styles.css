@@ -10,6 +10,18 @@
 
 * { box-sizing: border-box; }
 
+/* ── Scroll Reveal Animation ───────────────────── */
+section:not(#carousel):not(.menu-hero):not(.about-hero):not(#map-section), .feat-card, .menu-card, .info-card, .value-pill {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+section:not(#carousel):not(.menu-hero):not(.about-hero):not(#map-section).reveal, .feat-card.reveal, .menu-card.reveal, .info-card.reveal, .value-pill.reveal {
+  opacity: 1;
+  transform: translateY(0);
+}
+
 body {
   font-family: Tahoma, Verdana;
   color: var(--text-dark);

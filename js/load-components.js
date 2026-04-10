@@ -74,3 +74,8 @@ if (document.readyState === 'loading') {
 } else {
   loadNavbarFooter();
 }
+
+// Load scroll reveal animations
+const revealScript = document.createElement('script');
+revealScript.src = 'js/scroll-reveal.js';
+document.body.appendChild(revealScript);
