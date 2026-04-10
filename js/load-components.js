@@ -18,6 +18,25 @@ async function loadNavbarFooter() {
       setupLangButtonListeners();
     }
 
+    // Load map
+    const mapResponse = await fetch('js/map.html');
+    const mapHTML = await mapResponse.text();
+    const mapContainer = document.createElement('div');
+    mapContainer.innerHTML = mapHTML;
+    
+    // Find the main element or body to insert map before footer
+    const mainElement = document.querySelector('main') || document.body;
+    if (mainElement.nextElementSibling) {
+      mainElement.parentNode.insertBefore(mapContainer.firstElementChild, mainElement.nextElementSibling);
+    } else {
+      document.body.insertBefore(mapContainer.firstElementChild, document.body.lastChild);
+    }
+
+    // Store Greek originals for newly loaded map elements
+    if (typeof storeGreekOriginals === 'function') {
+      storeGreekOriginals();
+    }
+
     // Load footer
     const footerResponse = await fetch('js/footer.html');
     const footerHTML = await footerResponse.text();
