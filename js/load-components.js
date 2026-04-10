@@ -8,6 +8,11 @@ async function loadNavbarFooter() {
     navbarContainer.innerHTML = navbarHTML;
     document.body.insertBefore(navbarContainer.firstElementChild, document.body.firstChild);
 
+    // Store Greek originals for newly loaded navbar elements
+    if (typeof storeGreekOriginals === 'function') {
+      storeGreekOriginals();
+    }
+
     // Setup language button listeners now that navbar is in the DOM
     if (typeof setupLangButtonListeners === 'function') {
       setupLangButtonListeners();
@@ -19,6 +24,11 @@ async function loadNavbarFooter() {
     const footerContainer = document.createElement('div');
     footerContainer.innerHTML = footerHTML;
     document.body.appendChild(footerContainer.firstElementChild);
+
+    // Store Greek originals for newly loaded footer elements
+    if (typeof storeGreekOriginals === 'function') {
+      storeGreekOriginals();
+    }
 
     // Set active nav link based on current page
     setActiveNavLink();
