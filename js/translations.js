@@ -39,9 +39,9 @@ const translations = {
 
   // Footer
   "footer-hours-title": "Opening Hours",
-  "footer-hours-weekdays": "Monday - Friday: 07:00-20:00",
-  "footer-hours-saturday": "Saturday: 08:00-20:00",
-  "footer-hours-sunday": "Sunday: 09:30-17:00",
+  "footer-hours-weekdays": "Monday - Friday: 06:00-21:00",
+  "footer-hours-saturday": "Saturday: 07:00-21:00",
+  "footer-hours-sunday": "Sunday: 08:00-18:00",
   "footer-address": "Morigianni 83 & Irakleous, Peristeri 12133, Athens",
   "footer-phone": "Tel.: +30 210 574 7222",
   "footer-copy": "© 2025 Cup of Cake. All rights reserved.",
@@ -279,7 +279,8 @@ const greekOriginals = {};
 function storeGreekOriginals() {
   document.querySelectorAll("[data-i18n]").forEach((el) => {
     const key = el.getAttribute("data-i18n");
-    if (!greekOriginals[key]) {
+    // Only store if we haven't stored it yet, or if it's been changed back to Greek
+    if (!greekOriginals[key] && el.textContent) {
       greekOriginals[key] = el.textContent;
     }
   });
@@ -308,6 +309,9 @@ function switchToGreek() {
   currentLang = "el";
   localStorage.setItem("coc-lang", "el");
   document.documentElement.lang = "el";
+
+  // First, make sure we have the Greek originals for all elements
+  storeGreekOriginals();
 
   // Restore original Greek text
   document.querySelectorAll("[data-i18n]").forEach((el) => {
