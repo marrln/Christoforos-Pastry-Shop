@@ -261,13 +261,22 @@ function switchToEnglish() {
   localStorage.setItem("coc-lang", "en");
   document.documentElement.lang = "en";
 
+  // Add fade-out effect to all translatable elements
   document.querySelectorAll("[data-i18n]").forEach((el) => {
-    const key = el.getAttribute("data-i18n");
-    // Apply English translation
-    if (translations[key] !== undefined) {
-      el.textContent = translations[key];
-    }
+    el.classList.add("translating");
   });
+
+  // Change text and fade back in after animation completes
+  setTimeout(() => {
+    document.querySelectorAll("[data-i18n]").forEach((el) => {
+      const key = el.getAttribute("data-i18n");
+      // Apply English translation
+      if (translations[key] !== undefined) {
+        el.textContent = translations[key];
+      }
+      el.classList.remove("translating");
+    });
+  }, 400);
 
   // Update active state on lang buttons
   document.querySelectorAll(".lang-btn").forEach((btn) => {
@@ -280,16 +289,25 @@ function switchToGreek() {
   localStorage.setItem("coc-lang", "el");
   document.documentElement.lang = "el";
 
-  // First, make sure we have the Greek originals for all elements
-  storeGreekOriginals();
-
-  // Restore original Greek text
+  // Add fade-out effect to all translatable elements
   document.querySelectorAll("[data-i18n]").forEach((el) => {
-    const key = el.getAttribute("data-i18n");
-    if (greekOriginals[key]) {
-      el.textContent = greekOriginals[key];
-    }
+    el.classList.add("translating");
   });
+
+  // Change text and fade back in after animation completes
+  setTimeout(() => {
+    // First, make sure we have the Greek originals for all elements
+    storeGreekOriginals();
+
+    // Restore original Greek text
+    document.querySelectorAll("[data-i18n]").forEach((el) => {
+      const key = el.getAttribute("data-i18n");
+      if (greekOriginals[key]) {
+        el.textContent = greekOriginals[key];
+      }
+      el.classList.remove("translating");
+    });
+  }, 400);
 
   // Update active state on lang buttons
   document.querySelectorAll(".lang-btn").forEach((btn) => {
@@ -303,16 +321,23 @@ function initI18n() {
 
   // Then apply the appropriate language
   if (currentLang === "en") {
-    switchToEnglish();
+    // Apply English immediately without animation on page load
+    document.querySelectorAll("[data-i18n]").forEach((el) => {
+      const key = el.getAttribute("data-i18n");
+      if (translations[key] !== undefined) {
+        el.textContent = translations[key];
+      }
+    });
+    // Update button states
+    document.querySelectorAll(".lang-btn").forEach((btn) => {
+      btn.classList.toggle("lang-active", btn.dataset.lang === "en");
+    });
   } else {
     // Greek is already there, just update button states
     document.querySelectorAll(".lang-btn").forEach((btn) => {
       btn.classList.toggle("lang-active", btn.dataset.lang === "el");
     });
   }
-
-  // Setup language button listeners (called after navbar is loaded)
-  setupLangButtonListeners();
 }
 
 // Setup language button event listeners
