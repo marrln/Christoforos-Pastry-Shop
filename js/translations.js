@@ -44,7 +44,7 @@ const translations = {
   "footer-hours-sunday": "Sunday: 08:00-18:00",
   "footer-address": "Morigianni 83 & Irakleous, Peristeri 12133, Athens",
   "footer-phone": "Tel.: +30 210 574 7222",
-  "footer-copy": "© 2025 Cup of Cake. All rights reserved.",
+  "footer-copy": "© 2026 Cup of Cake. All rights reserved.",
   "footer-map-title": "Find us here",
 
   // Menu page
