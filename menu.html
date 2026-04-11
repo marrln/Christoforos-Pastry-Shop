@@ -16,417 +16,622 @@
     <p class="text-lg opacity-85" data-i18n="menu-page-subtitle">Ανακαλύψτε τις γεύσεις μας</p>
   </div>
 
-  <!-- Category Buttons -->
-  <div class="py-4 px-4 bg-gradient-to-b from-white to-gray-50 sticky top-[70px] z-40">
-    <div class="max-w-7xl mx-auto">
-      <div class="flex flex-wrap gap-3 justify-center">
-        <button class="menu-category-btn active" data-category="brunch" data-i18n="cat-brunch">Brunch</button>
-        <button class="menu-category-btn" data-category="waffles" data-i18n="cat-waffles">Βάφλες</button>
-        <button class="menu-category-btn" data-category="pancakes" data-i18n="cat-pancakes">Pancakes Γλυκά</button>
-        <button class="menu-category-btn" data-category="sweets" data-i18n="cat-sweets">Γλυκά</button>
-        <button class="menu-category-btn" data-category="sandwiches" data-i18n="cat-sandwiches">Sandwiches</button>
-        <button class="menu-category-btn" data-category="sfolies" data-i18n="cat-sfolies">Σφολιάτες</button>
-        <button class="menu-category-btn" data-category="snacks" data-i18n="cat-snacks">Snacks</button>
-        <button class="menu-category-btn" data-category="coffees" data-i18n="cat-coffees">Καφέδες</button>
-        <button class="menu-category-btn" data-category="drinks" data-i18n="cat-drinks">Ροφήματα</button>
+  <!-- Content Wrapper for Parallax -->
+  <div id="parallax-wrapper">
+    <!-- Category Buttons -->
+    <div class="py-4 px-4 bg-gradient-to-b from-white to-gray-50">
+      <div class="max-w-7xl mx-auto">
+        <div class="flex flex-wrap gap-3 justify-center">
+          <button class="menu-category-btn active" data-category="brunch" data-i18n="cat-brunch">Brunch</button>
+          <button class="menu-category-btn" data-category="waffles" data-i18n="cat-waffles">Βάφλες</button>
+          <button class="menu-category-btn" data-category="pancakes" data-i18n="cat-pancakes">Pancakes Γλυκά</button>
+          <button class="menu-category-btn" data-category="sweets" data-i18n="cat-sweets">Γλυκά</button>
+          <button class="menu-category-btn" data-category="sandwiches" data-i18n="cat-sandwiches">Sandwiches</button>
+          <button class="menu-category-btn" data-category="sfolies" data-i18n="cat-sfolies">Σφολιάτες</button>
+          <button class="menu-category-btn" data-category="snacks" data-i18n="cat-snacks">Snacks</button>
+          <button class="menu-category-btn" data-category="coffees" data-i18n="cat-coffees">Καφέδες</button>
+          <button class="menu-category-btn" data-category="drinks" data-i18n="cat-drinks">Ροφήματα</button>
+        </div>
       </div>
     </div>
-  </div>
 
-  <!-- Menu Items -->
-  <main class="max-w-7xl mx-auto px-4 py-6">
+    <!-- Menu Items -->
+    <main class="max-w-7xl mx-auto px-4 py-6">
 
     <!-- Brunch -->
     <section id="brunch" class="menu-section active">
-      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         <div class="menu-card">
-          <div class="item-name" data-i18n="brunch-1-name">Ομελέτα γαλοπούλα</div>
-          <div class="item-desc" data-i18n="brunch-1-desc">Με 3 αυγά, γαλοπούλα, gouda τριμμένο & ντοματίνια. Συνοδεύεται από 1 φέτα ψωμί φρυγανισμένο & σαλάτα (με iceberg, radicchio, λόλα, vinaigrette, παρμεζάνα & ντοματίνια)</div>
-          <div class="item-price">€7.80</div>
+          <div class="item-image"><i class="fas fa-utensils"></i></div>
+          <div class="item-content">
+            <div class="item-name" data-i18n="brunch-1-name">Ομελέτα γαλοπούλα</div>
+            <div class="item-desc" data-i18n="brunch-1-desc">Με 3 αυγά, γαλοπούλα, gouda τριμμένο & ντοματίνια. Συνοδεύεται από 1 φέτα ψωμί φρυγανισμένο & σαλάτα (με iceberg, radicchio, λόλα, vinaigrette, παρμεζάνα & ντοματίνια)</div>
+            <div class="item-price">€7.80</div>
+          </div>
         </div>
         <div class="menu-card">
-          <div class="item-name" data-i18n="brunch-2-name">Pancakes classic</div>
-          <div class="item-desc" data-i18n="brunch-2-desc">3 Τεμάχια. Με τυρί κρέμα, γαλοπούλα, gouda, ντοματίνια & μαρούλι. Συνοδεύεται από σαλάτα (με iceberg, radicchio, λόλα, vinaigrette, παρμεζάνα & ντοματίνια)</div>
-          <div class="item-price">€8.50</div>
+          <div class="item-image"><i class="fas fa-utensils"></i></div>
+          <div class="item-content">
+            <div class="item-name" data-i18n="brunch-2-name">Pancakes classic</div>
+            <div class="item-desc" data-i18n="brunch-2-desc">3 Τεμάχια. Με τυρί κρέμα, γαλοπούλα, gouda, ντοματίνια & μαρούλι. Συνοδεύεται από σαλάτα (με iceberg, radicchio, λόλα, vinaigrette, παρμεζάνα & ντοματίνια)</div>
+            <div class="item-price">€8.50</div>
+          </div>
         </div>
         <div class="menu-card">
-          <div class="item-name" data-i18n="brunch-3-name">Pancakes special</div>
-          <div class="item-desc" data-i18n="brunch-3-desc">3 Τεμάχια. Με τυρί κρέμα, κοτόπουλο, gouda, ντοματίνια, μπέικον & αυγό τηγανητό. Συνοδεύεται από σαλάτα (με iceberg, radicchio, λόλα, vinaigrette, παρμεζάνα & ντοματίνια)</div>
-          <div class="item-price">€11.00</div>
+          <div class="item-image"><i class="fas fa-utensils"></i></div>
+          <div class="item-content">
+            <div class="item-name" data-i18n="brunch-3-name">Pancakes special</div>
+            <div class="item-desc" data-i18n="brunch-3-desc">3 Τεμάχια. Με τυρί κρέμα, κοτόπουλο, gouda, ντοματίνια, μπέικον & αυγό τηγανητό. Συνοδεύεται από σαλάτα (με iceberg, radicchio, λόλα, vinaigrette, παρμεζάνα & ντοματίνια)</div>
+            <div class="item-price">€11.00</div>
+          </div>
         </div>
         <div class="menu-card">
-          <div class="item-name" data-i18n="brunch-4-name">Croque monsieur</div>
-          <div class="item-desc" data-i18n="brunch-4-desc">Με διπλή καπνιστή γαλοπούλα, διπλό gouda & μπεσαμέλ. Συνοδεύεται από σαλάτα (με iceberg, radicchio, λόλα, vinaigrette, παρμεζάνα & ντοματίνια)</div>
-          <div class="item-price">€11.00</div>
+          <div class="item-image"><i class="fas fa-utensils"></i></div>
+          <div class="item-content">
+            <div class="item-name" data-i18n="brunch-4-name">Croque monsieur</div>
+            <div class="item-desc" data-i18n="brunch-4-desc">Με διπλή καπνιστή γαλοπούλα, διπλό gouda & μπεσαμέλ. Συνοδεύεται από σαλάτα (με iceberg, radicchio, λόλα, vinaigrette, παρμεζάνα & ντοματίνια)</div>
+            <div class="item-price">€11.00</div>
+          </div>
         </div>
         <div class="menu-card">
-          <div class="item-name" data-i18n="brunch-5-name">Croque madame</div>
-          <div class="item-desc" data-i18n="brunch-5-desc">Με διπλή καπνιστή γαλοπούλα, διπλό gouda, μπεσαμέλ & αυγό τηγανητό. Συνοδεύεται από σαλάτα (με iceberg, radicchio, λόλα, vinaigrette, παρμεζάνα & ντοματίνια)</div>
-          <div class="item-price">€11.70</div>
+          <div class="item-image"><i class="fas fa-utensils"></i></div>
+          <div class="item-content">
+            <div class="item-name" data-i18n="brunch-5-name">Croque madame</div>
+            <div class="item-desc" data-i18n="brunch-5-desc">Με διπλή καπνιστή γαλοπούλα, διπλό gouda, μπεσαμέλ & αυγό τηγανητό. Συνοδεύεται από σαλάτα (με iceberg, radicchio, λόλα, vinaigrette, παρμεζάνα & ντοματίνια)</div>
+            <div class="item-price">€11.70</div>
+          </div>
         </div>
       </div>
     </section>
 
     <!-- Waffles -->
     <section id="waffles" class="menu-section">
-      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         <div class="menu-card">
-          <div class="item-name" data-i18n="waffles-1-name">Βάφλα choco</div>
-          <div class="item-desc" data-i18n="waffles-1-desc">Με πραλίνα φουντούκι & φουντούκι ψιλοκομμένο</div>
-          <div class="item-price">€7.20</div>
+          <div class="item-image"><i class="fas fa-utensils"></i></div>
+          <div class="item-content">
+            <div class="item-name" data-i18n="waffles-1-name">Βάφλα choco</div>
+            <div class="item-desc" data-i18n="waffles-1-desc">Με πραλίνα φουντούκι & φουντούκι ψιλοκομμένο</div>
+            <div class="item-price">€7.20</div>
+          </div>
         </div>
         <div class="menu-card">
-          <div class="item-name" data-i18n="waffles-2-name">Βάφλα Speculoos</div>
-          <div class="item-desc" data-i18n="waffles-2-desc">Με πραλίνα Speculoos & μπισκότο Speculoos τριμμένο</div>
-          <div class="item-price">€8.50</div>
+          <div class="item-image"><i class="fas fa-utensils"></i></div>
+          <div class="item-content">
+            <div class="item-name" data-i18n="waffles-2-name">Βάφλα Speculoos</div>
+            <div class="item-desc" data-i18n="waffles-2-desc">Με πραλίνα Speculoos & μπισκότο Speculoos τριμμένο</div>
+            <div class="item-price">€8.50</div>
+          </div>
         </div>
         <div class="menu-card">
-          <div class="item-name" data-i18n="waffles-3-name">Βάφλα forest</div>
-          <div class="item-desc" data-i18n="waffles-3-desc">Με κρέμα Βαυβαρίας & μαρμελάδα κόκκινων φρούτων χειροποίητη</div>
-          <div class="item-price">€9.80</div>
+          <div class="item-image"><i class="fas fa-utensils"></i></div>
+          <div class="item-content">
+            <div class="item-name" data-i18n="waffles-3-name">Βάφλα forest</div>
+            <div class="item-desc" data-i18n="waffles-3-desc">Με κρέμα Βαυβαρίας & μαρμελάδα κόκκινων φρούτων χειροποίητη</div>
+            <div class="item-price">€9.80</div>
+          </div>
         </div>
         <div class="menu-card">
-          <div class="item-name" data-i18n="waffles-4-name">Βάφλα profiterole</div>
-          <div class="item-desc" data-i18n="waffles-4-desc">Με σάλτσα προφιτερόλ σοκολάτας bitter, σαντιγύ & βανίλια</div>
-          <div class="item-price">€9.80</div>
+          <div class="item-image"><i class="fas fa-utensils"></i></div>
+          <div class="item-content">
+            <div class="item-name" data-i18n="waffles-4-name">Βάφλα profiterole</div>
+            <div class="item-desc" data-i18n="waffles-4-desc">Με σάλτσα προφιτερόλ σοκολάτας bitter, σαντιγύ & βανίλια</div>
+            <div class="item-price">€9.80</div>
+          </div>
         </div>
         <div class="menu-card">
-          <div class="item-name" data-i18n="waffles-5-name">Βάφλα banoffee</div>
-          <div class="item-desc" data-i18n="waffles-5-desc">Με κρέμα Βαυβαρίας, πραλίνα καραμέλα, μπανάνα, σιρόπι καραμέλα & μπισκότο βουτύρου τριμμένο</div>
-          <div class="item-price">€9.80</div>
+          <div class="item-image"><img src="assets/baphla-banoffee.avif" alt="Βάφλα banoffee"></div>
+          <div class="item-content">
+            <div class="item-name" data-i18n="waffles-5-name">Βάφλα banoffee</div>
+            <div class="item-desc" data-i18n="waffles-5-desc">Με κρέμα Βαυβαρίας, πραλίνα καραμέλα, μπανάνα, σιρόπι καραμέλα & μπισκότο βουτύρου τριμμένο</div>
+            <div class="item-price">€9.80</div>
+          </div>
         </div>
       </div>
     </section>
 
     <!-- Pancakes -->
     <section id="pancakes" class="menu-section">
-      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         <div class="menu-card">
-          <div class="item-name" data-i18n="pancakes-1-name">Pancakes cinnamon</div>
-          <div class="item-desc" data-i18n="pancakes-1-desc">3 Τεμάχια. Με μέλι, κανέλα & καρύδι</div>
-          <div class="item-price">€7.20</div>
+          <div class="item-image"><i class="fas fa-utensils"></i></div>
+          <div class="item-content">
+            <div class="item-name" data-i18n="pancakes-1-name">Pancakes cinnamon</div>
+            <div class="item-desc" data-i18n="pancakes-1-desc">3 Τεμάχια. Με μέλι, κανέλα & καρύδι</div>
+            <div class="item-price">€7.20</div>
+          </div>
         </div>
         <div class="menu-card">
-          <div class="item-name" data-i18n="pancakes-2-name">Pancakes choco</div>
-          <div class="item-desc" data-i18n="pancakes-2-desc">3 Τεμάχια. Με πραλίνα φουντούκι & φουντούκι ψιλοκομμένο</div>
-          <div class="item-price">€8.50</div>
+          <div class="item-image"><i class="fas fa-utensils"></i></div>
+          <div class="item-content">
+            <div class="item-name" data-i18n="pancakes-2-name">Pancakes choco</div>
+            <div class="item-desc" data-i18n="pancakes-2-desc">3 Τεμάχια. Με πραλίνα φουντούκι & φουντούκι ψιλοκομμένο</div>
+            <div class="item-price">€8.50</div>
+          </div>
         </div>
         <div class="menu-card">
-          <div class="item-name" data-i18n="pancakes-3-name">Pancakes Speculoos</div>
-          <div class="item-desc" data-i18n="pancakes-3-desc">3 Τεμάχια. Με πραλίνα Speculoos & μπισκότο Speculoos τριμμένο</div>
-          <div class="item-price">€9.80</div>
+          <div class="item-image"><i class="fas fa-utensils"></i></div>
+          <div class="item-content">
+            <div class="item-name" data-i18n="pancakes-3-name">Pancakes Speculoos</div>
+            <div class="item-desc" data-i18n="pancakes-3-desc">3 Τεμάχια. Με πραλίνα Speculoos & μπισκότο Speculoos τριμμένο</div>
+            <div class="item-price">€9.80</div>
+          </div>
         </div>
         <div class="menu-card">
-          <div class="item-name" data-i18n="pancakes-4-name">Pancakes forest</div>
-          <div class="item-desc" data-i18n="pancakes-4-desc">3 Τεμάχια. Με κρέμα Βαυβαρίας & μαρμελάδα κόκκινων φρούτων χειροποίητη</div>
-          <div class="item-price">€9.80</div>
+          <div class="item-image"><i class="fas fa-utensils"></i></div>
+          <div class="item-content">
+            <div class="item-name" data-i18n="pancakes-4-name">Pancakes forest</div>
+            <div class="item-desc" data-i18n="pancakes-4-desc">3 Τεμάχια. Με κρέμα Βαυβαρίας & μαρμελάδα κόκκινων φρούτων χειροποίητη</div>
+            <div class="item-price">€9.80</div>
+          </div>
         </div>
         <div class="menu-card">
-          <div class="item-name" data-i18n="pancakes-5-name">Pancakes profiterole</div>
-          <div class="item-desc" data-i18n="pancakes-5-desc">3 Τεμάχια. Με σάλτσα προφιτερόλ σοκολάτας bitter, σαντιγύ & βανίλια</div>
-          <div class="item-price">€9.80</div>
+          <div class="item-image"><img src="assets/profiterole_pancake.avif" alt="Pancakes profiterole"></div>
+          <div class="item-content">
+            <div class="item-name" data-i18n="pancakes-5-name">Pancakes profiterole</div>
+            <div class="item-desc" data-i18n="pancakes-5-desc">3 Τεμάχια. Με σάλτσα προφιτερόλ σοκολάτας bitter, σαντιγύ & βανίλια</div>
+            <div class="item-price">€9.80</div>
+          </div>
         </div>
         <div class="menu-card">
-          <div class="item-name" data-i18n="pancakes-6-name">Pancakes banoffee</div>
-          <div class="item-desc" data-i18n="pancakes-6-desc">3 Τεμάχια. Με κρέμα Βαυβαρίας, πραλίνα καραμέλα, μπανάνα, σιρόπι καραμέλα & μπισκότο βουτύρου τριμμένο</div>
-          <div class="item-price">€9.80</div>
+          <div class="item-image"><i class="fas fa-utensils"></i></div>
+          <div class="item-content">
+            <div class="item-name" data-i18n="pancakes-6-name">Pancakes banoffee</div>
+            <div class="item-desc" data-i18n="pancakes-6-desc">3 Τεμάχια. Με κρέμα Βαυβαρίας, πραλίνα καραμέλα, μπανάνα, σιρόπι καραμέλα & μπισκότο βουτύρου τριμμένο</div>
+            <div class="item-price">€9.80</div>
+          </div>
         </div>
       </div>
     </section>
 
     <!-- Sweets -->
     <section id="sweets" class="menu-section">
-      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         <div class="menu-card">
-          <div class="item-name" data-i18n="sweets-1-name">Cheesecake</div>
-          <div class="item-desc" data-i18n="sweets-1-desc">Cheeeese! Χαμογέλα, ώρα για cake. Παράγγειλε το πιο νόστιμο, ελαφρύ και αγαπημένο γλυκό κάθε εποχής του χρόνου.</div>
-          <div class="item-price">€4.50</div>
+          <div class="item-image"><i class="fas fa-utensils"></i></div>
+          <div class="item-content">
+            <div class="item-name" data-i18n="sweets-1-name">Cheesecake</div>
+            <div class="item-desc" data-i18n="sweets-1-desc">Cheeeese! Χαμογέλα, ώρα για cake. Παράγγειλε το πιο νόστιμο, ελαφρύ και αγαπημένο γλυκό κάθε εποχής του χρόνου.</div>
+            <div class="item-price">€4.50</div>
+          </div>
         </div>
         <div class="menu-card">
-          <div class="item-name" data-i18n="sweets-2-name">Tiramisu</div>
-          <div class="item-desc" data-i18n="sweets-2-desc">Γλυκιά απόλαυση</div>
-          <div class="item-price">€4.50</div>
+          <div class="item-image"><i class="fas fa-utensils"></i></div>
+          <div class="item-content">
+            <div class="item-name" data-i18n="sweets-2-name">Tiramisu</div>
+            <div class="item-desc" data-i18n="sweets-2-desc">Γλυκιά απόλαυση</div>
+            <div class="item-price">€4.50</div>
+          </div>
         </div>
         <div class="menu-card">
-          <div class="item-name" data-i18n="sweets-3-name">Προφιτερόλ</div>
-          <div class="item-desc" data-i18n="sweets-3-desc">Ατομικό. Με σάλτσα προφιτερόλ σοκολάτας bitter, σαντιγύ & βανίλια</div>
-          <div class="item-price">€4.50</div>
+          <div class="item-image"><i class="fas fa-utensils"></i></div>
+          <div class="item-content">
+            <div class="item-name" data-i18n="sweets-3-name">Προφιτερόλ</div>
+            <div class="item-desc" data-i18n="sweets-3-desc">Atomic. Με σάλτσα προφιτερόλ σοκολάτας bitter, σαντιγύ & βανίλια</div>
+            <div class="item-price">€4.50</div>
+          </div>
         </div>
         <div class="menu-card">
-          <div class="item-name" data-i18n="sweets-4-name">Carrot cake</div>
-          <div class="item-desc" data-i18n="sweets-4-desc">Κομμάτι. Με βουτυρόκρεμα με τυρί κρέμα & καρύδι ψιλοκομμένο</div>
-          <div class="item-price">€4.50</div>
+          <div class="item-image"><i class="fas fa-utensils"></i></div>
+          <div class="item-content">
+            <div class="item-name" data-i18n="sweets-4-name">Carrot cake</div>
+            <div class="item-desc" data-i18n="sweets-4-desc">Κομμάτι. Με βουτυρόκρεμα με τυρί κρέμα & καρύδι ψιλοκομμένο</div>
+            <div class="item-price">€4.50</div>
+          </div>
         </div>
         <div class="menu-card">
-          <div class="item-name" data-i18n="sweets-5-name">Red velvet cake</div>
-          <div class="item-desc" data-i18n="sweets-5-desc">Κομμάτι. Με βουτυρόκρεμα με τυρί κρέμα & μαρμελάδα φράουλα χειροποίητη</div>
-          <div class="item-price">€4.50</div>
+          <div class="item-image"><img src="assets/red_velvet.avif" alt="Red velvet cake"></div>
+          <div class="item-content">
+            <div class="item-name" data-i18n="sweets-5-name">Red velvet cake</div>
+            <div class="item-desc" data-i18n="sweets-5-desc">Κομμάτι. Με βουτυρόκρεμα με τυρί κρέμα & μαρμελάδα φράουλα χειροποίητη</div>
+            <div class="item-price">€4.50</div>
+          </div>
         </div>
         <div class="menu-card">
-          <div class="item-name" data-i18n="sweets-6-name">Εκμέκ</div>
-          <div class="item-desc" data-i18n="sweets-6-desc">Παραδοσιακό εκμέκ με πολίτικο τσουρέκι</div>
-          <div class="item-price">€4.50</div>
+          <div class="item-image"><i class="fas fa-utensils"></i></div>
+          <div class="item-content">
+            <div class="item-name" data-i18n="sweets-6-name">Εκμέκ</div>
+            <div class="item-desc" data-i18n="sweets-6-desc">Παραδοσιακό εκμέκ με πολίτικο τσουρέκι</div>
+            <div class="item-price">€4.50</div>
+          </div>
         </div>
         <div class="menu-card">
-          <div class="item-name" data-i18n="sweets-7-name">Τάρτα μήλου</div>
-          <div class="item-desc" data-i18n="sweets-7-desc">Παραδοσιακή μηλόπιτα με κρέμα βανίλιας & ολόκληρα κομμάτια μήλου</div>
-          <div class="item-price">€4.50</div>
+          <div class="item-image"><i class="fas fa-utensils"></i></div>
+          <div class="item-content">
+            <div class="item-name" data-i18n="sweets-7-name">Τάρτα μήλου</div>
+            <div class="item-desc" data-i18n="sweets-7-desc">Παραδοσιακή μηλόπιτα με κρέμα βανίλιας & ολόκληρα κομμάτια μήλου</div>
+            <div class="item-price">€4.50</div>
+          </div>
         </div>
         <div class="menu-card">
-          <div class="item-name" data-i18n="sweets-8-name">Καρυδόπιτα</div>
-          <div class="item-desc" data-i18n="sweets-8-desc">Με κρέμα βανίλιας</div>
-          <div class="item-price">€4.50</div>
+          <div class="item-image"><i class="fas fa-utensils"></i></div>
+          <div class="item-content">
+            <div class="item-name" data-i18n="sweets-8-name">Καρυδόπιτα</div>
+            <div class="item-desc" data-i18n="sweets-8-desc">Με κρέμα βανίλιας</div>
+            <div class="item-price">€4.50</div>
+          </div>
         </div>
         <div class="menu-card">
-          <div class="item-name" data-i18n="sweets-9-name">Cheesecake λεμόνι</div>
-          <div class="item-desc" data-i18n="sweets-9-desc">Με χειροποίητη κρέμα λεμόνι</div>
-          <div class="item-price">€4.50</div>
+          <div class="item-image"><i class="fas fa-utensils"></i></div>
+          <div class="item-content">
+            <div class="item-name" data-i18n="sweets-9-name">Cheesecake λεμόνι</div>
+            <div class="item-desc" data-i18n="sweets-9-desc">Με χειροποίητη κρέμα λεμόνι</div>
+            <div class="item-price">€4.50</div>
+          </div>
         </div>
         <div class="menu-card">
-          <div class="item-name" data-i18n="sweets-10-name">Coffee Lotus</div>
-          <div class="item-desc" data-i18n="sweets-10-desc">Με τυρί κρέμα, μονή δόση espresso & μπισκότο Lotus</div>
-          <div class="item-price">€4.50</div>
+          <div class="item-image"><i class="fas fa-utensils"></i></div>
+          <div class="item-content">
+            <div class="item-name" data-i18n="sweets-10-name">Coffee Lotus</div>
+            <div class="item-desc" data-i18n="sweets-10-desc">Με τυρί κρέμα, μονή δόση espresso & μπισκότο Lotus</div>
+            <div class="item-price">€4.50</div>
+          </div>
         </div>
         <div class="menu-card">
-          <div class="item-name" data-i18n="sweets-11-name">Millefeuille</div>
-          <div class="item-desc" data-i18n="sweets-11-desc">Γλυκιά απόλαυση</div>
-          <div class="item-price">€4.50</div>
+          <div class="item-image"><i class="fas fa-utensils"></i></div>
+          <div class="item-content">
+            <div class="item-name" data-i18n="sweets-11-name">Millefeuille</div>
+            <div class="item-desc" data-i18n="sweets-11-desc">Γλυκιά απόλαυση</div>
+            <div class="item-price">€4.50</div>
+          </div>
         </div>
         <div class="menu-card">
-          <div class="item-name" data-i18n="sweets-12-name">Γαλακτομπούρεκο</div>
-          <div class="item-desc" data-i18n="sweets-12-desc">Γλυκιά απόλαυση</div>
-          <div class="item-price">€4.50</div>
+          <div class="item-image"><i class="fas fa-utensils"></i></div>
+          <div class="item-content">
+            <div class="item-name" data-i18n="sweets-12-name">Γαλακτομπούρεκο</div>
+            <div class="item-desc" data-i18n="sweets-12-desc">Γλυκιά απόλαυση</div>
+            <div class="item-price">€4.50</div>
+          </div>
         </div>
         <div class="menu-card">
-          <div class="item-name" data-i18n="sweets-13-name">Γαλακτομπούρεκο κανταΐφι</div>
-          <div class="item-desc" data-i18n="sweets-13-desc">Ατομικό</div>
-          <div class="item-price">€4.50</div>
+          <div class="item-image"><i class="fas fa-utensils"></i></div>
+          <div class="item-content">
+            <div class="item-name" data-i18n="sweets-13-name">Γαλακτομπούρεκο κανταϊφί</div>
+            <div class="item-desc" data-i18n="sweets-13-desc">Atomic</div>
+            <div class="item-price">€4.50</div>
+          </div>
         </div>
       </div>
     </section>
 
     <!-- Sandwiches -->
     <section id="sandwiches" class="menu-section">
-      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         <div class="menu-card">
-          <div class="item-name" data-i18n="sandwiches-1-name">Τορτίγια κοτόπουλο</div>
-          <div class="item-desc" data-i18n="sandwiches-1-desc">Με γαλοπούλα, gouda, ντομάτα & σως μουστάρδας</div>
-          <div class="item-price">€4.50</div>
+          <div class="item-image"><i class="fas fa-utensils"></i></div>
+          <div class="item-content">
+            <div class="item-name" data-i18n="sandwiches-1-name">Τορτίγια κοτόπουλο</div>
+            <div class="item-desc" data-i18n="sandwiches-1-desc">Με γαλοπούλα, gouda, ντομάτα & σως μουστάρδας</div>
+            <div class="item-price">€4.50</div>
+          </div>
         </div>
         <div class="menu-card">
-          <div class="item-name" data-i18n="sandwiches-2-name">Sandwich καπνιστή γαλοπούλα</div>
-          <div class="item-desc" data-i18n="sandwiches-2-desc">Με καπνιστή γαλοπούλα, gouda, ντομάτα, μαρούλι & σως μουστάρδας</div>
-          <div class="item-price">€3.90</div>
+          <div class="item-image"><i class="fas fa-utensils"></i></div>
+          <div class="item-content">
+            <div class="item-name" data-i18n="sandwiches-2-name">Sandwich καπνιστή γαλοπούλα</div>
+            <div class="item-desc" data-i18n="sandwiches-2-desc">Με καπνιστή γαλοπούλα, gouda, ντομάτα, μαρούλι & σως μουστάρδας</div>
+            <div class="item-price">€3.90</div>
+          </div>
         </div>
         <div class="menu-card">
-          <div class="item-name" data-i18n="sandwiches-3-name">Sandwich κοτόπουλο</div>
-          <div class="item-desc" data-i18n="sandwiches-3-desc">Με κοτόπουλο, gouda, ντομάτα, μαρούλι & σως μουστάρδας</div>
-          <div class="item-price">€4.50</div>
+          <div class="item-image"><i class="fas fa-utensils"></i></div>
+          <div class="item-content">
+            <div class="item-name" data-i18n="sandwiches-3-name">Sandwich κοτόπουλο</div>
+            <div class="item-desc" data-i18n="sandwiches-3-desc">Με κοτόπουλο, gouda, ντομάτα, μαρούλι & σως μουστάρδας</div>
+            <div class="item-price">€4.50</div>
+          </div>
         </div>
       </div>
     </section>
 
     <!-- Sfoliates -->
     <section id="sfolies" class="menu-section">
-      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         <div class="menu-card">
-          <div class="item-name" data-i18n="sfolies-1-name">Τυρόπιτα</div>
-          <div class="item-desc" data-i18n="sfolies-1-desc">Say cheeeeeese! Χαμογέλασε, μια πεντανόστιμη τυρόπιτα έρχεται στην πόρτα σου. Παράγγειλε το πιο νόστιμο γεύμα/σνακ της ημέρας.</div>
-          <div class="item-price">€1.80</div>
+          <div class="item-image"><i class="fas fa-utensils"></i></div>
+          <div class="item-content">
+            <div class="item-name" data-i18n="sfolies-1-name">Τυρόπιτα</div>
+            <div class="item-desc" data-i18n="sfolies-1-desc">Say cheeeeeese! Χαμογέλασε, μια πεντανόστιμη τυρόπιτα έρχεται στην πόρτα σου. Παράγγειλε το πιο νόστιμο γεύμα/σνακ της ημέρας.</div>
+            <div class="item-price">€1.80</div>
+          </div>
         </div>
         <div class="menu-card">
-          <div class="item-name" data-i18n="sfolies-2-name">Τυρόπιτα ταψιού</div>
-          <div class="item-desc" data-i18n="sfolies-2-desc">Say cheeeeeese! Χαμογέλασε, μια πεντανόστιμη τυρόπιτα έρχεται στην πόρτα σου. Παράγγειλε το πιο νόστιμο γεύμα/σνακ της ημέρας.</div>
-          <div class="item-price">€3.90</div>
+          <div class="item-image"><i class="fas fa-utensils"></i></div>
+          <div class="item-content">
+            <div class="item-name" data-i18n="sfolies-2-name">Τυρόπιτα ταψιού</div>
+            <div class="item-desc" data-i18n="sfolies-2-desc">Say cheeeeeese! Χαμογέλασε, μια πεντανόστιμη τυρόπιτα έρχεται στην πόρτα σου. Παράγγειλε το πιο νόστιμο γεύμα/σνακ της ημέρας.</div>
+            <div class="item-price">€3.90</div>
+          </div>
         </div>
         <div class="menu-card">
-          <div class="item-name" data-i18n="sfolies-3-name">Κοτόπιτα ταψιού</div>
-          <div class="item-desc" data-i18n="sfolies-3-desc">Με κόκκινη πιπεριά, μπεσαμέλ, κοτόπουλο & gouda</div>
-          <div class="item-price">€4.50</div>
+          <div class="item-image"><i class="fas fa-utensils"></i></div>
+          <div class="item-content">
+            <div class="item-name" data-i18n="sfolies-3-name">Κοτόπιτα ταψιού</div>
+            <div class="item-desc" data-i18n="sfolies-3-desc">Με κόκκινη πιπεριά, μπεσαμέλ, κοτόπουλο & gouda</div>
+            <div class="item-price">€4.50</div>
+          </div>
         </div>
         <div class="menu-card">
-          <div class="item-name" data-i18n="sfolies-4-name">Φλογέρα κοτόπουλο</div>
-          <div class="item-desc" data-i18n="sfolies-4-desc">Με κόκκινη πιπεριά, μπεσαμέλ, κοτόπουλο & gouda</div>
-          <div class="item-price">€3.90</div>
+          <div class="item-image"><i class="fas fa-utensils"></i></div>
+          <div class="item-content">
+            <div class="item-name" data-i18n="sfolies-4-name">Φλογέρα κοτόπουλο</div>
+            <div class="item-desc" data-i18n="sfolies-4-desc">Με κόκκινη πιπεριά, μπεσαμέλ, κοτόπουλο & gouda</div>
+            <div class="item-price">€3.90</div>
+          </div>
         </div>
         <div class="menu-card">
-          <div class="item-name" data-i18n="sfolies-5-name">Πατατόπιτα</div>
-          <div class="item-desc" data-i18n="sfolies-5-desc">Νηστίσιμη</div>
-          <div class="item-price">€2.50</div>
+          <div class="item-image"><i class="fas fa-utensils"></i></div>
+          <div class="item-content">
+            <div class="item-name" data-i18n="sfolies-5-name">Πατατόπιτα</div>
+            <div class="item-desc" data-i18n="sfolies-5-desc">Νηστίσιμη</div>
+            <div class="item-price">€2.50</div>
+          </div>
         </div>
       </div>
     </section>
 
     <!-- Snacks -->
     <section id="snacks" class="menu-section">
-      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         <div class="menu-card">
-          <div class="item-name" data-i18n="snacks-1-name">Μπάρα δημητριακών φρούτα του δάσους</div>
-          <div class="item-desc" data-i18n="snacks-1-desc">Χειροποίητη</div>
-          <div class="item-price">€2.60</div>
+          <div class="item-image"><i class="fas fa-utensils"></i></div>
+          <div class="item-content">
+            <div class="item-name" data-i18n="snacks-1-name">Μπάρα δημητριακών φρούτα του δάσους</div>
+            <div class="item-desc" data-i18n="snacks-1-desc">Χειροποίητη</div>
+            <div class="item-price">€2.60</div>
+          </div>
         </div>
         <div class="menu-card">
-          <div class="item-name" data-i18n="snacks-2-name">Soft cookie βανίλια με κομμάτια σοκολάτας</div>
-          <div class="item-desc" data-i18n="snacks-2-desc">Χειροποίητο</div>
-          <div class="item-price">€2.60</div>
+          <div class="item-image"><i class="fas fa-utensils"></i></div>
+          <div class="item-content">
+            <div class="item-name" data-i18n="snacks-2-name">Soft cookie βανίλια με κομμάτια σοκολάτας</div>
+            <div class="item-desc" data-i18n="snacks-2-desc">Χειροποίητο</div>
+            <div class="item-price">€2.60</div>
+          </div>
         </div>
         <div class="menu-card">
-          <div class="item-name" data-i18n="snacks-3-name">Soft cookie σοκολάτα με κομμάτια σοκολάτας</div>
-          <div class="item-desc" data-i18n="snacks-3-desc">Χειροποίητο</div>
-          <div class="item-price">€2.60</div>
+          <div class="item-image"><i class="fas fa-utensils"></i></div>
+          <div class="item-content">
+            <div class="item-name" data-i18n="snacks-3-name">Soft cookie σοκολάτα με κομμάτια σοκολάτας</div>
+            <div class="item-desc" data-i18n="snacks-3-desc">Χειροποίητο</div>
+            <div class="item-price">€2.60</div>
+          </div>
         </div>        
         <div class="menu-card">
-          <div class="item-name" data-i18n="snacks-4-name">Soft cookie Lotus</div>
-          <div class="item-desc" data-i18n="snacks-4-desc">Χειροποίητο</div>
-          <div class="item-price">€2.60</div>
+          <div class="item-image"><i class="fas fa-utensils"></i></div>
+          <div class="item-content">
+            <div class="item-name" data-i18n="snacks-4-name">Soft cookie Lotus</div>
+            <div class="item-desc" data-i18n="snacks-4-desc">Χειροποίητο</div>
+            <div class="item-price">€2.60</div>
+          </div>
         </div>  
       </div>
     </section>
 
     <!-- Coffees -->
     <section id="coffees" class="menu-section">
-      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         <div class="menu-card">
-          <div class="item-name" data-i18n="coffees-1-name">Espresso</div>
-          <div class="item-desc" data-i18n="coffees-1-desc">Ένας δυνατός & πλούσιος καφές γεμάτος ένταση & άρωμα.</div>
-          <div class="item-price">€2.30</div>
+          <div class="item-image"><i class="fas fa-mug-hot"></i></div>
+          <div class="item-content">
+            <div class="item-name" data-i18n="coffees-1-name">Espresso</div>
+            <div class="item-desc" data-i18n="coffees-1-desc">Ένας δυνατός & πλούσιος καφές γεμάτος ένταση & άρωμα.</div>
+            <div class="item-price">€2.30</div>
+          </div>
         </div>
         <div class="menu-card">
-          <div class="item-name" data-i18n="coffees-2-name">Espresso macchiato</div>
-          <div class="item-desc" data-i18n="coffees-2-desc">Macchiato στα ιταλικά σημαίνει «σημαδεμένος» και αυτός ο espresso με λίγο γάλα, θα σε σημαδέψει!</div>
-          <div class="item-price">€2.50</div>
+          <div class="item-image"><i class="fas fa-mug-hot"></i></div>
+          <div class="item-content">
+            <div class="item-name" data-i18n="coffees-2-name">Espresso macchiato</div>
+            <div class="item-desc" data-i18n="coffees-2-desc">Macchiato στα ιταλικά σημαίνει «σημαδεμένος» και αυτός ο espresso με λίγο γάλα, θα σε σημαδέψει!</div>
+            <div class="item-price">€2.50</div>
+          </div>
         </div>
         <div class="menu-card">
-          <div class="item-name" data-i18n="coffees-3-name">Freddo espresso</div>
-          <div class="item-desc" data-i18n="coffees-3-desc">Η ένταση του espresso σε μια δροσερή, βελούδινη εκδοχή, ιδανική για να σε τονώσει.</div>
-          <div class="item-price">€2.50</div>
+          <div class="item-image"><img src="assets/freddo-espresso.avif" alt="Freddo espresso"></div>
+          <div class="item-content">
+            <div class="item-name" data-i18n="coffees-3-name">Freddo espresso</div>
+            <div class="item-desc" data-i18n="coffees-3-desc">Η ένταση του espresso σε μια δροσερή, βελούδινη εκδοχή, ιδανική για να σε τονώσει.</div>
+            <div class="item-price">€2.50</div>
+          </div>
         </div>
         <div class="menu-card">
-          <div class="item-name" data-i18n="coffees-4-name">Cappuccino</div>
-          <div class="item-desc" data-i18n="coffees-4-desc">Ένας δυνατός espresso με πλούσιο, βελούδινο αφρόγαλα, σε έναν κλασικό συνδυασμό γεύσης & υφής.</div>
-          <div class="item-price">€2.40</div>
+          <div class="item-image"><i class="fas fa-mug-hot"></i></div>
+          <div class="item-content">
+            <div class="item-name" data-i18n="coffees-4-name">Cappuccino</div>
+            <div class="item-desc" data-i18n="coffees-4-desc">Ένας δυνατός espresso με πλούσιο, βελούδινο αφρόγαλα, σε ένα κλασικό συνδυασμό γεύσας & υφής.</div>
+            <div class="item-price">€2.40</div>
+          </div>
         </div>
         <div class="menu-card">
-          <div class="item-name" data-i18n="coffees-5-name">Cappuccino latte</div>
-          <div class="item-desc" data-i18n="coffees-5-desc">Ένας καφές με πλούσιο εσωτερικό κόσμο αφού κρύβει το γάλα και στο εσωτερικό του!</div>
-          <div class="item-price">€2.60</div>
+          <div class="item-image"><i class="fas fa-mug-hot"></i></div>
+          <div class="item-content">
+            <div class="item-name" data-i18n="coffees-5-name">Cappuccino latte</div>
+            <div class="item-desc" data-i18n="coffees-5-desc">Ένας καφές με πλούσιο εσωτερικό κόσμο αφού κρύβει το γάλα και στο εσωτερικό του!</div>
+            <div class="item-price">€2.60</div>
+          </div>
         </div>
         <div class="menu-card">
-          <div class="item-name" data-i18n="coffees-6-name">Freddo cappuccino</div>
-          <div class="item-desc" data-i18n="coffees-6-desc">Παγωμένος espresso με κρύο αφρόγαλα. Η ευρωπαϊκή εκδοχή του κρύου καφέ.</div>
-          <div class="item-price">€2.70</div>
+          <div class="item-image"><i class="fas fa-coffee"></i></div>
+          <div class="item-content">
+            <div class="item-name" data-i18n="coffees-6-name">Freddo cappuccino</div>
+            <div class="item-desc" data-i18n="coffees-6-desc">Παγωμένος espresso με κρύο αφρόγαλα. Η ευρωπαϊκή εκδοχή του κρύου καφέ.</div>
+            <div class="item-price">€2.70</div>
+          </div>
         </div>
         <div class="menu-card">
-          <div class="item-name" data-i18n="coffees-7-name">Freddo cappuccino latte</div>
-          <div class="item-desc" data-i18n="coffees-7-desc">Never too late for a latte. Παγωμένος και γεμάτος γεύση κάθε εποχή του χρόνου.</div>
-          <div class="item-price">€2.90</div>
+          <div class="item-image"><i class="fas fa-coffee"></i></div>
+          <div class="item-content">
+            <div class="item-name" data-i18n="coffees-7-name">Freddo cappuccino latte</div>
+            <div class="item-desc" data-i18n="coffees-7-desc">Never too late for a latte. Παγωμένο και γεμάτο γεύση κάθε εποχή του χρόνου.</div>
+            <div class="item-price">€2.90</div>
+          </div>
         </div>
         <div class="menu-card">
-          <div class="item-name" data-i18n="coffees-8-name">Flat white</div>
-          <div class="item-desc" data-i18n="coffees-8-desc">Τίποτα δεν είναι flat. Διπλή δόση εσπρέσο με αφρόγαλα.</div>
-          <div class="item-price">€2.40</div>
+          <div class="item-image"><i class="fas fa-mug-hot"></i></div>
+          <div class="item-content">
+            <div class="item-name" data-i18n="coffees-8-name">Flat white</div>
+            <div class="item-desc" data-i18n="coffees-8-desc">Τίποτα δεν είναι flat. Διπλή δόση εσπρέσο με αφρόγαλα.</div>
+            <div class="item-price">€2.40</div>
+          </div>
         </div>
         <div class="menu-card">
-          <div class="item-name" data-i18n="coffees-9-name">Nes</div>
-          <div class="item-desc" data-i18n="coffees-9-desc">Πες ναι σε έναν Nes! Ατός ο στιγμιαίος καφές θα σε ζεστάνει και η γεύση του θα σε συνοδεύει.</div>
-          <div class="item-price">€2.20</div>
+          <div class="item-image"><i class="fas fa-mug-hot"></i></div>
+          <div class="item-content">
+            <div class="item-name" data-i18n="coffees-9-name">Nes</div>
+            <div class="item-desc" data-i18n="coffees-9-desc">Πες ναι σε έναν Nes! Ατός ο στιγμιαίος καφές θα σε ζεστάνει και η γεύση του θα σε συνοδεύει.</div>
+            <div class="item-price">€2.20</div>
+          </div>
         </div>
         <div class="menu-card">
-          <div class="item-name" data-i18n="coffees-10-name">Frappe</div>
-          <div class="item-desc" data-i18n="coffees-10-desc">Ο κλασικός ελληνικός στιγμιαίος καφές, ιδανικός για να σε τονώσει κάθε στιγμή.</div>
-          <div class="item-price">€2.20</div>
+          <div class="item-image"><i class="fas fa-coffee"></i></div>
+          <div class="item-content">
+            <div class="item-name" data-i18n="coffees-10-name">Frappe</div>
+            <div class="item-desc" data-i18n="coffees-10-desc">O κλασικός ελληνικόσ στιγμιαίος καφές, ιδανικός για να σε τονώσει κάθε στιγμή.</div>
+            <div class="item-price">€2.20</div>
+          </div>
         </div>
         <div class="menu-card">
-          <div class="item-name" data-i18n="coffees-11-name">Φίλτρου</div>
-          <div class="item-desc" data-i18n="coffees-11-desc">Καφές φίλτρου για απόλαυση! Παράγγειλε τον αγαπημένο σου κάθε στιγμή της ημέρας.</div>
-          <div class="item-price">€2.60</div>
+          <div class="item-image"><i class="fas fa-mug-hot"></i></div>
+          <div class="item-content">
+            <div class="item-name" data-i18n="coffees-11-name">Φίλτρου</div>
+            <div class="item-desc" data-i18n="coffees-11-desc">Καφές φίλτρου για απόλαυση! Παράγγειλε τον αγαπημένο σας κάθε στιγμή της ημέρας.</div>
+            <div class="item-price">€2.60</div>
+          </div>
         </div>
         <div class="menu-card">
-          <div class="item-name" data-i18n="coffees-12-name">Ελληνικός</div>
-          <div class="item-desc" data-i18n="coffees-12-desc">Αν εσύ ψήνεσαι για καφέ, ο ελληνικός, ψήνεται σίγουρα! Ο καφέ που πίνεται κάθε στιγμή της ημέρας.</div>
-          <div class="item-price">€2.30</div>
+          <div class="item-image"><i class="fas fa-mug-hot"></i></div>
+          <div class="item-content">
+            <div class="item-name" data-i18n="coffees-12-name">Ελληνικός</div>
+            <div class="item-desc" data-i18n="coffees-12-desc">Αν εσύ ψήνεσαι για καφέ, ο ελληνικός, ψήνεται σίγουρα! Ο καφέ που πίνεται κάθε στιγμή της ημέρας.</div>
+            <div class="item-price">€2.30</div>
+          </div>
         </div>        
         <div class="menu-card">
-          <div class="item-name" data-i18n="coffees-13-name">Espresso americano</div>
-          <div class="item-desc" data-i18n="coffees-13-desc">Ένας δυνατός espresso με απαλή γεύση, αραιωμένος με ζεστό νερό.</div>
-          <div class="item-price">€2.00</div>
+          <div class="item-image"><i class="fas fa-mug-hot"></i></div>
+          <div class="item-content">
+            <div class="item-name" data-i18n="coffees-13-name">Espresso americano</div>
+            <div class="item-desc" data-i18n="coffees-13-desc">Ένας δυνατός espresso με απαλή γεύση, αραιωμένος με ζεστό νερό.</div>
+            <div class="item-price">€2.00</div>
+          </div>
         </div>    
       </div>
     </section>
 
     <!-- Drinks -->
     <section id="drinks" class="menu-section">
-      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         <div class="menu-card">
-          <div class="item-name" data-i18n="drinks-1-name">Σοκολάτα</div>
-          <div class="item-desc" data-i18n="drinks-1-desc">Απολαυστικό ρόφημα σοκολάτας, γεμάτο γεύση & αρώματα.</div>
-          <div class="item-price">€2.60</div>
+          <div class="item-image"><i class="fas fa-mug-hot"></i></div>
+          <div class="item-content">
+            <div class="item-name" data-i18n="drinks-1-name">Σοκολάτα</div>
+            <div class="item-desc" data-i18n="drinks-1-desc">Απολαυστικό ρόφημα σοκολάτας, γεμάτο γεύση & αρώματα.</div>
+            <div class="item-price">€2.60</div>
+          </div>
         </div>
         <div class="menu-card">
-          <div class="item-name" data-i18n="drinks-2-name">Σοκολάτα bitter</div>
-          <div class="item-desc" data-i18n="drinks-2-desc">Απολαυστικό ρόφημα σοκολάτας, γεμάτο γεύση & αρώματα.</div>
-          <div class="item-price">€2.60</div>
+          <div class="item-image"><i class="fas fa-mug-hot"></i></div>
+          <div class="item-content">
+            <div class="item-name" data-i18n="drinks-2-name">Σοκολάτα bitter</div>
+            <div class="item-desc" data-i18n="drinks-2-desc">Απολαυστικό ρόφημα σοκολάτας, γεμάτο γεύση & αρώματα.</div>
+            <div class="item-price">€2.60</div>
+          </div>
         </div>
         <div class="menu-card">
-          <div class="item-name" data-i18n="drinks-3-name">Φυσικός χυμός πορτοκάλι</div>
-          <div class="item-desc" data-i18n="drinks-3-desc">Φήμες λένε πως όταν πίνεις έναν φυσικό χυμό πορτοκάλι, στα αυτία σου ακούγεται «πιες τον γρήγορα, θα χάσει τις βιταμίνες του». Παράγγειλε γρήγορα, απόλαυσε γρήγορα και πάρε όλες τις βιταμίνες.</div>
-          <div class="item-price">€2.80</div>
+          <div class="item-image"><i class="fas fa-glass-water"></i></div>
+          <div class="item-content">
+            <div class="item-name" data-i18n="drinks-3-name">Φυσικός χυμός πορτοκάλι</div>
+            <div class="item-desc" data-i18n="drinks-3-desc">Φήμες λένε ότι όταν πίνεις έναν φυσικό χυμό πορτοκάλι, στα αυτία σου ακούγεται «πιες τον γρήγορα, θα χάσει τις βιταμίνες του». Παράγγειλε γρήγορα, απόλαυσε γρήγορα και πάρε όλες τις βιταμίνες.</div>
+            <div class="item-price">€2.80</div>
+          </div>
         </div>
         <div class="menu-card">
-          <div class="item-name" data-i18n="drinks-4-name">Τσάι</div>
-          <div class="item-desc" data-i18n="drinks-4-desc">Relax, πιες το αγαπημένο σου αφέψημα και αναζωογόνησε σώμα και πνεύμα.</div>
-          <div class="item-price">€2.40</div>
+          <div class="item-image"><i class="fas fa-mug-hot"></i></div>
+          <div class="item-content">
+            <div class="item-name" data-i18n="drinks-4-name">Τσάι</div>
+            <div class="item-desc" data-i18n="drinks-4-desc">Relax, πιες το αγαπημένο σου αφέψημα και αναζωογόνησε σώμα και πνεύμα.</div>
+            <div class="item-price">€2.40</div>
+          </div>
         </div>
         <div class="menu-card">
-          <div class="item-name" data-i18n="drinks-5-name">Χαμομήλι</div>
-          <div class="item-desc" data-i18n="drinks-5-desc">Relax, πιες το αγαπημένο σου αφέψημα και αναζωογόνησε σώμα και πνεύμα.</div>
-          <div class="item-price">€2.40</div>
+          <div class="item-image"><i class="fas fa-mug-hot"></i></div>
+          <div class="item-content">
+            <div class="item-name" data-i18n="drinks-5-name">Χαμομήλι</div>
+            <div class="item-desc" data-i18n="drinks-5-desc">Relax, πιες το αγαπημένο σου αφέψημα και αναζωογόνησε σώμα και πνεύμα.</div>
+            <div class="item-price">€2.40</div>
+          </div>
         </div>
         <div class="menu-card">
-          <div class="item-name" data-i18n="drinks-6-name">Λεμονάδα</div>
-          <div class="item-desc" data-i18n="drinks-6-desc">Κάθε γουλιά σε ταξιδεύει σε μέρη με ήλιο, αρώματα και καλή ενέργεια. Παράγγειλε και απόλαυσε δροσιά και φρεσκάδα, στο ποτήρι!</div>
-          <div class="item-price">€3.20</div>
+          <div class="item-image"><i class="fas fa-lemon"></i></div>
+          <div class="item-content">
+            <div class="item-name" data-i18n="drinks-6-name">Λεμονάδα</div>
+            <div class="item-desc" data-i18n="drinks-6-desc">Κάθε γουλιά σε ταξιδεύει σε μέρη με ήλιο, αρώματα και καλή ενέργεια. Παράγγειλε και απόλαυσε δροσιά και φρεσκάδα, στο ποτήρι!</div>
+            <div class="item-price">€3.20</div>
+          </div>
         </div>
         <div class="menu-card">
-          <div class="item-name" data-i18n="drinks-7-name">Ροδακινάδα</div>
-          <div class="item-desc" data-i18n="drinks-7-desc">Κάθε γουλιά σε ταξιδεύει σε μέρη με ήλιο, αρώματα και καλή ενέργεια. Παράγγειλε και απόλαυσε δροσιά και φρεσκάδα, στο ποτήρι!</div>
-          <div class="item-price">€3.20</div>
+          <div class="item-image"><i class="fas fa-glass-water"></i></div>
+          <div class="item-content">
+            <div class="item-name" data-i18n="drinks-7-name">Ροδακινάδα</div>
+            <div class="item-desc" data-i18n="drinks-7-desc">Κάθε γουλιά σε ταξιδεύει σε μέρη με ήλιο, αρώματα και καλή ενέργεια. Παράγγειλε και απόλαυσε δροσιά και φρεσκάδα, στο ποτήρι!</div>
+            <div class="item-price">€3.20</div>
+          </div>
         </div>
         <div class="menu-card">
-          <div class="item-name" data-i18n="drinks-8-name">Βυσσινάδα</div>
-          <div class="item-desc" data-i18n="drinks-8-desc">Όταν η ζωή σου δίνει πορτοκάλια, λεμόνια, μπανάνα, φρούτα γενικώς, στίψτα σε χυμό και απόλαυσέ τα. Πιες τον χυμό σου καθημερινά, για έξτρα ενέργεια και τόνωση.</div>
-          <div class="item-price">€3.20</div>
+          <div class="item-image"><i class="fas fa-glass-water"></i></div>
+          <div class="item-content">
+            <div class="item-name" data-i18n="drinks-8-name">Βυσσινάδα</div>
+            <div class="item-desc" data-i18n="drinks-8-desc">Όταν η ζωή σου δίνει πορτοκάλια, λεμόνια, μπανάνα, φρούτα γενικώς, στίψτα σε χυμό και απόλαυσέ τα. Πιες τον χυμό σου καθημερινά, για έξτρα ενέργεια και τόνωση.</div>
+            <div class="item-price">€3.20</div>
+          </div>
         </div>
         <div class="menu-card">
-          <div class="item-name" data-i18n="drinks-9-name">Ice tea λεμόνι χειροποίητο</div>
-          <div class="item-desc" data-i18n="drinks-9-desc">Χειροποίητο</div>
-          <div class="item-price">€3.50</div>
+          <div class="item-image"><i class="fas fa-glass-water"></i></div>
+          <div class="item-content">
+            <div class="item-name" data-i18n="drinks-9-name">Ice tea λεμόνι χειροποίητο</div>
+            <div class="item-desc" data-i18n="drinks-9-desc">Χειροποίητο</div>
+            <div class="item-price">€3.50</div>
+          </div>
         </div>
         <div class="menu-card">
-          <div class="item-name" data-i18n="drinks-10-name">Ice tea ροδάκινο χειροποίητο</div>
-          <div class="item-desc" data-i18n="drinks-10-desc">Χειροποίητο</div>
-          <div class="item-price">€3.50</div>
+          <div class="item-image"><i class="fas fa-glass-water"></i></div>
+          <div class="item-content">
+            <div class="item-name" data-i18n="drinks-10-name">Ice tea ροδάκινο χειροποίητο</div>
+            <div class="item-desc" data-i18n="drinks-10-desc">Χειροποίητο</div>
+            <div class="item-price">€3.50</div>
+          </div>
         </div>
         <div class="menu-card">
-          <div class="item-name" data-i18n="drinks-11-name">Χυμός μήλο & ρόδι</div>
-          <div class="item-desc" data-i18n="drinks-11-desc">Όταν η ζωή σου δίνει πορτοκάλια, λεμόνια, μπανάνα, φρούτα γενικώς, στίψτα σε χυμό και απόλαυσέ τα. Πιες τον χυμό σου καθημερινά, για έξτρα ενέργεια και τόνωση.</div>
-          <div class="item-price">€3.20</div>
+          <div class="item-image"><i class="fas fa-glass-water"></i></div>
+          <div class="item-content">
+            <div class="item-name" data-i18n="drinks-11-name">Χυμός μήλο & ρόδι</div>
+            <div class="item-desc" data-i18n="drinks-11-desc">Οταν η ζωή σου δίνει πορτοκάλια, λεμόνια, μπανάνα, φρούτα γενικώς, στίψτα σε χυμό και απόλαυσέ τα. Πιες τον χυμό σου καθημερινά, για έξτρα ενέργεια και τόνωση.</div>
+            <div class="item-price">€3.20</div>
+          </div>
         </div>
         <div class="menu-card">
-          <div class="item-name" data-i18n="drinks-12-name">Χυμός 8 φρούτων</div>
-          <div class="item-desc" data-i18n="drinks-12-desc">Όταν η ζωή σου δίνει πορτοκάλια, λεμόνια, μπανάνα, φρούτα γενικώς, στίψτα σε χυμό και απόλαυσέ τα. Πιες τον χυμό σου καθημερινά, για έξτρα ενέργεια και τόνωση.</div>
-          <div class="item-price">€3.20</div>
+          <div class="item-image"><i class="fas fa-glass-water"></i></div>
+          <div class="item-content">
+            <div class="item-name" data-i18n="drinks-12-name">Χυμός 8 φρούτων</div>
+            <div class="item-desc" data-i18n="drinks-12-desc">Οταν η ζωή σου δίνει πορτοκάλια, λεμόνια, μπανάνα, φρούτα γενικώς, στίψτα σε χυμό και απόλαυσέ τα. Πιες τον χυμό σου καθημερινά, για έξτρα ενέργεια και τόνωση.</div>
+            <div class="item-price">€3.20</div>
+          </div>
         </div>
         <div class="menu-card">
-          <div class="item-name" data-i18n="drinks-13-name">Χαμομήλι & Μέλι</div>
-          <div class="item-desc" data-i18n="drinks-13-desc">Βιολογικό χαμομήλι με θυμαρίσιο μέλι</div>
-          <div class="item-price">€2.80</div>
+          <div class="item-image"><i class="fas fa-mug-hot"></i></div>
+          <div class="item-content">
+            <div class="item-name" data-i18n="drinks-13-name">Χαμομήλι & Μέλι</div>
+            <div class="item-desc" data-i18n="drinks-13-desc">Βιολογικό χαμομήλι με θυμαρίσιο μέλι</div>
+            <div class="item-price">€2.80</div>
+          </div>
         </div>
       </div>
     </section>
   </main>
+  </div>
 
   <script src="js/translations.js"></script>
+  <script src="js/parallax-cover.js"></script>
   <script src="js/load-components.js"></script>
   <script src="js/menu-tabs.js"></script>
 </body>
