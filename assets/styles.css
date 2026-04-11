@@ -130,14 +130,9 @@ p {
   background: rgba(111, 45, 168, 0.7);
   box-shadow: 0 2px 12px rgba(0,0,0,0.15);
   height: 70px;
+  padding-bottom: 4.5rem;
 }
 
-#navbar > div {
-  padding-top: 0.5rem;
-  padding-bottom: 0;
-  padding-left: 1rem;
-  padding-right: 1.5rem;
-}
 
 .nav-logo {
   font-size: 1.5rem;
@@ -172,8 +167,8 @@ p {
   color: var(--text-light);
   text-decoration: none;
   font-weight: 500;
-  padding: 0.4rem 0.8rem;
-  border-radius: 6px;
+  padding: 0.5rem 0.8rem;
+  border-radius: 3px;
   transition: background 0.25s, color 0.25s, letter-spacing 0.25s;
 }
 
@@ -204,21 +199,7 @@ p {
   color: var(--text-light);
   font-size: 0.8rem;
   font-weight: 600;
-  transition: background 0.2s, color 0.2s;
-}
-
-@media (max-width: 767px) {
-  .lang-toggle {
-    border-radius: 16px;
-    padding: 1px;
-    gap: 1px;
-  }
-  
-  .lang-btn {
-    padding: 0.2rem 0.5rem;
-    border-radius: 14px;
-    font-size: 0.65rem;
-  }
+  transition: background 1.4s cubic-bezier(0.34, 1.56, 0.64, 1), color 1.4s cubic-bezier(0.34, 1.56, 0.64, 1);
 }
 
 .lang-btn:hover { background: rgba(255,255,255,0.1); }
@@ -228,16 +209,68 @@ p {
   color: var(--primary-dark);
 }
 
-/* ── Hamburger menu ────────────────────────────── */
-#nav-toggle { display: none; }
-#mobile-menu { display: none; }
-
-@media (max-width: 767px) {
-  #nav-toggle { display: block; }
-  #mobile-menu { background: rgba(111, 45, 168, 0.7); padding: 1rem; }
-  #mobile-menu.open { display: block;  padding-bottom: 0.5rem;}
-  #mobile-menu .nav-link { display: block; padding: 0.5rem; }
+/* ── Transition styling for elements with data-i18n ───────────── */
+[data-i18n] {
+  opacity: 1;
+  transition: opacity 0.4s ease-in-out;
 }
+
+[data-i18n].translating {
+  opacity: 0;
+}
+
+/* ── Hamburger menu ────────────────────────────── */
+/* Base: Hide desktop nav and hamburger */
+#desktop-nav { 
+  display: none !important; 
+}
+
+#nav-toggle { 
+  display: block !important; 
+}
+
+#mobile-menu { 
+  display: block;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease-out, padding-top 0.4s ease-out, padding-bottom 0.4s ease-out;
+  background: rgba(111, 45, 168, 0.7);
+  box-shadow: 0 2px 12px rgba(0,0,0,0.15);
+  padding-left: 1rem;
+  padding-top: 0;
+  padding-right: 1rem;
+  padding-bottom: 0;
+}
+
+/* At 800px and above: Show desktop nav, hide hamburger */
+@media (min-width: 800px) {
+  #desktop-nav { 
+    display: flex !important; 
+  }
+  
+  #nav-toggle { 
+    display: none !important; 
+  }
+  
+  #mobile-menu { 
+    max-height: 0 !important;
+    overflow: hidden;
+  }
+}
+
+/* Mobile menu open state */
+#mobile-menu.open {
+  max-height: 500px;
+  transition: max-height 0.6s ease-out;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+#mobile-menu .nav-link {
+  display: block;
+  padding: 0.5rem 0.5rem;
+  margin-bottom: 0.3rem;
+} 
 
 /* ── Hero Carousel (index.html) ────────────────── */
 #carousel {
