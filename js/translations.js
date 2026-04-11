@@ -218,16 +218,16 @@ const translations = {
   // About page
   "about-page-title": "About Us",
   "about-story-title": "Our Story",
-  "about-story-text": "Cup of Cake was born from a love of good coffee and handmade sweets. We started in 2018 with a small shop in Peristeri and today we have become the favourite destination for all those seeking quality taste and warm atmosphere.",
+  "about-story-text": "Cup of Cake was born out of a love for great coffee and handmade sweets. We opened this year with a small shop in Peristeri, and our goal is to become a favorite destination for anyone looking for a break from the daily routine and a sweet indulgence. With care and passion for flavor, we offer aromatic coffee, freshly made desserts, and delicious brunch options every day.",
   "about-mission-title": "Our Mission",
-  "about-mission-text": "Our goal is to provide a unique experience with every visit. We use only fresh, local ingredients and love to experiment with new flavours without losing our authenticity.",
+  "about-mission-text": "Our goal is to offer a unique experience with every visit. We use only fresh, high-quality ingredients and love experimenting with new flavors, like our incredibly delicious profiterole pancakes. We want to become part of your everyday life, offering not just tasty products but also a space where you can relax, work, or meet up with friends.",
   "about-atmosphere-title": "Our Atmosphere",
-  "about-atmosphere-text": "Our space is designed to make you feel at home. Warm colours, comfortable seating and relaxing music - all there to make your visit unforgettable.",
+  "about-atmosphere-text": "Our space is designed for you to enjoy a quick break from your daily routine. Comfortable seating, beautiful decor, and relaxing music are here to welcome you every day—whether you're stopping by for your morning coffee or an afternoon dessert with friends.",
   "about-values-title": "Our Values",
-  "about-val1": "Quality in every detail",
-  "about-val2": "Warm service",
-  "about-val3": "Local & fresh ingredients",
-  "about-val4": "Sustainable practices",
+  "about-val1": "Handmade sweets made with love",
+  "about-val2": "Quality in every detail",
+  "about-val3": "Warm, friendly service",
+  "about-val4": "Fresh & pure ingredients",
 
   // 404 page
   "404-title": "Oops! Page not found",

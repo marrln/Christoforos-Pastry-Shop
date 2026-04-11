@@ -9,24 +9,31 @@
   <link rel="stylesheet" href="assets/styles.css" />
 </head>
 <body>
-  <!-- Content -->
 
-
-  <!-- ══════════ HERO ══════════ -->
+  <!-- HERO -->
   <div class="about-hero">
     <h1 class="text-4xl font-extrabold mb-3" data-i18n="about-page-title">Σχετικά με εμάς</h1>
     <p class="text-lg opacity-85 max-w-xl mx-auto">Cup of Cake - Περιστέρι, Αθήνα</p>
   </div>
 
-  <!-- ══════════ MAIN CONTENT ══════════ -->
-  <main class="max-w-6xl mx-auto px-4 py-14 space-y-16">
+  <!-- MAIN CONTENT -->
+  <div id="parallax-wrapper">
+    <main class="max-w-6xl mx-auto px-4 py-14 space-y-16">
 
     <!-- Story + image -->
     <section class="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
       <div>
         <h2 class="section-title" data-i18n="about-story-title">Η Ιστορία μας</h2>
-        <p class="mt-4 text-gray-600 leading-relaxed" data-i18n="about-story-text">
-          Το Cup of Cake γεννήθηκε από την αγάπη για τον καλό καφέ και τα χειροποίητα γλυκά. Ξεκινήσαμε το 2018 με ένα μικρό μαγαζάκι στο Περιστέρι και σήμερα έχουμε γίνει ο αγαπημένος προορισμός όλων όσων αναζητούν ποιοτική γεύση και ζεστή ατμόσφαιρα.
+        <p class="mt-4 text-gray-600 leading-relaxed text-justify" data-i18n="about-story-text">
+          Το Cup of Cake γεννήθηκε από την αγάπη 
+          για τον καλό καφέ και τα χειροποίητα γλυκά. 
+          Ξεκινήσαμε φέτος με ένα μικρό μαγαζάκι στο Περιστέρι 
+          και έχουμε σκοπό να γίνουμε ο αγαπημένος προορισμός 
+          όλων όσων αναζητούν ένα διάλειμμα από την καθημερινότητα
+          και μια γλυκιά απόλαυση.
+          Με μεράκι και πάθος για τη γεύση,
+          προσφέρουμε καθημερινά αρωματικό καφέ, 
+          ολόφρεσκα γλυκά και νόστιμες επιλογές brunch.
         </p>
       </div>
       <div>
@@ -47,8 +54,14 @@
       </div>
       <div class="order-1 md:order-2">
         <h2 class="section-title" data-i18n="about-mission-title">Η Αποστολή μας</h2>
-        <p class="mt-4 text-gray-600 leading-relaxed" data-i18n="about-mission-text">
-          Στόχος μας είναι να προσφέρουμε μια μοναδική εμπειρία σε κάθε επίσκεψη. Χρησιμοποιούμε μόνο φρέσκα, τοπικά υλικά και αγαπάμε να πειραματιζόμαστε με νέες γεύσεις χωρίς να χάνουμε την αυθεντικότητά μας.
+        <p class="mt-4 text-gray-600 leading-relaxed text-justify" data-i18n="about-mission-text">
+          Στόχος μας είναι να προσφέρουμε μια μοναδική εμπειρία σε κάθε επίσκεψη. 
+          Χρησιμοποιούμε μόνο φρέσκα, αγνά υλικά και αγαπάμε 
+          να πειραματιζόμαστε με νέες γεύσεις όπως τα πεντανόστιμα pancakes profiterole μας.
+          Θέλουμε να γίνουμε μέρος της καθημερινότητάς σας,
+          προσφέροντας όχι μόνο νόστιμα προϊόντα αλλά 
+          και έναν χώρο όπου μπορείτε να χαλαρώσετε, 
+          να εργαστείτε ή να συναντηθείτε με φίλους.
         </p>
       </div>
     </section>
@@ -57,8 +70,13 @@
     <section class="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
       <div>
         <h2 class="section-title" data-i18n="about-atmosphere-title">Η Ατμόσφαιρά μας</h2>
-        <p class="mt-4 text-gray-600 leading-relaxed" data-i18n="about-atmosphere-text">
-          Ο χώρος μας είναι σχεδιασμένος για να νιώθετε σαν στο σπίτι σας. Ζεστά χρώματα, άνετα καθίσματα και μουσική που σας χαλαρώνει - όλα εκεί για να κάνουν την επίσκεψή σας αξέχαστη.
+        <p class="mt-4 text-gray-600 leading-relaxed text-justify" data-i18n="about-atmosphere-text">
+          Ο χώρος μας είναι σχεδιασμένος για να απολαύσεται 
+          ένα γρήγορο διάλειμμα από την καθημερινότητά σας. 
+          Άνετα καθίσματα, όμορφη διακόσμηση και χαλαρή μουσική 
+          είναι εκεί για να σας καλωσορίσουν κάθε μέρα, 
+          είτε έρχεστε για τον πρωινό σας καφέ 
+          είτε για ένα απογευματινό γλυκό με φίλους.
         </p>
       </div>
       <div>
@@ -73,16 +91,18 @@
     <section class="text-center" style="background:var(--pale-1); border-radius:20px; padding:2.5rem;">
       <h2 class="section-title mx-auto" data-i18n="about-values-title">Οι Αξίες μας</h2>
       <div class="flex flex-wrap justify-center gap-4 mt-8">
+        <span class="value-pill"><i class="fa fa-hand-holding-heart"></i> <span data-i18n="about-val2">Χειροποίητα γλυκά φτιαγμένα με αγάπη</span></span>
         <span class="value-pill"><i class="fa fa-star"></i> <span data-i18n="about-val1">Ποιότητα σε κάθε λεπτομέρεια</span></span>
         <span class="value-pill"><i class="fa fa-heart"></i> <span data-i18n="about-val2">Ζεστή εξυπηρέτηση</span></span>
-        <span class="value-pill"><i class="fa fa-leaf"></i> <span data-i18n="about-val3">Τοπικά & φρέσκα υλικά</span></span>
-        <span class="value-pill"><i class="fa fa-recycle"></i> <span data-i18n="about-val4">Βιώσιμες πρακτικές</span></span>
+        <span class="value-pill"><i class="fa fa-leaf"></i> <span data-i18n="about-val3">Φρέσκα & αγνά υλικά</span></span>
       </div>
     </section>
 
   </main>
+  </div>
 
   <script src="js/translations.js"></script>
+  <script src="js/parallax-cover.js"></script>
   <script src="js/load-components.js"></script>
 </body>
 </html>
