@@ -83,6 +83,12 @@ main > section.menu-section.active {
   animation: fadeInMenu 0.4s ease-in-out;
 }
 
+@media (max-width: 900px) {
+  .menu-section > .grid {
+    grid-template-columns: 1fr !important;
+  }
+}
+
 @keyframes fadeInMenu {
   from {
     opacity: 0;
