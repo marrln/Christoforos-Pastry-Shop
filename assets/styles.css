@@ -27,6 +27,15 @@ html, body {
   padding: 0;
 }
 
+/* ── Utility Classes ──────────────────────────── */
+.hover-scale-105:hover {
+  transform: scale(1.05);
+}
+
+.hover-scale-120:hover {
+  transform: scale(1.2);
+}
+
 /* ── Scroll Reveal Animation ───────────────────── */
 section:not(#carousel):not(.menu-hero):not(.about-hero):not(#map-section):not(.menu-section), .feat-card, .menu-card, .info-card, .value-pill {
   opacity: 0;
@@ -634,8 +643,6 @@ p {
   transition: transform 0.2s;
 }
 
-.value-pill:hover { transform: scale(1.05); }
-
 /* ── Team photo placeholder (about_us.html) ───── */
 .photo-placeholder {
   width: 100%;
@@ -645,8 +652,6 @@ p {
   box-shadow: 0 4px 20px rgba(0,0,0,0.15);
   transition: transform 0.4s;
 }
-
-.photo-placeholder:hover { transform: scale(1.02); }
 
 /* ── 404 content (404_not_found.html) ──────────── */
 .error-content {
@@ -691,9 +696,6 @@ p {
   box-shadow: 0 4px 20px rgba(0,0,0,0.12);
 }
 
-/* ── Intro section (index.html) ────────────────── */
-#intro { background: var(--white); }
-
 /* ── Footer ────────────────────────────────────── */
 footer {
   background: var(--primary-07);
@@ -720,16 +722,21 @@ footer {
 
 footer a { color: var(--white); transition: color 0.2s; }
 footer a:hover { color: #fff; }
-
 footer p { text-align: left; }
 
 .social-icon {
   font-size: 1.4rem;
   margin-right: 0.8rem;
-  transition: transform 0.2s, color 0.2s;
+  transition: transform 0.2s;
   display: inline-flex;
   align-items: center;
   justify-content: center;
 }
 
-.social-icon:hover { transform: scale(1.2); color: var(--white); }
+.social-icon img {
+  height: 1.4rem;
+  width: 1.4rem;
+  object-fit: contain;
+  border-radius: 4px;
+}
+
