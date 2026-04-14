@@ -1,0 +1,594 @@
+{
+  "brunch": [
+    {
+      "id": "brunch-1",
+      "name": "Ομελέτα Γαλοπούλα",
+      "nameEn": "Turkey Omelette",
+      "price": "€7.80",
+      "description": "Με 3 αυγά, γαλοπούλα, gouda τριμμένο & ντοματίνια. Συνοδεύεται από 1 φέτα ψωμί φρυγανισμένο & σαλάτα (iceberg, radicchio, λόλα, vinaigrette, παρμεζάνα & ντοματίνια)",
+      "descriptionEn": "With 3 eggs, turkey, grated gouda & cherry tomatoes. Served with 1 slice of toasted bread & salad (iceberg, radicchio, lola lettuce, vinaigrette, parmesan & cherry tomatoes)"
+    },
+    {
+      "id": "brunch-2",
+      "name": "Classic Pancakes",
+      "nameEn": "Classic Pancakes",
+      "price": "€8.50",
+      "description": "3 pancakes με τυρί κρέμα, γαλοπούλα, gouda, ντοματίνια & μαρούλι. Συνοδεύεται από σαλάτα (iceberg, radicchio, λόλα, vinaigrette, παρμεζάνα & ντοματίνια)",
+      "descriptionEn": "3 pancakes with cream cheese, turkey, gouda, cherry tomatoes & lettuce. Served with salad (iceberg, radicchio, lola lettuce, vinaigrette, parmesan & cherry tomatoes)"
+    },
+    {
+      "id": "brunch-3",
+      "name": "Special Pancakes",
+      "nameEn": "Special Pancakes",
+      "price": "€11.00",
+      "description": "3 pancakes με τυρί κρέμα, κοτόπουλο, gouda, ντοματίνια, μπέικον & αυγό τηγανητό. Συνοδεύεται από σαλάτα (iceberg, radicchio, λόλα, vinaigrette, παρμεζάνα & ντοματίνια)",
+      "descriptionEn": "3 pancakes with cream cheese, chicken, gouda, cherry tomatoes, bacon & fried egg. Served with salad (iceberg, radicchio, lola lettuce, vinaigrette, parmesan & cherry tomatoes)"
+    },
+    {
+      "id": "brunch-4",
+      "name": "Croque Monsieur",
+      "nameEn": "Croque Monsieur",
+      "price": "€11.00",
+      "description": "Με διπλή καπνιστή γαλοπούλα, διπλό gouda & μπεσαμέλ. Συνοδεύεται από σαλάτα (iceberg, radicchio, λόλα, vinaigrette, παρμεζάνα & ντοματίνια)",
+      "descriptionEn": "With double smoked turkey, double gouda & béchamel. Served with salad (iceberg, radicchio, lola lettuce, vinaigrette, parmesan & cherry tomatoes)"
+    },
+    {
+      "id": "brunch-5",
+      "name": "Croque Madame",
+      "nameEn": "Croque Madame",
+      "price": "€11.70",
+      "description": "Με διπλή καπνιστή γαλοπούλα, διπλό gouda, μπεσαμέλ & αυγό τηγανητό. Συνοδεύεται από σαλάτα (με iceberg, radicchio, λόλα, vinaigrette, παρμεζάνα & ντοματίνια)",
+      "descriptionEn": "With double smoked turkey, double gouda, béchamel & fried egg. Served with salad (iceberg, radicchio, lola lettuce, vinaigrette, parmesan & cherry tomatoes)"
+    }
+  ],
+  "waffles": [
+    {
+      "id": "waffles-1",
+      "name": "Βάφλα Choco",
+      "nameEn": "Choco Waffle",
+      "price": "€7.20",
+      "description": "Με πραλίνα φουντούκι & φουντούκι ψιλοκομμένο",
+      "descriptionEn": "With hazelnut spread & chopped hazelnuts"
+    },
+    {
+      "id": "waffles-2",
+      "name": "Βάφλα Speculoos",
+      "nameEn": "Speculoos Waffle",
+      "price": "€8.50",
+      "description": "Με πραλίνα Speculoos & μπισκότο Speculoos τριμμένο",
+      "descriptionEn": "With Speculoos spread & crushed Speculoos biscuit"
+    },
+    {
+      "id": "waffles-3",
+      "name": "Βάφλα Forest",
+      "nameEn": "Forest Waffle",
+      "price": "€9.80",
+      "description": "Με κρέμα Βαυβαρίας & μαρμελάδα κόκκινων φρούτων χειροποίητη",
+      "descriptionEn": "With Bavarian cream & homemade red fruit jam"
+    },
+    {
+      "id": "waffles-4",
+      "name": "Βάφλα Profiterole",
+      "nameEn": "Profiterole Waffle",
+      "price": "€9.80",
+      "description": "Με χειροποίητη σάλτσα προφιτερόλ σοκολάτας bitter, σαντιγύ & βανίλια",
+      "descriptionEn": "With handmade dark chocolate profiterole sauce, whipped cream & vanilla"
+    },
+    {
+      "id": "waffles-5",
+      "name": "Βάφλα Banoffee",
+      "nameEn": "Banoffee Waffle",
+      "price": "€9.80",
+      "description": "Με κρέμα Βαυβαρίας, πραλίνα καραμέλα, μπανάνα, σιρόπι καραμέλα & μπισκότο βουτύρου τριμμένο",
+      "descriptionEn": "With Bavarian cream, caramel spread, banana, caramel syrup & crushed butter biscuit",
+      "picture": {
+        "src": "assets/menu/baphla-banoffee.avif",
+        "alt": "Βάφλα Banoffee"
+      }
+    }
+  ],
+  "pancakes": [
+    {
+      "id": "pancakes-1",
+      "name": "Pancakes Cinnamon",
+      "nameEn": "Cinnamon Pancakes",
+      "price": "€7.20",
+      "description": "3 pancakes με μέλι, κανέλα & καρύδι",
+      "descriptionEn": "3 pancakes with honey, cinnamon & walnuts"
+    },
+    {
+      "id": "pancakes-2",
+      "name": "Pancakes Choco",
+      "nameEn": "Choco Pancakes",
+      "price": "€8.50",
+      "description": "3 pancakes με πραλίνα φουντούκι & φουντούκι ψιλοκομμένο",
+      "descriptionEn": "3 pancakes with hazelnut spread & chopped hazelnuts"
+    },
+    {
+      "id": "pancakes-3",
+      "name": "Pancakes Speculoos",
+      "nameEn": "Speculoos Pancakes",
+      "price": "€9.80",
+      "description": "3 pancakes με πραλίνα Speculoos & μπισκότο Speculoos τριμμένο",
+      "descriptionEn": "3 pancakes with Speculoos spread & crushed biscuit"
+    },
+    {
+      "id": "pancakes-4",
+      "name": "Pancakes Forest",
+      "nameEn": "Forest Pancakes",
+      "price": "€9.80",
+      "description": "3 pancakes με κρέμα Βαυβαρίας & μαρμελάδα κόκκινων φρούτων χειροποίητη",
+      "descriptionEn": "3 pancakes with Bavarian cream & homemade red fruit jam"
+    },
+    {
+      "id": "pancakes-5",
+      "name": "Pancakes Profiterole",
+      "nameEn": "Profiterole Pancakes",
+      "price": "€9.80",
+      "description": "3 pancakes με χειροποποίητη σάλτσα προφιτερόλ σοκολάτας bitter, σαντιγύ & βανίλια",
+      "descriptionEn": "3 pancakes with homemade dark chocolate profiterole sauce, whipped cream & vanilla",
+      "picture": {
+        "src": "assets/menu/profiterole_pancake.avif",
+        "alt": "Pancakes Profiterole"
+      }
+    },
+    {
+      "id": "pancakes-6",
+      "name": "Pancakes banoffee",
+      "nameEn": "Banoffee Pancakes",
+      "price": "€9.80",
+      "description": "3 pancakes με κρέμα Βαυβαρίας, πραλίνα καραμέλα, μπανάνα, σιρόπι καραμέλα & μπισκότο βουτύρου τριμμένο",
+      "descriptionEn": "3 pancakes with Bavarian cream, caramel spread, banana, caramel syrup & crushed biscuit"
+    }
+  ],
+  "sweets": [
+    {
+      "id": "sweets-1",
+      "name": "Cheesecake",
+      "nameEn": "Cheesecake",
+      "price": "€4.50",
+      "description": "Ατομικό cheesecake με σάλτσα φράουλα χειροποίητη",
+      "descriptionEn": "Individual cheesecake with homemade strawberry sauce"
+    },
+    {
+      "id": "sweets-2",
+      "name": "Tiramisu",
+      "nameEn": "Tiramisu",
+      "price": "€4.50",
+      "description": "Ατομικό tiramisu στρώσεις από σαβουαγιάρ εμποτισμένα σε espresso, κρέμα μασκαρπόνε και σκόνη κακάο",
+      "descriptionEn": "Individual tiramisu with layers of espresso-soaked savoiardi, mascarpone cream and cocoa powder"
+    },
+    {
+      "id": "sweets-3",
+      "name": "Προφιτερόλ",
+      "nameEn": "Profiterole",
+      "price": "€4.50",
+      "description": "Ατομικό προφιτερόλ με σάλτσα σοκολάτας bitter, σαντιγύ & βανίλια",
+      "descriptionEn": "Individual profiterole with dark chocolate sauce, whipped cream & vanilla"
+    },
+    {
+      "id": "sweets-4",
+      "name": "Carrot Cake",
+      "nameEn": "Carrot Cake",
+      "price": "€4.50",
+      "description": "Κομμάτι με βουτυρόκρεμα με τυρί κρέμα & καρύδι ψιλοκομμένο",
+      "descriptionEn": "One slice With cream cheese buttercream & chopped walnuts"
+    },
+    {
+      "id": "sweets-5",
+      "name": "Red Velvet Cake",
+      "nameEn": "Red Velvet Cake",
+      "price": "€4.50",
+      "description": "Κομμάτι με βουτυρόκρεμα με τυρί κρέμα & μαρμελάδα φράουλα χειροποίητη",
+      "descriptionEn": "A slice with cream cheese buttercream & homemade strawberry jam",
+      "picture": {
+        "src": "assets/menu/red_velvet.avif",
+        "alt": "Red Velvet Cake"
+      }
+    },
+    {
+      "id": "sweets-6",
+      "name": "Εκμέκ Τσουρέκι",
+      "nameEn": "Ekmek Tsoureki",
+      "price": "€4.50",
+      "description": "Κομμάτι παραδοσιακό εκμέκ με πολίτικο τσουρέκι",
+      "descriptionEn": "Slice of traditional dessert with Constantinople-style tsoureki (sweet bread)"
+    },
+    {
+      "id": "sweets-7",
+      "name": "Εκμέκ Κανταΐφι",
+      "nameEn": "Ekmek Kadaifi",
+      "price": "€4.50",
+      "description": "Κομμάτι παραδοσιακό εκμέκ με κανταΐφι",
+      "descriptionEn": "Slice of traditional dessert with kadaifi (shredded phyllo dough)"
+    },
+    {
+      "id": "sweets-8",
+      "name": "Τάρτα Μήλου / Μηλόπιτα",
+      "nameEn": "Apple Tart / Apple Pie",
+      "price": "€4.50",
+      "description": "Κομμάτι παραδοσιακή μηλόπιτα με κρέμα βανίλιας & ολόκληρα κομμάτια μήλου",
+      "descriptionEn": "Slice of traditional apple pie with vanilla cream & whole apple pieces"
+    },
+    {
+      "id": "sweets-9",
+      "name": "Καρυδόπιτα",
+      "nameEn": "Walnut Cake (Karidopita)",
+      "price": "€4.50",
+      "description": "Κομμάτι με κρέμα βανίλιας και ψιλοκομμένο καρύδι",
+      "descriptionEn": "Slice with vanilla cream and chopped walnuts"
+    },
+    {
+      "id": "sweets-10",
+      "name": "Cheesecake Λεμόνι",
+      "nameEn": "Lemon Cheesecake",
+      "price": "€4.50",
+      "description": "Κομμάτι με χειροποίητη κρέμα λεμόνι",
+      "descriptionEn": "A slice With homemade lemon cream"
+    },
+    {
+      "id": "sweets-11",
+      "name": "Coffee Lotus",
+      "nameEn": "Coffee Lotus",
+      "price": "€4.50",
+      "description": "Ατομικό γλυκό με τυρί κρέμα, μονή δόση espresso & μπισκότο Lotus",
+      "descriptionEn": "Individual portion With cream cheese, single espresso shot & Lotus biscuit"
+    },
+    {
+      "id": "sweets-12",
+      "name": "Μιλφέιγ",
+      "nameEn": "Millefeuille",
+      "price": "€4.50",
+      "description": "Ατομικό μιλφέιγ με κρέμα βανίλιας",
+      "descriptionEn": "Individual millefeuille with vanilla cream"
+    },
+    {
+      "id": "sweets-13",
+      "name": "Γαλακτομπούρεκο",
+      "nameEn": "Galaktoboureko",
+      "price": "€4.50",
+      "description": "Κομμάτι παραδοσιακού γαλακτομπούρεκο με φύλλο κρούστας, κρέμα βανίλιας & σιρόπι λεμόνι",
+      "descriptionEn": "Slice of traditional galaktoboureko with phyllo dough, vanilla cream & lemon syrup"
+    },
+    {
+      "id": "sweets-14",
+      "name": "Γαλακτομπούρεκο Κανταΐφι",
+      "nameEn": "Galaktoboureko Kadaifi",
+      "price": "€4.50",
+      "description": "Κομμάτι παραδοσιακού γαλακτομπούρεκου με κανταΐφι, κρέμα βανίλιας & σιρόπι λεμόνι",
+      "descriptionEn": "Slice of traditional galaktoboureko with kadaifi, vanilla cream & lemon syrup"
+    }
+  ],
+  "sandwiches": [
+    {
+      "id": "sandwiches-1",
+      "name": "Τορτίγια Κοτόπουλο",
+      "nameEn": "Chicken Tortilla Wrap",
+      "price": "€4.50",
+      "description": "Με γαλοπούλα, gouda, ντομάτα & σως μουστάρδας",
+      "descriptionEn": "With turkey, gouda, tomato & mustard sauce"
+    },
+    {
+      "id": "sandwiches-2",
+      "name": "Sandwich με Καπνιστή Γαλοπούλα",
+      "nameEn": "Smoked Turkey Sandwich",
+      "price": "€3.90",
+      "description": "Με καπνιστή γαλοπούλα, gouda, ντομάτα, μαρούλι & σως μουστάρδας",
+      "descriptionEn": "With smoked turkey, gouda, tomato, lettuce & mustard sauce"
+    },
+    {
+      "id": "sandwiches-3",
+      "name": "Sandwich με Κοτόπουλο",
+      "nameEn": "Chicken Sandwich",
+      "price": "€4.50",
+      "description": "Με κοτόπουλο, gouda, ντομάτα, μαρούλι & σως μουστάρδας",
+      "descriptionEn": "With chicken, gouda, tomato, lettuce & mustard sauce"
+    }
+  ],
+  "sfolies": [
+    {
+      "id": "sfolies-1",
+      "name": "Τυρόπιτα",
+      "nameEn": "Tiropita (Cheese Pie)",
+      "price": "€1.80",
+      "description": "Τυρόπιτα με σφολιάτα.",
+      "descriptionEn": "Greek cheese pie with puff pastry."
+    },
+    {
+      "id": "sfolies-2",
+      "name": "Τυρόπιτα Tαψιού",
+      "nameEn": "Pan Baked Tiropita (Cheese Pie)",
+      "price": "€3.90",
+      "description": "Τυρόπιτα ταψιού",
+      "descriptionEn": "Greek cheese pie baked in a pan."
+    },
+    {
+      "id": "sfolies-3",
+      "name": "Κοτόπιτα Ταψιού",
+      "nameEn": "Pan Baked Chicken Pie",
+      "price": "€4.50",
+      "description": "Με κόκκινη πιπεριά, μπεσαμέλ, κοτόπουλο & gouda",
+      "descriptionEn": "With red pepper, béchamel, chicken & gouda"
+    },
+    {
+      "id": "sfolies-4",
+      "name": "Φλογέρα Κοτόπουλο",
+      "nameEn": "Chicken Flogera (Chicken Roll)",
+      "price": "€3.90",
+      "description": "Σφολιάτα με κοτόπουλο, κόκκινη πιπεριά, μπεσαμέλ, κοτόπουλο & gouda",
+      "descriptionEn": "Puff pastry with chicken, red pepper, béchamel, chicken & gouda"
+    },
+    {
+      "id": "sfolies-5",
+      "name": "Πατατόπιτα",
+      "nameEn": "Potato Pie",
+      "price": "€2.50",
+      "description": "Νηστίσιμη πατατόπιτα με σφολιάτα, πατάτα, κρεμμύδι & μπαχαρικά",
+      "descriptionEn": "Vegetarian potato pie with puff pastry, potato, onion & spices"
+    }
+  ],
+  "snacks": [
+    {
+      "id": "snacks-1",
+      "name": "Μπάρα Δημητριακών με Φρούτα του Δάσους",
+      "nameEn": "Cereal Bar with Forest Fruits",
+      "price": "€2.60",
+      "description": "Χειροποίητη",
+      "descriptionEn": "Homemade"
+    },
+    {
+      "id": "snacks-2",
+      "name": "Soft Cookie Βανίλια με Κομμάτια Σοκολάτας",
+      "nameEn": "Soft Cookie Vanilla with Chocolate Chips",
+      "price": "€2.60",
+      "description": "Χειροποίητο",
+      "descriptionEn": "Homemade"
+    },
+    {
+      "id": "snacks-3",
+      "name": "Soft Cookie Σοκολάτα με Κομμάτια Σοκολάτας",
+      "nameEn": "Soft Cookie Chocolate with Chocolate Chips",
+      "price": "€2.60",
+      "description": "Χειροποίητο",
+      "descriptionEn": "Homemade"
+    },
+    {
+      "id": "snacks-4",
+      "name": "Soft Cookie Lotus",
+      "nameEn": "Soft Cookie Lotus",
+      "price": "€2.60",
+      "description": "Χειροποίητο",
+      "descriptionEn": "Homemade"
+    }
+  ],
+  "coffees": [
+    {
+      "id": "coffees-1",
+      "name": "Espresso",
+      "nameEn": "Espresso",
+      "price": "€2.30",
+      "description": "Δυνατός καφές με συμπυκνωμένη γεύση και άρωμα.",
+      "descriptionEn": "Strong coffee with concentrated flavor and aroma",
+      "icon": "fas fa-mug-hot"
+    },
+    {
+      "id": "coffees-2",
+      "name": "Espresso Macchiato",
+      "nameEn": "Espresso Macchiato",
+      "price": "€2.50",
+      "description": "Espresso με μικρή ποσότητα γάλακτος.",
+      "descriptionEn": "Espresso with a small amount of milk",
+      "icon": "fas fa-mug-hot"
+    },
+    {
+      "id": "coffees-3",
+      "name": "Freddo Espresso",
+      "nameEn": "Freddo Espresso",
+      "price": "€2.50",
+      "description": "Κρύος espresso, χτυπημένος για απαλή υφή.",
+      "descriptionEn": "Iced espresso, blended for a smooth texture",
+      "icon": "fas fa-mug-hot",
+      "picture": {
+        "src": "assets/menu/freddo-espresso.avif",
+        "alt": "Freddo Espresso"
+      }
+    },
+    {
+      "id": "coffees-4",
+      "name": "Cappuccino",
+      "nameEn": "Cappuccino",
+      "price": "€2.40",
+      "description": "Espresso με ζεστό γάλα και αφρόγαλα.",
+      "descriptionEn": "Espresso with steamed milk and milk foam",
+      "icon": "fas fa-mug-hot"
+    },
+    {
+      "id": "coffees-5",
+      "name": "Cappuccino Latte",
+      "nameEn": "Cappuccino Latte",
+      "price": "€2.60",
+      "description": "Καφές με περισσότερο γάλα και ήπια γεύση.",
+      "descriptionEn": "Coffee with more milk and a milder taste",
+      "icon": "fas fa-mug-hot"
+    },
+    {
+      "id": "coffees-6",
+      "name": "Freddo Cappuccino",
+      "nameEn": "Freddo Cappuccino",
+      "price": "€2.70",
+      "description": "Κρύος espresso με κρύο αφρόγαλα.",
+      "descriptionEn": "Iced espresso with cold milk foam",
+      "icon": "fas fa-coffee"
+    },
+    {
+      "id": "coffees-7",
+      "name": "Freddo Cappuccino Latte",
+      "nameEn": "Freddo Cappuccino Latte",
+      "price": "€2.90",
+      "description": "Κρύος καφές με περισσότερο γάλα.",
+      "descriptionEn": "Iced coffee with more milk",
+      "icon": "fas fa-coffee"
+    },
+    {
+      "id": "coffees-8",
+      "name": "Flat White",
+      "nameEn": "Flat White",
+      "price": "€2.40",
+      "description": "Διπλός espresso με ζεστό γάλα και ελαφρύ αφρό.",
+      "descriptionEn": "Double espresso with steamed milk and light foam",
+      "icon": "fas fa-mug-hot"
+    },
+    {
+      "id": "coffees-9",
+      "name": "Nes",
+      "nameEn": "Instant Coffee (Nes)",
+      "price": "€2.20",
+      "description": "Στιγμιαίος καφές ζεστός ή κρύος.",
+      "descriptionEn": "Instant coffee, hot or cold",
+      "icon": "fas fa-mug-hot"
+    },
+    {
+      "id": "coffees-10",
+      "name": "Frappe",
+      "nameEn": "Frappe",
+      "price": "€2.20",
+      "description": "Κλασικός ελληνικός κρύος στιγμιαίος καφές.",
+      "descriptionEn": "Classic Greek iced instant coffee",
+      "icon": "fas fa-coffee"
+    },
+    {
+      "id": "coffees-11",
+      "name": "Φίλτρου",
+      "nameEn": "Filter Coffee",
+      "price": "€2.60",
+      "description": "Καφές φίλτρου με ήπια και καθαρή γεύση.",
+      "descriptionEn": "Filter coffee with a mild, clean taste",
+      "icon": "fas fa-mug-hot"
+    },
+    {
+      "id": "coffees-12",
+      "name": "Ελληνικός",
+      "nameEn": "Greek Coffee",
+      "price": "€2.30",
+      "description": "Παραδοσιακός ελληνικός καφές στη χόβολη.",
+      "descriptionEn": "Traditional Greek coffee brewed in a briki",
+      "icon": "fas fa-mug-hot"
+    },
+    {
+      "id": "coffees-13",
+      "name": "Espresso Americano",
+      "nameEn": "Americano",
+      "price": "€2.00",
+      "description": "Espresso αραιωμένος με ζεστό νερό.",
+      "descriptionEn": "Espresso diluted with hot water",
+      "icon": "fas fa-mug-hot"
+    }
+  ],
+  "drinks": [
+    {
+      "id": "drinks-1",
+      "name": "Ρόφημα Σοκολάτας",
+      "nameEn": "Chocolate Drink",
+      "price": "€2.60",
+      "description": "Ζεστό ή κρύο ρόφημα σοκολάτας.",
+      "descriptionEn": "Chocolate drink served hot or cold"
+    },
+    {
+      "id": "drinks-2",
+      "name": "Ρόφημα Σοκολάτας Bitter",
+      "nameEn": "Dark Chocolate Drink",
+      "price": "€2.60",
+      "description": "Ζεστό ή κρύο ρόφημα μαύρης σοκολάτας.",
+      "descriptionEn": "Dark chocolate drink served hot or cold"
+    },
+    {
+      "id": "drinks-3",
+      "name": "Φυσικός Χυμός Πορτοκάλι",
+      "nameEn": "Fresh Orange Juice",
+      "price": "€2.80",
+      "description": "Φρεσκοστυμμένος χυμός πορτοκάλι.",
+      "descriptionEn": "Freshly squeezed orange juice"
+    },
+    {
+      "id": "drinks-4",
+      "name": "Τσάι",
+      "nameEn": "Tea",
+      "price": "€2.40",
+      "description": "Ζεστό ή κρύο τσάι σε διάφορες γεύσεις.",
+      "descriptionEn": "Tea served hot or cold in various flavors"
+    },
+    {
+      "id": "drinks-5",
+      "name": "Χαμομήλι",
+      "nameEn": "Chamomile",
+      "price": "€2.40",
+      "description": "Αφέψημα χαμομηλιού ζεστό ή κρύο.",
+      "descriptionEn": "Chamomile infusion served hot or cold"
+    },
+    {
+      "id": "drinks-6",
+      "name": "Λεμονάδα",
+      "nameEn": "Lemonade",
+      "price": "€3.20",
+      "description": "Δροσιστική λεμονάδα.",
+      "descriptionEn": "Refreshing lemonade",
+      "icon": "fas fa-lemon"
+    },
+    {
+      "id": "drinks-7",
+      "name": "Ροδακινάδα",
+      "nameEn": "Peach Juice",
+      "price": "€3.20",
+      "description": "Χυμός ροδάκινο.",
+      "descriptionEn": "Peach juice"
+    },
+    {
+      "id": "drinks-8",
+      "name": "Βυσσινάδα",
+      "nameEn": "Sour Cherry Juice",
+      "price": "€3.20",
+      "description": "Χυμός βύσσινο.",
+      "descriptionEn": "Sour cherry juice"
+    },
+    {
+      "id": "drinks-9",
+      "name": "Iced Tea Λεμόνι Χειροποίητο",
+      "nameEn": "Homemade Lemon Iced Tea",
+      "price": "€3.50",
+      "description": "Χειροποίητο παγωμένο τσάι λεμόνι.",
+      "descriptionEn": "Homemade lemon iced tea"
+    },
+    {
+      "id": "drinks-10",
+      "name": "Iced Tea Ροδάκινο Χειροποίητο",
+      "nameEn": "Homemade Peach Iced Tea",
+      "price": "€3.50",
+      "description": "Χειροποίητο παγωμένο τσάι ροδάκινο.",
+      "descriptionEn": "Homemade peach iced tea"
+    },
+    {
+      "id": "drinks-11",
+      "name": "Χυμός Μήλο & Ρόδι",
+      "nameEn": "Apple & Pomegranate Juice",
+      "price": "€3.20",
+      "description": "Χυμός μήλο και ρόδι.",
+      "descriptionEn": "Apple and pomegranate juice"
+    },
+    {
+      "id": "drinks-12",
+      "name": "Χυμός 8 Φρούτων",
+      "nameEn": "Mixed Fruit Juice",
+      "price": "€3.20",
+      "description": "Χυμός από ανάμεικτα φρούτα.",
+      "descriptionEn": "Mixed fruit juice"
+    },
+    {
+      "id": "drinks-13",
+      "name": "Χαμομήλι & Μέλι",
+      "nameEn": "Chamomile & Honey",
+      "price": "€2.80",
+      "description": "Χαμομήλι με μέλι ζεστό ή κρύο.",
+      "descriptionEn": "Chamomile with honey served hot or cold"
+    }
+  ]
+}

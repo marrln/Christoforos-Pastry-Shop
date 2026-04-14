@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Κατάλογος - Cup of Cake</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body>
+
+  <!-- Hero -->
+  <div class="menu-hero">
+    <h1 class="text-4xl font-extrabold mb-2" data-i18n="menu-page-title">Το menu μας</h1>
+    <p class="text-lg opacity-85" data-i18n="menu-page-subtitle">Ανακαλύψτε τις γεύσεις μας</p>
+  </div>
+
+  <!-- Content Wrapper for Parallax -->
+  <div id="parallax-wrapper">
+    <!-- Category Buttons -->
+    <div class="py-4 px-4 bg-gradient-to-b from-white to-gray-50">
+      <div class="max-w-7xl mx-auto">
+        <div class="flex flex-wrap gap-3 justify-center">
+          <button class="menu-category-btn active" data-category="brunch" data-i18n="cat-brunch">Brunch</button>
+          <button class="menu-category-btn" data-category="waffles" data-i18n="cat-waffles">Βάφλες</button>
+          <button class="menu-category-btn" data-category="pancakes" data-i18n="cat-pancakes">Pancakes Γλυκά</button>
+          <button class="menu-category-btn" data-category="sweets" data-i18n="cat-sweets">Γλυκά</button>
+          <button class="menu-category-btn" data-category="sandwiches" data-i18n="cat-sandwiches">Sandwiches</button>
+          <button class="menu-category-btn" data-category="sfolies" data-i18n="cat-sfolies">Σφολιάτες</button>
+          <button class="menu-category-btn" data-category="snacks" data-i18n="cat-snacks">Snacks</button>
+          <button class="menu-category-btn" data-category="coffees" data-i18n="cat-coffees">Καφέδες</button>
+          <button class="menu-category-btn" data-category="drinks" data-i18n="cat-drinks">Ροφήματα</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Menu Sections (generated dynamically by renderer) -->
+    <main>
+    </main>
+    
+  <script src="js/translations.js"></script>
+  <script src="js/parallax-cover.js"></script>
+  <script src="js/scroll-reveal.js"></script>
+  <script src="js/load-components.js"></script>
+  <script src="js/menu-card-renderer.js"></script>
+  <script src="js/menu-tabs.js"></script>
+</body>
+</html>

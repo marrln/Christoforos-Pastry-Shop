@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Σχετικά - Cup of Cake</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body>
+
+  <!-- HERO -->
+  <div class="about-hero">
+    <h1 class="text-4xl font-extrabold mb-3" data-i18n="about-page-title">Σχετικά με εμάς</h1>
+    <p class="text-lg opacity-85 max-w-xl mx-auto">Cup of Cake - Περιστέρι, Αθήνα</p>
+  </div>
+
+  <!-- MAIN CONTENT -->
+  <div id="parallax-wrapper">
+    <main class="max-w-6xl mx-auto px-4 py-8 space-y-8">
+
+    <!-- Story + image -->
+    <section class="grid grid-cols-1 md:grid-cols-2 gap-10 items-center about-section">
+      <div>
+        <h2 class="section-title" data-i18n="about-story-title">Η Ιστορία μας</h2>
+        <p class="mt-4 text-gray-600 leading-relaxed text-justify" data-i18n="about-story-text">
+          Το Cup of Cake γεννήθηκε από την αγάπη 
+          για τον καλό καφέ και τα χειροποίητα γλυκά. 
+          Ξεκινήσαμε φέτος με ένα μικρό μαγαζάκι στο Περιστέρι 
+          και έχουμε σκοπό να γίνουμε ο αγαπημένος προορισμός 
+          όλων όσων αναζητούν ένα διάλειμμα από την καθημερινότητα
+          και μια γλυκιά απόλαυση.
+          Με μεράκι και πάθος για τη γεύση,
+          προσφέρουμε καθημερινά αρωματικό καφέ, 
+          ολόφρεσκα γλυκά και νόστιμες επιλογές brunch.
+        </p>
+      </div>
+      <div>
+        <img
+          class="photo-placeholder"
+          src="https://images.unsplash.com/photo-1559305616-3f99cd43e353?w=800&q=80"
+          alt="Cup of Cake interior" />
+      </div>
+    </section>
+
+    <!-- Mission + image -->
+    <section class="grid grid-cols-1 md:grid-cols-2 gap-10 items-center about-section">
+      <div class="order-2 md:order-1">
+        <img
+          class="photo-placeholder"
+          src="https://images.unsplash.com/photo-1498804103079-a6351b050096?w=800&q=80"
+          alt="Barista making coffee" />
+      </div>
+      <div class="order-1 md:order-2">
+        <h2 class="section-title" data-i18n="about-mission-title">Η Αποστολή μας</h2>
+        <p class="mt-4 text-gray-600 leading-relaxed text-justify" data-i18n="about-mission-text">
+          Στόχος μας είναι να προσφέρουμε μια μοναδική εμπειρία σε κάθε επίσκεψη. 
+          Χρησιμοποιούμε μόνο φρέσκα, αγνά υλικά και αγαπάμε 
+          να πειραματιζόμαστε με νέες γεύσεις όπως τα πεντανόστιμα pancakes profiterole μας.
+          Θέλουμε να γίνουμε μέρος της καθημερινότητάς σας,
+          προσφέροντας όχι μόνο νόστιμα προϊόντα αλλά 
+          και έναν χώρο όπου μπορείτε να χαλαρώσετε, 
+          να εργαστείτε ή να συναντηθείτε με φίλους.
+        </p>
+      </div>
+    </section>
+
+    <!-- Atmosphere + image -->
+    <section class="grid grid-cols-1 md:grid-cols-2 gap-10 items-center about-section">
+      <div>
+        <h2 class="section-title" data-i18n="about-atmosphere-title">Η Ατμόσφαιρά μας</h2>
+        <p class="mt-4 text-gray-600 leading-relaxed text-justify" data-i18n="about-atmosphere-text">
+          Ο χώρος μας είναι σχεδιασμένος για να απολαύσεται 
+          ένα γρήγορο διάλειμμα από την καθημερινότητά σας. 
+          Άνετα καθίσματα, όμορφη διακόσμηση και χαλαρή μουσική 
+          είναι εκεί για να σας καλωσορίσουν κάθε μέρα, 
+          είτε έρχεστε για τον πρωινό σας καφέ 
+          είτε για ένα απογευματινό γλυκό με φίλους.
+        </p>
+      </div>
+      <div>
+        <img
+          class="photo-placeholder"
+          src="https://images.unsplash.com/photo-1445116572660-236099ec97a0?w=800&q=80"
+          alt="Cozy café atmosphere" />
+      </div>
+    </section>
+
+    <!-- Values -->
+    <section class="text-center about-section">
+      <h2 class="section-title mx-auto" data-i18n="about-values-title">Οι Αξίες μας</h2>
+      <div class="flex flex-wrap justify-center gap-4 mt-8">
+        <span class="value-pill"><i class="fa fa-hand-holding-heart"></i> <span data-i18n="about-val2">Χειροποίητα γλυκά φτιαγμένα με αγάπη</span></span>
+        <span class="value-pill"><i class="fa fa-star"></i> <span data-i18n="about-val1">Ποιότητα σε κάθε λεπτομέρεια</span></span>
+        <span class="value-pill"><i class="fa fa-heart"></i> <span data-i18n="about-val2">Ζεστή εξυπηρέτηση</span></span>
+        <span class="value-pill"><i class="fa fa-leaf"></i> <span data-i18n="about-val3">Φρέσκα & αγνά υλικά</span></span>
+      </div>
+    </section>
+
+  </main>
+  </div>
+
+  <script src="js/translations.js"></script>
+  <script src="js/parallax-cover.js"></script>
+  <script src="js/scroll-reveal.js"></script>
+  <script src="js/load-components.js"></script>
+</body>
+</html>
