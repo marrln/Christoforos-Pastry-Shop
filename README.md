@@ -1,10 +1,10 @@
-# Cup of Cake
+# Christoforos Pastry Shop
 
-A website for Cup of Cake, a coffee shop and bakery located in Peristeri, Athens. The site showcases the shop's menu, provides information about the business, and features a bilingual interface supporting both Greek and English.
+A website for Christoforos Pastry Shop, a pastry shop located in Vyronas, Athens. The site showcases the shop's menu, provides information about the business, and features a bilingual interface supporting both Greek and English.
 
 ## Overview
 
-Cup of Cake is a locally-focused website built with HTML5, CSS, and JavaScript. It serves as a digital front for the physical coffee shop, displaying their offerings and welcoming customers to explore their menu and learn about the business.
+Christoforos Pastry Shop is a locally-focused website built with HTML5, CSS, and JavaScript. It serves as a digital front for the physical coffee shop, displaying their offerings and welcoming customers to explore their menu and learn about the business.
 
 ## Features
 
