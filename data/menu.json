@@ -1,594 +1,858 @@
 {
-  "brunch": [
+  "pastry": [
     {
-      "id": "brunch-1",
-      "name": "Ομελέτα Γαλοπούλα",
-      "nameEn": "Turkey Omelette",
-      "price": "€7.80",
-      "description": "Με 3 αυγά, γαλοπούλα, gouda τριμμένο & ντοματίνια. Συνοδεύεται από 1 φέτα ψωμί φρυγανισμένο & σαλάτα (iceberg, radicchio, λόλα, vinaigrette, παρμεζάνα & ντοματίνια)",
-      "descriptionEn": "With 3 eggs, turkey, grated gouda & cherry tomatoes. Served with 1 slice of toasted bread & salad (iceberg, radicchio, lola lettuce, vinaigrette, parmesan & cherry tomatoes)"
-    },
-    {
-      "id": "brunch-2",
-      "name": "Classic Pancakes",
-      "nameEn": "Classic Pancakes",
-      "price": "€8.50",
-      "description": "3 pancakes με τυρί κρέμα, γαλοπούλα, gouda, ντοματίνια & μαρούλι. Συνοδεύεται από σαλάτα (iceberg, radicchio, λόλα, vinaigrette, παρμεζάνα & ντοματίνια)",
-      "descriptionEn": "3 pancakes with cream cheese, turkey, gouda, cherry tomatoes & lettuce. Served with salad (iceberg, radicchio, lola lettuce, vinaigrette, parmesan & cherry tomatoes)"
-    },
-    {
-      "id": "brunch-3",
-      "name": "Special Pancakes",
-      "nameEn": "Special Pancakes",
-      "price": "€11.00",
-      "description": "3 pancakes με τυρί κρέμα, κοτόπουλο, gouda, ντοματίνια, μπέικον & αυγό τηγανητό. Συνοδεύεται από σαλάτα (iceberg, radicchio, λόλα, vinaigrette, παρμεζάνα & ντοματίνια)",
-      "descriptionEn": "3 pancakes with cream cheese, chicken, gouda, cherry tomatoes, bacon & fried egg. Served with salad (iceberg, radicchio, lola lettuce, vinaigrette, parmesan & cherry tomatoes)"
-    },
-    {
-      "id": "brunch-4",
-      "name": "Croque Monsieur",
-      "nameEn": "Croque Monsieur",
-      "price": "€11.00",
-      "description": "Με διπλή καπνιστή γαλοπούλα, διπλό gouda & μπεσαμέλ. Συνοδεύεται από σαλάτα (iceberg, radicchio, λόλα, vinaigrette, παρμεζάνα & ντοματίνια)",
-      "descriptionEn": "With double smoked turkey, double gouda & béchamel. Served with salad (iceberg, radicchio, lola lettuce, vinaigrette, parmesan & cherry tomatoes)"
-    },
-    {
-      "id": "brunch-5",
-      "name": "Croque Madame",
-      "nameEn": "Croque Madame",
-      "price": "€11.70",
-      "description": "Με διπλή καπνιστή γαλοπούλα, διπλό gouda, μπεσαμέλ & αυγό τηγανητό. Συνοδεύεται από σαλάτα (με iceberg, radicchio, λόλα, vinaigrette, παρμεζάνα & ντοματίνια)",
-      "descriptionEn": "With double smoked turkey, double gouda, béchamel & fried egg. Served with salad (iceberg, radicchio, lola lettuce, vinaigrette, parmesan & cherry tomatoes)"
-    }
-  ],
-  "waffles": [
-    {
-      "id": "waffles-1",
-      "name": "Βάφλα Choco",
-      "nameEn": "Choco Waffle",
-      "price": "€7.20",
-      "description": "Με πραλίνα φουντούκι & φουντούκι ψιλοκομμένο",
-      "descriptionEn": "With hazelnut spread & chopped hazelnuts"
-    },
-    {
-      "id": "waffles-2",
-      "name": "Βάφλα Speculoos",
-      "nameEn": "Speculoos Waffle",
-      "price": "€8.50",
-      "description": "Με πραλίνα Speculoos & μπισκότο Speculoos τριμμένο",
-      "descriptionEn": "With Speculoos spread & crushed Speculoos biscuit"
-    },
-    {
-      "id": "waffles-3",
-      "name": "Βάφλα Forest",
-      "nameEn": "Forest Waffle",
-      "price": "€9.80",
-      "description": "Με κρέμα Βαυβαρίας & μαρμελάδα κόκκινων φρούτων χειροποίητη",
-      "descriptionEn": "With Bavarian cream & homemade red fruit jam"
-    },
-    {
-      "id": "waffles-4",
-      "name": "Βάφλα Profiterole",
-      "nameEn": "Profiterole Waffle",
-      "price": "€9.80",
-      "description": "Με χειροποίητη σάλτσα προφιτερόλ σοκολάτας bitter, σαντιγύ & βανίλια",
-      "descriptionEn": "With handmade dark chocolate profiterole sauce, whipped cream & vanilla"
-    },
-    {
-      "id": "waffles-5",
-      "name": "Βάφλα Banoffee",
-      "nameEn": "Banoffee Waffle",
-      "price": "€9.80",
-      "description": "Με κρέμα Βαυβαρίας, πραλίνα καραμέλα, μπανάνα, σιρόπι καραμέλα & μπισκότο βουτύρου τριμμένο",
-      "descriptionEn": "With Bavarian cream, caramel spread, banana, caramel syrup & crushed butter biscuit",
-      "picture": {
-        "src": "assets/menu/baphla-banoffee.avif",
-        "alt": "Βάφλα Banoffee"
-      }
-    }
-  ],
-  "pancakes": [
-    {
-      "id": "pancakes-1",
-      "name": "Pancakes Cinnamon",
-      "nameEn": "Cinnamon Pancakes",
-      "price": "€7.20",
-      "description": "3 pancakes με μέλι, κανέλα & καρύδι",
-      "descriptionEn": "3 pancakes with honey, cinnamon & walnuts"
-    },
-    {
-      "id": "pancakes-2",
-      "name": "Pancakes Choco",
-      "nameEn": "Choco Pancakes",
-      "price": "€8.50",
-      "description": "3 pancakes με πραλίνα φουντούκι & φουντούκι ψιλοκομμένο",
-      "descriptionEn": "3 pancakes with hazelnut spread & chopped hazelnuts"
-    },
-    {
-      "id": "pancakes-3",
-      "name": "Pancakes Speculoos",
-      "nameEn": "Speculoos Pancakes",
-      "price": "€9.80",
-      "description": "3 pancakes με πραλίνα Speculoos & μπισκότο Speculoos τριμμένο",
-      "descriptionEn": "3 pancakes with Speculoos spread & crushed biscuit"
-    },
-    {
-      "id": "pancakes-4",
-      "name": "Pancakes Forest",
-      "nameEn": "Forest Pancakes",
-      "price": "€9.80",
-      "description": "3 pancakes με κρέμα Βαυβαρίας & μαρμελάδα κόκκινων φρούτων χειροποίητη",
-      "descriptionEn": "3 pancakes with Bavarian cream & homemade red fruit jam"
-    },
-    {
-      "id": "pancakes-5",
-      "name": "Pancakes Profiterole",
-      "nameEn": "Profiterole Pancakes",
-      "price": "€9.80",
-      "description": "3 pancakes με χειροποποίητη σάλτσα προφιτερόλ σοκολάτας bitter, σαντιγύ & βανίλια",
-      "descriptionEn": "3 pancakes with homemade dark chocolate profiterole sauce, whipped cream & vanilla",
-      "picture": {
-        "src": "assets/menu/profiterole_pancake.avif",
-        "alt": "Pancakes Profiterole"
-      }
-    },
-    {
-      "id": "pancakes-6",
-      "name": "Pancakes banoffee",
-      "nameEn": "Banoffee Pancakes",
-      "price": "€9.80",
-      "description": "3 pancakes με κρέμα Βαυβαρίας, πραλίνα καραμέλα, μπανάνα, σιρόπι καραμέλα & μπισκότο βουτύρου τριμμένο",
-      "descriptionEn": "3 pancakes with Bavarian cream, caramel spread, banana, caramel syrup & crushed biscuit"
-    }
-  ],
-  "sweets": [
-    {
-      "id": "sweets-1",
-      "name": "Cheesecake",
-      "nameEn": "Cheesecake",
+      "id": "pastry-1",
+      "name": "Πάστα Ferrero",
+      "nameEn": "Ferrero Cake",
       "price": "€4.50",
-      "description": "Ατομικό cheesecake με σάλτσα φράουλα χειροποίητη",
-      "descriptionEn": "Individual cheesecake with homemade strawberry sauce"
+      "description": "Με τραγανή βάση feuilletine, mousse φουντουκιού, crémeux πραλίνας φουντουκιού, ψιλοκομμένα φουντούκια και επικάλυψη σοκολάτας με αμύγδαλο.",
+      "descriptionEn": "Crunchy feuilletine base with hazelnut mousse, praline crémeux, chopped hazelnuts and chocolate-almond topping."
     },
     {
-      "id": "sweets-2",
+      "id": "pastry-2",
+      "name": "Πάστα Black Forest",
+      "nameEn": "Black Forest Cake",
+      "price": "€4.20",
+      "description": "Παντεσπάνι σοκολάτας με mousse σοκολάτας 54%, κρέμα βανίλιας, ολόκληρα μαυροκέρασα και χειροποίητη επικάλυψη κόκκινων φρούτων.",
+      "descriptionEn": "Chocolate sponge with 54% chocolate mousse, vanilla cream, whole sour cherries and handmade berry compote topping."
+    },
+    {
+      "id": "pastry-3",
+      "name": "Πάστα Αμυγδάλου",
+      "nameEn": "Almond Cake",
+      "price": "€3.80",
+      "description": "Λευκό παντεσπάνι με κρέμα patisserie βανίλιας, σαντιγί και ψιλοκομμένα καβουρδισμένα αμύγδαλα.",
+      "descriptionEn": "White sponge with vanilla patisserie cream, whipped cream and toasted sliced almonds."
+    },
+    {
+      "id": "pastry-4",
+      "name": "Πάστα Ποντικάκι",
+      "nameEn": "Pontikaki Cake",
+      "price": "€4.50",
+      "description": "Με ganache montée σοκολάτας 54%, παντεσπάνι σοκολάτας και γλάσο bitter σοκολάτας.",
+      "descriptionEn": "54% chocolate ganache montée with chocolate sponge and bitter chocolate glaze."
+    },
+    {
+      "id": "pastry-5",
+      "name": "Πάστα Σοκολατίνα",
+      "nameEn": "Chocolatina Cake",
+      "price": "€4.50",
+      "description": "Με κρέμα Σεράνο, παντεσπάνι σοκολάτας και ganache σοκολάτας 54%.",
+      "descriptionEn": "Serano cream layered with chocolate sponge and rich 54% chocolate ganache."
+    },
+    {
+      "id": "pastry-6",
+      "name": "Πάστα Μους Σοκολάτα Γάλακτος με Κρέμα",
+      "nameEn": "Milk Chocolate Mousse Cake",
+      "price": "€4.50",
+      "description": "Με mousse σοκολάτας, crémeux βανίλιας και τραγανή γεύση feuilletine.",
+      "descriptionEn": "Milk chocolate mousse with vanilla crémeux and crunchy feuilletine."
+    },
+    {
+      "id": "pastry-7",
+      "name": "Πάστα Cookies",
+      "nameEn": "Cookies Cake",
+      "price": "€4.50",
+      "description": "Με μπισκότο bavaroise, παντεσπάνι σοκολάτας, πραλίνα φουντουκιού, κομμάτια μπισκότου και γλάσο σοκολάτας γάλακτος.",
+      "descriptionEn": "Bavaroise cookie base with chocolate sponge, hazelnut praline, cookie pieces and milk chocolate glaze."
+    },
+    {
+      "id": "pastry-8",
+      "name": "Πάστα Tricolore",
+      "nameEn": "Tricolore Cake",
+      "price": "€4.50",
+      "description": "Παντεσπάνι σοκολάτας με mousse σοκολάτας 54%, mousse σοκολάτας γάλακτος, mousse λευκής σοκολάτας και γλάσο σοκολάτας γάλακτος.",
+      "descriptionEn": "Chocolate sponge with 54% chocolate mousse, milk chocolate mousse, white chocolate mousse and milk chocolate glaze."
+    },
+    {
+      "id": "pastry-9",
+      "name": "Πάστα Berry Noir",
+      "nameEn": "Berry Noir Cake",
+      "price": "€4.90",
+      "description": "Παντεσπάνι σοκολάτας με mousse σοκολάτας γάλακτος, bavaroise βανίλιας, coulis μύρτιλου και λευκή σοκολάτα με μύρτιλο και ηλιόσπορο.",
+      "descriptionEn": "Chocolate sponge with milk chocolate mousse, vanilla bavaroise, blueberry coulis and white chocolate topped with blueberries and sunflower seeds."
+    },
+    {
+      "id": "pastry-10",
+      "name": "Πάστα Μήλο & Κανέλα",
+      "nameEn": "Apple & Cinnamon Cake",
+      "price": "€4.50",
+      "description": "Με mousse λευκής σοκολάτας και κανέλας, μήλο compote, επικάλυψη βούτυρο κακάο και γλάσο λευκής σοκολάτας.",
+      "descriptionEn": "White chocolate and cinnamon mousse with apple compote, cocoa butter topping and white chocolate glaze."
+    }
+  ],
+  "individual": [
+    {
+      "id": "individual-1",
       "name": "Tiramisu",
       "nameEn": "Tiramisu",
       "price": "€4.50",
-      "description": "Ατομικό tiramisu στρώσεις από σαβουαγιάρ εμποτισμένα σε espresso, κρέμα μασκαρπόνε και σκόνη κακάο",
-      "descriptionEn": "Individual tiramisu with layers of espresso-soaked savoiardi, mascarpone cream and cocoa powder"
+      "description": "Παντεσπάνι σοκολάτας με κρέμα mascarpone, σιρόπι espresso και Baileys.",
+      "descriptionEn": "Chocolate sponge cake with mascarpone cream, espresso syrup and Baileys."
     },
     {
-      "id": "sweets-3",
+      "id": "individual-2",
+      "name": "Cheesecake",
+      "nameEn": "Cheesecake",
+      "price": "€4.50",
+      "description": "Bavaroise κρέμα τυριού με άρωμα λεμονιού, βουτυρένιο μπισκότο και σπιτική μαρμελάδα κεράσι-μύρτιλο.",
+      "descriptionEn": "Lemon-scented cheese bavaroise on a buttery biscuit base with homemade cherry and blueberry jam."
+    },
+    {
+      "id": "individual-3",
+      "name": "Coffee Lotus Cheesecake",
+      "nameEn": "Coffee Lotus Cheesecake",
+      "price": "€4.90",
+      "description": "Mousse τυριού με espresso, πραλίνα Speculoos, βουτυρένιο μπισκότο και θρύμματα μπισκότου Speculoos.",
+      "descriptionEn": "Cheese mousse flavored with espresso, Speculoos praline, buttery biscuit and crushed Speculoos cookie."
+    },
+    {
+      "id": "individual-4",
+      "name": "Σοκολατόπιτα",
+      "nameEn": "Chocolate Syrup Cake",
+      "price": "€4.90",
+      "description": "Σιροπιασμένο κέικ σοκολάτας με πλούσια ganache 54%.",
+      "descriptionEn": "Chocolate-soaked cake finished with rich 54% chocolate ganache."
+    },
+    {
+      "id": "individual-5",
       "name": "Προφιτερόλ",
       "nameEn": "Profiterole",
       "price": "€4.50",
-      "description": "Ατομικό προφιτερόλ με σάλτσα σοκολάτας bitter, σαντιγύ & βανίλια",
-      "descriptionEn": "Individual profiterole with dark chocolate sauce, whipped cream & vanilla"
+      "description": "Σουδάκια γεμιστά με βανίλιας κρέμα και σάλτσα bitter σοκολάτας.",
+      "descriptionEn": "Choux puffs filled with vanilla cream and topped with bitter chocolate sauce."
     },
     {
-      "id": "sweets-4",
+      "id": "individual-6",
+      "name": "Red Velvet Cake",
+      "nameEn": "Red Velvet Cake",
+      "price": "€4.90",
+      "description": "Κόκκινο παντεσπάνι με mousse τυριού και σπιτική μαρμελάδα φράουλα.",
+      "descriptionEn": "Red sponge cake with cream cheese mousse and homemade strawberry jam."
+    },
+    {
+      "id": "individual-7",
       "name": "Carrot Cake",
       "nameEn": "Carrot Cake",
       "price": "€4.50",
-      "description": "Κομμάτι με βουτυρόκρεμα με τυρί κρέμα & καρύδι ψιλοκομμένο",
-      "descriptionEn": "One slice With cream cheese buttercream & chopped walnuts"
+      "description": "Κέικ καρότου με ζεστά μπαχαρικά, κρέμα τυριού και ψιλοκομμένα καρύδια.",
+      "descriptionEn": "Spiced carrot cake with cream cheese frosting and chopped walnuts."
     },
     {
-      "id": "sweets-5",
-      "name": "Red Velvet Cake",
-      "nameEn": "Red Velvet Cake",
+      "id": "individual-8",
+      "name": "Τάρτα Lemon Pie",
+      "nameEn": "Lemon Pie Tart",
       "price": "€4.50",
-      "description": "Κομμάτι με βουτυρόκρεμα με τυρί κρέμα & μαρμελάδα φράουλα χειροποίητη",
-      "descriptionEn": "A slice with cream cheese buttercream & homemade strawberry jam",
-      "picture": {
-        "src": "assets/menu/red_velvet.avif",
-        "alt": "Red Velvet Cake"
-      }
+      "description": "Βουτυρένια τάρτα με κρέμα λεμονιού και καψαλισμένη ιταλική μαρέγκα.",
+      "descriptionEn": "Buttery tart with lemon cream and caramelized Italian meringue."
     },
     {
-      "id": "sweets-6",
-      "name": "Εκμέκ Τσουρέκι",
-      "nameEn": "Ekmek Tsoureki",
-      "price": "€4.50",
-      "description": "Κομμάτι παραδοσιακό εκμέκ με πολίτικο τσουρέκι",
-      "descriptionEn": "Slice of traditional dessert with Constantinople-style tsoureki (sweet bread)"
+      "id": "individual-9",
+      "name": "Mousse Σοκολάτα Stevia",
+      "nameEn": "Stevia Chocolate Mousse",
+      "price": "€4.90",
+      "description": "Σοκολατένιο mousse με γλυκαντικό stevia και ganache σοκολάτας stevia.",
+      "descriptionEn": "Chocolate mousse sweetened with stevia and finished with stevia chocolate ganache."
     },
     {
-      "id": "sweets-7",
-      "name": "Εκμέκ Κανταΐφι",
-      "nameEn": "Ekmek Kadaifi",
-      "price": "€4.50",
-      "description": "Κομμάτι παραδοσιακό εκμέκ με κανταΐφι",
-      "descriptionEn": "Slice of traditional dessert with kadaifi (shredded phyllo dough)"
-    },
-    {
-      "id": "sweets-8",
-      "name": "Τάρτα Μήλου / Μηλόπιτα",
-      "nameEn": "Apple Tart / Apple Pie",
-      "price": "€4.50",
-      "description": "Κομμάτι παραδοσιακή μηλόπιτα με κρέμα βανίλιας & ολόκληρα κομμάτια μήλου",
-      "descriptionEn": "Slice of traditional apple pie with vanilla cream & whole apple pieces"
-    },
-    {
-      "id": "sweets-9",
-      "name": "Καρυδόπιτα",
-      "nameEn": "Walnut Cake (Karidopita)",
-      "price": "€4.50",
-      "description": "Κομμάτι με κρέμα βανίλιας και ψιλοκομμένο καρύδι",
-      "descriptionEn": "Slice with vanilla cream and chopped walnuts"
-    },
-    {
-      "id": "sweets-10",
-      "name": "Cheesecake Λεμόνι",
-      "nameEn": "Lemon Cheesecake",
-      "price": "€4.50",
-      "description": "Κομμάτι με χειροποίητη κρέμα λεμόνι",
-      "descriptionEn": "A slice With homemade lemon cream"
-    },
-    {
-      "id": "sweets-11",
-      "name": "Coffee Lotus",
-      "nameEn": "Coffee Lotus",
-      "price": "€4.50",
-      "description": "Ατομικό γλυκό με τυρί κρέμα, μονή δόση espresso & μπισκότο Lotus",
-      "descriptionEn": "Individual portion With cream cheese, single espresso shot & Lotus biscuit"
-    },
-    {
-      "id": "sweets-12",
-      "name": "Μιλφέιγ",
+      "id": "individual-10",
+      "name": "Millefeuille",
       "nameEn": "Millefeuille",
-      "price": "€4.50",
-      "description": "Ατομικό μιλφέιγ με κρέμα βανίλιας",
-      "descriptionEn": "Individual millefeuille with vanilla cream"
+      "price": "€3.80",
+      "description": "Καραμελωμένη σφολιάτα με κρέμα patisserie βανίλιας και ιταλική μαρέγκα.",
+      "descriptionEn": "Caramelized puff pastry layered with vanilla patisserie cream and Italian meringue."
     },
     {
-      "id": "sweets-13",
+      "id": "individual-11",
+      "name": "Eclair",
+      "nameEn": "Chocolate Eclair",
+      "price": "€3.80",
+      "description": "Eclair με κρέμα patisserie σοκολάτας και γλάσο σοκολάτας.",
+      "descriptionEn": "Chocolate éclair filled with chocolate patisserie cream and topped with chocolate glaze."
+    },
+    {
+      "id": "individual-12",
+      "name": "Κωκ",
+      "nameEn": "Coconut Syrup Cake",
+      "price": "€3.80",
+      "description": "Σιροπιασμένο κέικ με κρέμα patisserie βανίλιας και γλάσο σοκολάτας.",
+      "descriptionEn": "Syrup-soaked cake with vanilla patisserie cream and chocolate glaze."
+    },
+    {
+      "id": "individual-13",
+      "name": "Τρουφάκι",
+      "nameEn": "Chocolate Truffle Choux",
+      "price": "€3.80",
+      "description": "Choux με γέμιση κρέμας patisserie σοκολάτας και επικάλυψη μαύρης σοκολάτας τρούφας.",
+      "descriptionEn": "Choux puff filled with chocolate patisserie cream and coated in dark truffle chocolate."
+    },
+    {
+      "id": "individual-14",
+      "name": "Εκμέκ",
+      "nameEn": "Ekmek",
+      "price": "€4.90",
+      "description": "Σιροπιασμένο κανταΐφι με κρέμα patisserie βανίλιας, αμύγδαλο, σαντιγί και ψιλοκομμένο φιστίκι Αιγίνης.",
+      "descriptionEn": "Syrup-soaked kataifi with vanilla patisserie cream, almonds, whipped cream and chopped Aegina pistachios."
+    },
+    {
+      "id": "individual-15",
+      "name": "Μπαμπάς",
+      "nameEn": "Babas",
+      "price": "€4.00",
+      "description": "Σιροπιασμένο σαβαρέν με ξύσμα πορτοκαλιού, αρωματισμένο με cognac και γεμισμένο με σαντιγί.",
+      "descriptionEn": "Syrup-soaked savarin with orange zest, cognac aroma and whipped cream filling."
+    },
+    {
+      "id": "individual-16",
+      "name": "Τάρτα Φρούτων",
+      "nameEn": "Fruit Tart",
+      "price": "€4.00",
+      "description": "Τάρτα βουτύρου με κρέμα patisserie βανίλιας, σαντιγί και φρέσκα φρούτα εποχής.",
+      "descriptionEn": "Butter tart with vanilla patisserie cream, whipped cream and seasonal fresh fruit."
+    },
+    {
+      "id": "individual-17",
+      "name": "Βυζαντινό",
+      "nameEn": "Byzantino",
+      "price": "€4.90",
+      "description": "Σιροπιασμένο ραβανί με ξύσμα λεμονιού, mousse λευκής σοκολάτας, σαντιγί και κανέλα.",
+      "descriptionEn": "Syrup-soaked ravani with lemon zest, white chocolate mousse, whipped cream and cinnamon."
+    },
+    {
+      "id": "individual-18",
+      "name": "Πάστα Bounty",
+      "nameEn": "Bounty Cake",
+      "price": "€4.90",
+      "description": "Τάρτα βουτύρου με bavaroise καρύδας, crémeux σοκολάτας γάλακτος, crumble καρύδας και γλάσο λευκής σοκολάτας.",
+      "descriptionEn": "Butter tart with coconut bavaroise, milk chocolate crémeux, coconut crumble and white chocolate glaze."
+    },
+    {
+      "id": "individual-19",
+      "name": "Banoffee",
+      "nameEn": "Banoffee",
+      "price": "€4.50",
+      "description": "",
+      "descriptionEn": ""
+    }
+  ],
+  "individualsyropy": [
+    {
+      "id": "individualsyropy-1",
+      "name": "Κανταΐφι",
+      "nameEn": "Kataifi",
+      "price": "€3.80",
+      "description": "Κανταΐφι με τραγανή υφή, αμύγδαλο και αρωματικό σιρόπι.",
+      "descriptionEn": "Crispy kataifi pastry with almonds and fragrant syrup."
+    },
+    {
+      "id": "individualsyropy-2",
+      "name": "Κανταΐφι Mini Φωλιές Αμύγδαλο",
+      "nameEn": "Mini Almond Kataifi Nests",
+      "price": "€3.80",
+      "description": "Τέσσερις μικρές φωλιές κανταΐφι με ψιλοκομμένο αμύγδαλο και σιρόπι.",
+      "descriptionEn": "Four mini kataifi nests with chopped almonds and sweet syrup."
+    },
+    {
+      "id": "individualsyropy-3",
+      "name": "Μπακλαβάς",
+      "nameEn": "Baklava",
+      "price": "€3.80",
+      "description": "Χρυσαφένιος μπακλαβάς με καρύδια και μελωμένο σιρόπι.",
+      "descriptionEn": "Golden baklava with walnuts and honeyed syrup."
+    },
+    {
+      "id": "individualsyropy-4",
+      "name": "Ραβανί",
+      "nameEn": "Revani",
+      "price": "€4.50",
+      "description": "Αφράτο ραβανί σιροπιασμένο με άρωμα λεμονιού.",
+      "descriptionEn": "Moist revani soaked in syrup with a hint of lemon."
+    },
+    {
+      "id": "individualsyropy-5",
       "name": "Γαλακτομπούρεκο",
       "nameEn": "Galaktoboureko",
       "price": "€4.50",
-      "description": "Κομμάτι παραδοσιακού γαλακτομπούρεκο με φύλλο κρούστας, κρέμα βανίλιας & σιρόπι λεμόνι",
-      "descriptionEn": "Slice of traditional galaktoboureko with phyllo dough, vanilla cream & lemon syrup"
+      "description": "Με βελούδινη κρέμα και τραγανό φύλλο κρούστας, σιροπιασμένο με άρωμα λεμονιού.",
+      "descriptionEn": "Creamy custard enveloped in crispy phyllo dough, soaked in lemon-scented syrup."
+    }
+  ],
+  "family": [
+    {
+      "id": "family-1",
+      "name": "Προφιτερόλ Γόνδολα",
+      "nameEn": "Profiterole Gondola",
+      "price": "€20.00",
+      "description": "Ολόκληρη γόνδολα με σουδάκια, κρέμα βανίλιας και σάλτσα σοκολάτας.",
+      "descriptionEn": "Whole gondola-style profiterole with choux puffs, vanilla cream and chocolate sauce."
     },
     {
-      "id": "sweets-14",
-      "name": "Γαλακτομπούρεκο Κανταΐφι",
-      "nameEn": "Galaktoboureko Kadaifi",
+      "id": "family-2",
+      "name": "Coffee Lotus Cheesecake",
+      "nameEn": "Coffee Lotus Cheesecake",
+      "price": "€30.00",
+      "description": "Με βάση μπισκότο Lotus αρωματισμένο με καφέ, κρέμα τυριού και πραλίνα Lotus.",
+      "descriptionEn": "Coffee-scented Lotus biscuit base with cream cheese and Lotus praline."
+    },
+    {
+      "id": "family-3",
+      "name": "Σοκολατόπιτα",
+      "nameEn": "Chocolate Cake",
+      "price": "€20.00",
+      "description": "Πλούσια σοκολατένια τούρτα που αξίζει να τη δοκιμάσεις ολόκληρη.",
+      "descriptionEn": "Rich chocolate cake you’ll want to enjoy slice after slice."
+    },
+    {
+      "id": "family-4",
+      "name": "Εκμέκ",
+      "nameEn": "Ekmek",
+      "price": "€18.00",
+      "description": "Σιροπιασμένο ραβανί με βελούδινη κρέμα βανίλιας και άρωμα λεμονιού.",
+      "descriptionEn": "Syrup-soaked revani with velvety vanilla custard and a hint of lemon."
+    },
+    {
+      "id": "family-5",
+      "name": "Cherry Cheesecake",
+      "nameEn": "Cherry Cheesecake",
+      "price": "€30.00",
+      "description": "Τούρτα cheesecake με μαρμελάδα κεράσι και κρέμα τυριού.",
+      "descriptionEn": "Cheesecake topped with cherry jam and creamy cheese filling."
+    },
+    {
+      "id": "family-6",
+      "name": "Tiramisu Cheesecake",
+      "nameEn": "Tiramisu Cheesecake",
+      "price": "€30.00",
+      "description": "Κρέμα mascarpone με espresso και στρώσεις μπισκότου σε cheesecake.",
+      "descriptionEn": "Mascarpone cream with espresso and biscuit layers in a cheesecake."
+    },
+    {
+      "id": "family-7",
+      "name": "Καρυδόπιτα",
+      "nameEn": "Walnut Cake",
+      "price": "€18.00",
+      "description": "Ζουμερή καρυδόπιτα με κανέλα, μέλι και ψιλοκομμένο καρύδι.",
+      "descriptionEn": "Moist walnut cake with cinnamon, honey and chopped walnuts."
+    }
+  ],
+  "cake": [
+    {
+      "id": "cake-1",
+      "name": "Τούρτα Black Forest",
+      "nameEn": "Black Forest Cake",
+      "price": "€22.50",
+      "description": "Αφράτη τούρτα με σοκολατένιο παντεσπάνι, κεράσια και ελαφριά σαντιγί.",
+      "descriptionEn": "Light cake with chocolate sponge, cherries and whipped cream."
+    },
+    {
+      "id": "cake-2",
+      "name": "Τούρτα Προφιτερόλ",
+      "nameEn": "Profiterole Cake",
+      "price": "€22.00",
+      "description": "Σουδάκια, κρέμα βανίλιας και σάλτσα σοκολάτας σε τούρτα γεύσης προφιτερόλ.",
+      "descriptionEn": "Profiterole-style cake with choux puffs, vanilla cream and chocolate sauce."
+    },
+    {
+      "id": "cake-3",
+      "name": "Τούρτα Μους Σοκολάτα Γάλακτος",
+      "nameEn": "Milk Chocolate Mousse Cake",
+      "price": "€22.00",
+      "description": "Βελούδινη μους σοκολάτας γάλακτος πάνω σε τραγανή βάση.",
+      "descriptionEn": "Velvety milk chocolate mousse on a crisp base."
+    },
+    {
+      "id": "cake-4",
+      "name": "Τούρτα Καραμέλα με Σοκολάτα & Βανίλια",
+      "nameEn": "Caramel Cake with Chocolate & Vanilla",
+      "price": "€22.00",
+      "description": "Στρώσεις καραμέλας, σοκολάτας και βανίλιας για εκλεκτή ισορροπία.",
+      "descriptionEn": "Layers of caramel, chocolate and vanilla for a refined balance."
+    },
+    {
+      "id": "cake-5",
+      "name": "Τούρτα Ferrero",
+      "nameEn": "Ferrero Cake",
+      "price": "€22.00",
+      "description": "Σοκολατένιες και φουντουκένιες νότες σε πλούσια, κρεμώδη τούρτα.",
+      "descriptionEn": "Rich cake with chocolate and hazelnut notes in a creamy finish."
+    },
+    {
+      "id": "cake-6",
+      "name": "Τούρτα Αμυγδάλου",
+      "nameEn": "Almond Cake",
+      "price": "€22.00",
+      "description": "Άρωμα αμυγδάλου με απαλή κρέμα και τραγανή επίστρωση.",
+      "descriptionEn": "Almond-scented cake with smooth cream and a crisp topping."
+    },
+    {
+      "id": "cake-7",
+      "name": "Τούρτα Red Velvet",
+      "nameEn": "Red Velvet Cake",
+      "price": "€22.00",
+      "description": "Βελούδινο κόκκινο παντεσπάνι, κρέμα τυριού και χειροποίητη μαρμελάδα φράουλας.",
+      "descriptionEn": "Velvety red sponge with cream cheese frosting and homemade strawberry jam."
+    },
+    {
+      "id": "cake-8",
+      "name": "Τούρτα Σοκολατίνα",
+      "nameEn": "Chocolateina Cake",
+      "price": "€22.00",
+      "description": "Πλούσια σοκολατένια τούρτα με έντονη γεύση και αφράτη υφή.",
+      "descriptionEn": "Decadent chocolate cake with intense flavor and airy texture."
+    },
+    {
+      "id": "cake-9",
+      "name": "Τούρτα Tricolor",
+      "nameEn": "Tricolor Cake",
+      "price": "€22.00",
+      "description": "Τρίχρωμη τούρτα με σοκολάτα, κρέμα βανίλιας και φράουλα.",
+      "descriptionEn": "Three-layer cake with chocolate, vanilla cream and strawberry."
+    },
+    {
+      "id": "cake-10",
+      "name": "Τούρτα Μπισκότο Ανάμεικτη",
+      "nameEn": "Mixed Biscuit Cake",
+      "price": "€22.00",
+      "description": "Τούρτα με ανάμεικτα μπισκότα και κρέμα για πλούσιο χαρακτήρα.",
+      "descriptionEn": "Cake with mixed biscuits and cream for a rich character."
+    },
+    {
+      "id": "cake-11",
+      "name": "Τούρτα Φράουλα",
+      "nameEn": "Strawberry Cake",
+      "price": "€22.00",
+      "description": "Φρέσκιες φράουλες και απαλή κρέμα σε ελαφριά τούρτα.",
+      "descriptionEn": "Fresh strawberries and soft cream in a light cake."
+    }
+  ],
+  "cakeicecream": [
+    {
+      "id": "cakeicecream-1",
+      "name": "Τούρτα Παγωτό Σοκολάτα",
+      "nameEn": "Chocolate Ice Cream Cake",
+      "price": "€25.00",
+      "description": "Τούρτα παγωτό με στρώσεις σοκολάτας και πλούσια γεύση.",
+      "descriptionEn": "Ice cream cake with layers of chocolate and rich flavor."
+    },
+    {
+      "id": "cakeicecream-2",
+      "name": "Τούρτα Παγωτό Βανίλια",
+      "nameEn": "Vanilla Ice Cream Cake",
+      "price": "€25.00",
+      "description": "Τούρτα παγωτό με στρώσεις βανίλιας και απαλή υφή.",
+      "descriptionEn": "Ice cream cake with layers of vanilla and a smooth texture."
+    },
+    {
+      "id": "cakeicecream-3",
+      "name": "Τούρτα Παγωτό Φράουλα",
+      "nameEn": "Strawberry Ice Cream Cake",
+      "price": "€25.00",
+      "description": "Τούρτα παγωτό με στρώσεις φράουλας και φρέσκια γεύση.",
+      "descriptionEn": "Ice cream cake with layers of strawberry and fresh flavor."
+    },
+    {
+      "id": "cakeicecream-4",
+      "name": "Τούρτα Παγωτό Μους Σοκολάτα Γάλακτος",
+      "nameEn": "Milk Chocolate Mousse Ice Cream Cake",
+      "price": "€25.00",
+      "description": "Τούρτα παγωτό με στρώσεις μους σοκολάτας γάλακτος και πλούσια γεύση.",
+      "descriptionEn": "Ice cream cake with layers of milk chocolate mousse and rich flavor."
+    }
+  ],
+  "syropy": [
+    {
+      "id": "syropy-1",
+      "name": "Γαλακτομπούρεκο με Κανταΐφι",
+      "nameEn": "Galaktoboureko with Kataifi",
+      "price": "€18.20",
+      "description": "Επιλογή με αφράτη κρέμα, τραγανό κανταΐφι και σιρόπι λεμονιού.",
+      "descriptionEn": "A rich custard dessert with crispy kataifi and lemon-scented syrup."
+    },
+    {
+      "id": "syropy-2",
+      "name": "Κανταΐφι",
+      "nameEn": "Kataifi Pastry",
+      "price": "€18.20",
+      "description": "Τραγανό κανταΐφι με αμύγδαλο και γλυκό σιρόπι βανίλιας.",
+      "descriptionEn": "Crispy kataifi with almonds and sweet vanilla syrup."
+    },
+    {
+      "id": "syropy-3",
+      "name": "Κανταΐφι Φωλιές με Αμύγδαλο",
+      "nameEn": "Almond Kataifi Nests",
+      "price": "€18.20",
+      "description": "Μοντέρνες φωλιές κανταΐφι γεμιστές με αμύγδαλο και μέλι.",
+      "descriptionEn": "Modern kataifi nests filled with almonds and honey."
+    },
+    {
+      "id": "syropy-4",
+      "name": "Μπακλαβάς",
+      "nameEn": "Baklava",
+      "price": "€18.20",
+      "description": "Παραδοσιακό μπακλαβά με φιστίκια και πλούσιο σιρόπι.",
+      "descriptionEn": "Traditional baklava with nuts and rich syrup."
+    },
+    {
+      "id": "syropy-5",
+      "name": "Γαλακτομπούρεκο",
+      "nameEn": "Galaktoboureko",
+      "price": "€18.20",
+      "description": "Φύλλο με κρέμα βανίλιας, τραγανή υφή και σιρόπι με άρωμα λεμονιού.",
+      "descriptionEn": "Phyllo-wrapped vanilla custard with crisp texture and lemon syrup."
+    }
+  ],
+  "bisquit": [
+    {
+      "id": "bisquit-1",
+      "name": "Μπισκότα Βιεννέζικα χωρίς Ζάχαρη",
+      "nameEn": "Sugar-Free Viennese Biscuits",
+      "price": "€4.25",
+      "description": "Απαλά μπισκότα με βουτυρώδη υφή και χωρίς ζάχαρη.",
+      "descriptionEn": "Soft, buttery biscuits made without sugar."
+    },
+    {
+      "id": "bisquit-2",
+      "name": "Κουλουράκια Πορτοκάλι Νηστίσιμα",
+      "nameEn": "Fasting Orange Cookies",
+      "price": "€4.25",
+      "description": "Αρωματικά κουλουράκια με φυσικό πορτοκάλι και νηστίσιμη συνταγή.",
+      "descriptionEn": "Aromatic cookies with natural orange and a vegeterian-friendly recipe."
+    },
+    {
+      "id": "bisquit-3",
+      "name": "Κουλουράκια Σμυρνέικα",
+      "nameEn": "Smyrneika Cookies",
+      "price": "€4.25",
+      "description": "Παραδοσιακά κουλουράκια με μαστίχα και φίνα υφή.",
+      "descriptionEn": "Traditional Smyrneika cookies with mastic and delicate texture."
+    },
+    {
+      "id": "bisquit-4",
+      "name": "Πτι Φουρ με Μαρμελάδα Βερύκοκο & Σοκολάτα",
+      "nameEn": "Petit Four with Apricot Jam & Chocolate",
+      "price": "€4.25",
+      "description": "Μικρό μπισκότο γεμιστό με βερύκοκο και καλυμμένο με σοκολάτα υγείας.",
+      "descriptionEn": "Small cookie filled with apricot jam and coated in dark chocolate."
+    },
+    {
+      "id": "bisquit-5",
+      "name": "Cookies Βανίλιας με Κομμάτια Σοκολάτα χωρίς Ζάχαρη",
+      "nameEn": "Sugar-Free Vanilla Cookies with Chocolate Chips",
+      "price": "€4.25",
+      "description": "Μαλακά βανίλιας cookies με σοκολατένιες νιφάδες χωρίς ζάχαρη.",
+      "descriptionEn": "Soft vanilla cookies with sugar-free chocolate chips."
+    },
+    {
+      "id": "bisquit-6",
+      "name": "Cookies Βιεννέζικα με Δάκρυα Σοκολάτας χωρίς Ζάχαρη",
+      "nameEn": "Sugar-Free Viennese Cookies with Chocolate Tears",
+      "price": "€4.25",
+      "description": "Λεπτά μπισκότα βιεννέζικης υφής με μικρές πινελιές σοκολάτας.",
+      "descriptionEn": "Delicate Viennese-style cookies dotted with chocolate pieces."
+    },
+    {
+      "id": "bisquit-7",
+      "name": "Cookies Σοκολάτα με Κομμάτια Σοκολάτα χωρίς Ζάχαρη",
+      "nameEn": "Sugar-Free Chocolate Cookies with Chocolate Chips",
+      "price": "€4.25",
+      "description": "Σοκολατένια cookies με κομμάτια σοκολάτας σε πλούσια υφή.",
+      "descriptionEn": "Chocolate cookies with chunks of chocolate in a rich texture."
+    },
+    {
+      "id": "bisquit-8",
+      "name": "Μπατόν Σαλέ",
+      "nameEn": "Baton Sale",
+      "price": "€4.25",
+      "description": "Τραγανό μπισκότο με αλμυρή επίγευση και λεπτή υφή.",
+      "descriptionEn": "Crispy biscuit with a savory finish and delicate texture."
+    },
+    {
+      "id": "bisquit-9",
+      "name": "Μπισκότα Κακάο χωρίς Ζάχαρη",
+      "nameEn": "Sugar-Free Cocoa Biscuits",
+      "price": "€4.25",
+      "description": "Κομμάτια μπισκότου με έντονη γεύση κακάο χωρίς ζάχαρη.",
+      "descriptionEn": "Cocoa biscuits with bold chocolate flavor and no sugar."
+    },
+    {
+      "id": "bisquit-10",
+      "name": "Μπισκότα Βανίλια χωρίς Ζάχαρη",
+      "nameEn": "Sugar-Free Vanilla Biscuits",
+      "price": "€4.25",
+      "description": "Απαλά μπισκότα με αφράτη γεύση βανίλιας χωρίς ζάχαρη.",
+      "descriptionEn": "Soft biscuits with fluffy vanilla flavor and no sugar."
+    }
+  ],
+  "icecream": [
+  {
+      "id": "icecream-1",
+      "name": "Παγωτό Σοκολάτα",
+      "nameEn": "Chocolate Ice Cream",
+      "price": "€4.00",
+      "description": "Κρεμώδες παγωτό με έντονη γεύση σοκολάτας.",
+      "descriptionEn": "Creamy ice cream with intense chocolate flavor."
+    },
+    {
+      "id": "icecream-2",
+      "name": "Παγωτό Βανίλια",
+      "nameEn": "Vanilla Ice Cream",
+      "price": "€4.00",
+      "description": "Απαλό παγωτό με κλασική γεύση βανίλιας.",
+      "descriptionEn": "Smooth ice cream with classic vanilla flavor."
+    },
+    {
+      "id": "icecream-3",
+      "name": "Παγωτό Φράουλα",
+      "nameEn": "Strawberry Ice Cream",
+      "price": "€4.00",
+      "description": "Φρουτώδες παγωτό με φρέσκια γεύση φράουλας.",
+      "descriptionEn": "Fruity ice cream with fresh strawberry flavor."
+    },
+    {
+      "id": "icecream-5",
+      "name": "Παγωτό Καραμέλα",
+      "nameEn": "Caramel Ice Cream",
       "price": "€4.50",
-      "description": "Κομμάτι παραδοσιακού γαλακτομπούρεκου με κανταΐφι, κρέμα βανίλιας & σιρόπι λεμόνι",
-      "descriptionEn": "Slice of traditional galaktoboureko with kadaifi, vanilla cream & lemon syrup"
+      "description": "Γλυκό παγωτό με πλούσια γεύση καραμέλας.",
+      "descriptionEn": "Sweet ice cream with rich caramel flavor."
     }
   ],
-  "sandwiches": [
+  "treats": [
     {
-      "id": "sandwiches-1",
-      "name": "Τορτίγια Κοτόπουλο",
-      "nameEn": "Chicken Tortilla Wrap",
-      "price": "€4.50",
-      "description": "Με γαλοπούλα, gouda, ντομάτα & σως μουστάρδας",
-      "descriptionEn": "With turkey, gouda, tomato & mustard sauce"
+      "id": "treats-1",
+      "name": "Macaron",
+      "nameEn": "Macaron",
+      "price": "€6.00",
+      "description": "Μακαρόν με τραγανή επιφάνεια και βελούδινη γέμιση.",
+      "descriptionEn": "Macarons with a crisp shell and silky filling."
     },
     {
-      "id": "sandwiches-2",
-      "name": "Sandwich με Καπνιστή Γαλοπούλα",
-      "nameEn": "Smoked Turkey Sandwich",
-      "price": "€3.90",
-      "description": "Με καπνιστή γαλοπούλα, gouda, ντομάτα, μαρούλι & σως μουστάρδας",
-      "descriptionEn": "With smoked turkey, gouda, tomato, lettuce & mustard sauce"
+      "id": "treats-2",
+      "name": "Mini Κωκ",
+      "nameEn": "Mini Kok",
+      "price": "€5.75",
+      "description": "Μίνι κέικ με κρέμα patisserie βανίλιας και γλάσο σοκολάτας.",
+      "descriptionEn": "Mini cake with vanilla patisserie cream and chocolate glaze."
     },
     {
-      "id": "sandwiches-3",
-      "name": "Sandwich με Κοτόπουλο",
-      "nameEn": "Chicken Sandwich",
-      "price": "€4.50",
-      "description": "Με κοτόπουλο, gouda, ντομάτα, μαρούλι & σως μουστάρδας",
-      "descriptionEn": "With chicken, gouda, tomato, lettuce & mustard sauce"
+      "id": "treats-3",
+      "name": "Mini Eclair",
+      "nameEn": "Mini Éclair",
+      "price": "€5.75",
+      "description": "Μικρά σουδάκια γεμιστά με κρέμα βανίλιας και σοκολάτα.",
+      "descriptionEn": "Mini choux pastries filled with vanilla cream and chocolate."
+    },
+    {
+      "id": "treats-4",
+      "name": "Νεγράκια",
+      "nameEn": "Negrakia",
+      "price": "€5.75",
+      "description": "Μίνι κέικ με σοκολατένια μους και γλάσο σοκολάτας, πασπαλισμένα με τρούφα σοκολάτας.",
+      "descriptionEn": "Mini cakes with chocolate mousse and chocolate glaze, sprinkled with chocolate sprinkles."
+    },
+    {
+      "id": "treats-5",
+      "name": "Τάρτα Ποντικάκια",
+      "nameEn": "Pontikakia Tartlets",
+      "price": "€5.75",
+      "description": "Μικρές σοκολατένιες τάρτες που μοιάζουν με ποντικάκια",
+      "descriptionEn": "Small chocolate tartlets shaped like little mice."
+    },
+    {
+      "id": "treats-6",
+      "name": "Παστάκια 4 Εποχές",
+      "nameEn": "Four Seasons Pastries",
+      "price": "€5.75",
+      "description": "Παστάκια με εναλλαγή γεύσεων και αφράτη υφή.",
+      "descriptionEn": "Pastries with alternating flavors and airy texture."
+    },
+    {
+      "id": "treats-7",
+      "name": "Τρίγωνα Πανοράματος Χριστόφορος",
+      "nameEn": "Christoforos Trigona Panoramatos",
+      "price": "€5.75",
+      "description": "Τρίγωνα Πανοράματος με πλούσια γέμιση και τραγανή υφή.",
+      "descriptionEn": "Crispy phyllo dough with rich cream filling."
+    },
+    {
+      "id": "treats-8",
+      "name": "Χιονούλες",
+      "nameEn": "Chionoules",
+      "price": "€5.75",
+      "description": "",
+      "descriptionEn": ""
+    },
+    {
+      "id": "treats-9",
+      "name": "Mini Lemon Pie",
+      "nameEn": "Mini Lemon Pie",
+      "price": "€5.75",
+      "description": "Μικρή τάρτα με λεμονάτη κρέμα και τραγανή βάση.",
+      "descriptionEn": "Mini tart with zesty lemon cream and crunchy crust."
+    },
+    {
+      "id": "treats-10",
+      "name": "Ταρτάκια Φρούτων",
+      "nameEn": "Fruit Tartlets",
+      "price": "€5.75",
+      "description": "Τάρτες με φρέσκα φρούτα και βελούδινη κρέμα.",
+      "descriptionEn": "Tartlets with fresh fruit and velvet cream."
+    },
+    {
+      "id": "treats-11",
+      "name": "Mini Millefeuille",
+      "nameEn": "Mini Millefeuille",
+      "price": "€5.75",
+      "description": "Μίνι μιλφέιγ με τραγανές στρώσεις φύλλου και κρέμας.",
+      "descriptionEn": "Mini millefeuille with crisp pastry layers and cream."
+    },
+    {
+      "id": "treats-12",
+      "name": "Αμυγδαλωτά",
+      "nameEn": "Amegdalota",
+      "price": "€5.75",
+      "description": "Παραδοσιακά αμυγδαλωτά με αρωματική κρούστα.",
+      "descriptionEn": "Traditional almond cookies with an aromatic crust."
+    },
+    {
+      "id": "treats-13",
+      "name": "Εργολάβοι",
+      "nameEn": "Ergolavoi",
+      "price": "€5.75",
+      "description": "Παραδοσιακά μπισκότα με φρουτώδη γέμιση.",
+      "descriptionEn": "Traditional cookies with fruity filling."
+    },
+    {
+      "id": "treats-14",
+      "name": "Σουδάκια με Επικάλυψη Καραμέλα",
+      "nameEn": "Caramel-Coated Choux Pastries",
+      "price": "€5.75",
+      "description": "Σουδάκια γεμιστά με κρέμα και γλάσο καραμέλας.",
+      "descriptionEn": "Filled choux pastries topped with caramel glaze."
     }
   ],
-  "sfolies": [
+  "wrapped": [
     {
-      "id": "sfolies-1",
-      "name": "Τυρόπιτα",
-      "nameEn": "Tiropita (Cheese Pie)",
-      "price": "€1.80",
-      "description": "Τυρόπιτα με σφολιάτα.",
-      "descriptionEn": "Greek cheese pie with puff pastry."
+      "id": "wrapped-1",
+      "name": "Παστάκι Ανάμεικτο",
+      "nameEn": "Mixed Pastry",
+      "price": "€5.75",
+      "description": "Μικτή επιλογή γλυκών με τραγανή βάση και κρεμώδη γέμιση.",
+      "descriptionEn": "Mixed sweet bites with a crisp base and creamy filling."
     },
     {
-      "id": "sfolies-2",
-      "name": "Τυρόπιτα Tαψιού",
-      "nameEn": "Pan Baked Tiropita (Cheese Pie)",
-      "price": "€3.90",
-      "description": "Τυρόπιτα ταψιού",
-      "descriptionEn": "Greek cheese pie baked in a pan."
+      "id": "wrapped-2",
+      "name": "Πυραμίδα Πραλίνα Γκοφρέτα",
+      "nameEn": "Wafer Praline Pyramid",
+      "price": "€5.75",
+      "description": "Πυραμίδα με στρώσεις γκοφρέτας και πραλίνας φουντουκιού.",
+      "descriptionEn": "Pyramid of wafer layers filled with hazelnut praline."
     },
     {
-      "id": "sfolies-3",
-      "name": "Κοτόπιτα Ταψιού",
-      "nameEn": "Pan Baked Chicken Pie",
-      "price": "€4.50",
-      "description": "Με κόκκινη πιπεριά, μπεσαμέλ, κοτόπουλο & gouda",
-      "descriptionEn": "With red pepper, béchamel, chicken & gouda"
+      "id": "wrapped-3",
+      "name": "Πουράκι Νηστίσιμο",
+      "nameEn": "Vegan Piraki",
+      "price": "€5.75",
+      "description": "Χειροποίητο σφολιατάκι με τραγανή υφή κατάλληλο για νηστεία.",
+      "descriptionEn": "Handmade puff pastry with a crisp texture suitable for fasting."
     },
     {
-      "id": "sfolies-4",
-      "name": "Φλογέρα Κοτόπουλο",
-      "nameEn": "Chicken Flogera (Chicken Roll)",
-      "price": "€3.90",
-      "description": "Σφολιάτα με κοτόπουλο, κόκκινη πιπεριά, μπεσαμέλ, κοτόπουλο & gouda",
-      "descriptionEn": "Puff pastry with chicken, red pepper, béchamel, chicken & gouda"
+      "id": "wrapped-4",
+      "name": "Πουράκι Σοκολάτα",
+      "nameEn": "Chocolate Piraki",
+      "price": "€5.75",
+      "description": "Σφολιατάκι γεμιστό με σοκολατένια κρέμα και επικάλυψη σοκολάτας.",
+      "descriptionEn": "Puff pastry filled with chocolate cream and coated in chocolate."
     },
     {
-      "id": "sfolies-5",
-      "name": "Πατατόπιτα",
-      "nameEn": "Potato Pie",
-      "price": "€2.50",
-      "description": "Νηστίσιμη πατατόπιτα με σφολιάτα, πατάτα, κρεμμύδι & μπαχαρικά",
-      "descriptionEn": "Vegetarian potato pie with puff pastry, potato, onion & spices"
+      "id": "wrapped-5",
+      "name": "Καριόκες",
+      "nameEn": "Kariokes",
+      "price": "€5.75",
+      "description": "Τραγανό μπισκοτένιο περίβλημα με γέμιση καρυδιού και σοκολάτας.",
+      "descriptionEn": "Crispy biscuit shell filled with walnut and chocolate."
+    },
+    {
+      "id": "wrapped-6",
+      "name": "Bueno",
+      "nameEn": "Bueno",
+      "price": "€5.75",
+      "description": "Σοκολατάκι με κρέμα φουντουκιού και τραγανή γκοφρέτα.",
+      "descriptionEn": "Chocolate treat with hazelnut cream and crisp wafer."
+    },
+    {
+      "id": "wrapped-7",
+      "name": "Γκοφρετάκι Σοκολάτα",
+      "nameEn": "Chocolate Wafer",
+      "price": "€5.75",
+      "description": "Μικρή γκοφρέτα με σοκολάτα για ελαφριά γλύκα.",
+      "descriptionEn": "Small chocolate wafer for a light sweet bite."
+    },
+    {
+      "id": "wrapped-8",
+      "name": "Καρδιά Σοκολάτα & Φράουλα",
+      "nameEn": "Chocolate & Strawberry Heart",
+      "price": "€5.75",
+      "description": "Σοκολατένιο γλυκό με νότες φράουλας και καρδιές σοκολάτας.",
+      "descriptionEn": "Chocolate treat with strawberry notes and heart-shaped design."
+    },
+    {
+      "id": "wrapped-9",
+      "name": "Σαραγλάκι με Σοκολάτα",
+      "nameEn": "Chocolate Saragli",
+      "price": "€5.75",
+      "description": "Παραδοσιακό σιροπιαστό γλυκό με σοκολατένια επικάλυψη.",
+      "descriptionEn": "Traditional syrup-soaked sweet topped with chocolate."
+    },
+    {
+      "id": "wrapped-10",
+      "name": "Παστάκι Bull με Επικάλυψη Σοκολάτα",
+      "nameEn": "Bull Pastry with Chocolate Coating",
+      "price": "€5.75",
+      "description": "Μικρό γλυκό με σοκολατένια επικάλυψη και τραγανή γευστική υφή.",
+      "descriptionEn": "Small pastry with chocolate coating and crunchy texture."
+    },
+    {
+      "id": "wrapped-11",
+      "name": "Παστάκι Bull με Επικάλυψη Αμύγδαλο",
+      "nameEn": "Bull Pastry with Almond Coating",
+      "price": "€5.75",
+      "description": "Γλυκό με αμυγδαλένια κρούστα και βουτυρένια γέμιση.",
+      "descriptionEn": "Pastry with almond coating and buttery filling."
+    },
+    {
+      "id": "wrapped-12",
+      "name": "Παστάκι Bull με Επικάλυψη Τρούφα",
+      "nameEn": "Bull Pastry with Truffle Coating",
+      "price": "€5.75",
+      "description": "Γλυκό με επικάλυψη τρούφας και πλούσια σοκολατένια γεύση.",
+      "descriptionEn": "Pastry coated in chocolate sprinkles with rich flavor."
+    },
+    {
+      "id": "wrapped-13",
+      "name": "Σοκολατάκι με Λευκή Σοκολάτα, Φράουλα & Μπισκότο",
+      "nameEn": "White Chocolate, Strawberry & Biscuit Treat",
+      "price": "€5.75",
+      "description": "Σοκολατάκι με λευκή σοκολάτα, φράουλα και μπισκότο για λεπτή γεύση.",
+      "descriptionEn": "White chocolate bite with strawberry and biscuit for a delicate taste."
     }
   ],
-  "snacks": [
+  "seasonal":[
     {
-      "id": "snacks-1",
-      "name": "Μπάρα Δημητριακών με Φρούτα του Δάσους",
-      "nameEn": "Cereal Bar with Forest Fruits",
-      "price": "€2.60",
-      "description": "Χειροποίητη",
-      "descriptionEn": "Homemade"
+      "id": "seasonal-1",
+      "name": "Τσουρέκι",
+      "nameEn": "Tsoureki",
+      "price": "€12.00",
+      "description": "Παραδοσιακό τσουρέκι με άρωμα μαστίχας και μαχλέπι.",
+      "descriptionEn": "Traditional Greek Easter bread with mastic and mahleb flavor."
     },
     {
-      "id": "snacks-2",
-      "name": "Soft Cookie Βανίλια με Κομμάτια Σοκολάτας",
-      "nameEn": "Soft Cookie Vanilla with Chocolate Chips",
-      "price": "€2.60",
-      "description": "Χειροποίητο",
-      "descriptionEn": "Homemade"
-    },
-    {
-      "id": "snacks-3",
-      "name": "Soft Cookie Σοκολάτα με Κομμάτια Σοκολάτας",
-      "nameEn": "Soft Cookie Chocolate with Chocolate Chips",
-      "price": "€2.60",
-      "description": "Χειροποίητο",
-      "descriptionEn": "Homemade"
-    },
-    {
-      "id": "snacks-4",
-      "name": "Soft Cookie Lotus",
-      "nameEn": "Soft Cookie Lotus",
-      "price": "€2.60",
-      "description": "Χειροποίητο",
-      "descriptionEn": "Homemade"
-    }
-  ],
-  "coffees": [
-    {
-      "id": "coffees-1",
-      "name": "Espresso",
-      "nameEn": "Espresso",
-      "price": "€2.30",
-      "description": "Δυνατός καφές με συμπυκνωμένη γεύση και άρωμα.",
-      "descriptionEn": "Strong coffee with concentrated flavor and aroma",
-      "icon": "fas fa-mug-hot"
-    },
-    {
-      "id": "coffees-2",
-      "name": "Espresso Macchiato",
-      "nameEn": "Espresso Macchiato",
-      "price": "€2.50",
-      "description": "Espresso με μικρή ποσότητα γάλακτος.",
-      "descriptionEn": "Espresso with a small amount of milk",
-      "icon": "fas fa-mug-hot"
-    },
-    {
-      "id": "coffees-3",
-      "name": "Freddo Espresso",
-      "nameEn": "Freddo Espresso",
-      "price": "€2.50",
-      "description": "Κρύος espresso, χτυπημένος για απαλή υφή.",
-      "descriptionEn": "Iced espresso, blended for a smooth texture",
-      "icon": "fas fa-mug-hot",
-      "picture": {
-        "src": "assets/menu/freddo-espresso.avif",
-        "alt": "Freddo Espresso"
-      }
-    },
-    {
-      "id": "coffees-4",
-      "name": "Cappuccino",
-      "nameEn": "Cappuccino",
-      "price": "€2.40",
-      "description": "Espresso με ζεστό γάλα και αφρόγαλα.",
-      "descriptionEn": "Espresso with steamed milk and milk foam",
-      "icon": "fas fa-mug-hot"
-    },
-    {
-      "id": "coffees-5",
-      "name": "Cappuccino Latte",
-      "nameEn": "Cappuccino Latte",
-      "price": "€2.60",
-      "description": "Καφές με περισσότερο γάλα και ήπια γεύση.",
-      "descriptionEn": "Coffee with more milk and a milder taste",
-      "icon": "fas fa-mug-hot"
-    },
-    {
-      "id": "coffees-6",
-      "name": "Freddo Cappuccino",
-      "nameEn": "Freddo Cappuccino",
-      "price": "€2.70",
-      "description": "Κρύος espresso με κρύο αφρόγαλα.",
-      "descriptionEn": "Iced espresso with cold milk foam",
-      "icon": "fas fa-coffee"
-    },
-    {
-      "id": "coffees-7",
-      "name": "Freddo Cappuccino Latte",
-      "nameEn": "Freddo Cappuccino Latte",
-      "price": "€2.90",
-      "description": "Κρύος καφές με περισσότερο γάλα.",
-      "descriptionEn": "Iced coffee with more milk",
-      "icon": "fas fa-coffee"
-    },
-    {
-      "id": "coffees-8",
-      "name": "Flat White",
-      "nameEn": "Flat White",
-      "price": "€2.40",
-      "description": "Διπλός espresso με ζεστό γάλα και ελαφρύ αφρό.",
-      "descriptionEn": "Double espresso with steamed milk and light foam",
-      "icon": "fas fa-mug-hot"
-    },
-    {
-      "id": "coffees-9",
-      "name": "Nes",
-      "nameEn": "Instant Coffee (Nes)",
-      "price": "€2.20",
-      "description": "Στιγμιαίος καφές ζεστός ή κρύος.",
-      "descriptionEn": "Instant coffee, hot or cold",
-      "icon": "fas fa-mug-hot"
-    },
-    {
-      "id": "coffees-10",
-      "name": "Frappe",
-      "nameEn": "Frappe",
-      "price": "€2.20",
-      "description": "Κλασικός ελληνικός κρύος στιγμιαίος καφές.",
-      "descriptionEn": "Classic Greek iced instant coffee",
-      "icon": "fas fa-coffee"
-    },
-    {
-      "id": "coffees-11",
-      "name": "Φίλτρου",
-      "nameEn": "Filter Coffee",
-      "price": "€2.60",
-      "description": "Καφές φίλτρου με ήπια και καθαρή γεύση.",
-      "descriptionEn": "Filter coffee with a mild, clean taste",
-      "icon": "fas fa-mug-hot"
-    },
-    {
-      "id": "coffees-12",
-      "name": "Ελληνικός",
-      "nameEn": "Greek Coffee",
-      "price": "€2.30",
-      "description": "Παραδοσιακός ελληνικός καφές στη χόβολη.",
-      "descriptionEn": "Traditional Greek coffee brewed in a briki",
-      "icon": "fas fa-mug-hot"
-    },
-    {
-      "id": "coffees-13",
-      "name": "Espresso Americano",
-      "nameEn": "Americano",
-      "price": "€2.00",
-      "description": "Espresso αραιωμένος με ζεστό νερό.",
-      "descriptionEn": "Espresso diluted with hot water",
-      "icon": "fas fa-mug-hot"
-    }
-  ],
-  "drinks": [
-    {
-      "id": "drinks-1",
-      "name": "Ρόφημα Σοκολάτας",
-      "nameEn": "Chocolate Drink",
-      "price": "€2.60",
-      "description": "Ζεστό ή κρύο ρόφημα σοκολάτας.",
-      "descriptionEn": "Chocolate drink served hot or cold"
-    },
-    {
-      "id": "drinks-2",
-      "name": "Ρόφημα Σοκολάτας Bitter",
-      "nameEn": "Dark Chocolate Drink",
-      "price": "€2.60",
-      "description": "Ζεστό ή κρύο ρόφημα μαύρης σοκολάτας.",
-      "descriptionEn": "Dark chocolate drink served hot or cold"
-    },
-    {
-      "id": "drinks-3",
-      "name": "Φυσικός Χυμός Πορτοκάλι",
-      "nameEn": "Fresh Orange Juice",
-      "price": "€2.80",
-      "description": "Φρεσκοστυμμένος χυμός πορτοκάλι.",
-      "descriptionEn": "Freshly squeezed orange juice"
-    },
-    {
-      "id": "drinks-4",
-      "name": "Τσάι",
-      "nameEn": "Tea",
-      "price": "€2.40",
-      "description": "Ζεστό ή κρύο τσάι σε διάφορες γεύσεις.",
-      "descriptionEn": "Tea served hot or cold in various flavors"
-    },
-    {
-      "id": "drinks-5",
-      "name": "Χαμομήλι",
-      "nameEn": "Chamomile",
-      "price": "€2.40",
-      "description": "Αφέψημα χαμομηλιού ζεστό ή κρύο.",
-      "descriptionEn": "Chamomile infusion served hot or cold"
-    },
-    {
-      "id": "drinks-6",
-      "name": "Λεμονάδα",
-      "nameEn": "Lemonade",
-      "price": "€3.20",
-      "description": "Δροσιστική λεμονάδα.",
-      "descriptionEn": "Refreshing lemonade",
-      "icon": "fas fa-lemon"
-    },
-    {
-      "id": "drinks-7",
-      "name": "Ροδακινάδα",
-      "nameEn": "Peach Juice",
-      "price": "€3.20",
-      "description": "Χυμός ροδάκινο.",
-      "descriptionEn": "Peach juice"
-    },
-    {
-      "id": "drinks-8",
-      "name": "Βυσσινάδα",
-      "nameEn": "Sour Cherry Juice",
-      "price": "€3.20",
-      "description": "Χυμός βύσσινο.",
-      "descriptionEn": "Sour cherry juice"
-    },
-    {
-      "id": "drinks-9",
-      "name": "Iced Tea Λεμόνι Χειροποίητο",
-      "nameEn": "Homemade Lemon Iced Tea",
-      "price": "€3.50",
-      "description": "Χειροποίητο παγωμένο τσάι λεμόνι.",
-      "descriptionEn": "Homemade lemon iced tea"
-    },
-    {
-      "id": "drinks-10",
-      "name": "Iced Tea Ροδάκινο Χειροποίητο",
-      "nameEn": "Homemade Peach Iced Tea",
-      "price": "€3.50",
-      "description": "Χειροποίητο παγωμένο τσάι ροδάκινο.",
-      "descriptionEn": "Homemade peach iced tea"
-    },
-    {
-      "id": "drinks-11",
-      "name": "Χυμός Μήλο & Ρόδι",
-      "nameEn": "Apple & Pomegranate Juice",
-      "price": "€3.20",
-      "description": "Χυμός μήλο και ρόδι.",
-      "descriptionEn": "Apple and pomegranate juice"
-    },
-    {
-      "id": "drinks-12",
-      "name": "Χυμός 8 Φρούτων",
-      "nameEn": "Mixed Fruit Juice",
-      "price": "€3.20",
-      "description": "Χυμός από ανάμεικτα φρούτα.",
-      "descriptionEn": "Mixed fruit juice"
-    },
-    {
-      "id": "drinks-13",
-      "name": "Χαμομήλι & Μέλι",
-      "nameEn": "Chamomile & Honey",
-      "price": "€2.80",
-      "description": "Χαμομήλι με μέλι ζεστό ή κρύο.",
-      "descriptionEn": "Chamomile with honey served hot or cold"
+      "id": "seasonal-2",
+      "name": "Κορμός Χριστουγέννων",
+      "nameEn": "Christmas Log Cake",
+      "price": "€18.00",
+      "description": "Τούρτα σε σχήμα κορμού με σοκολάτα και κρέμα για τις γιορτές.",
+      "descriptionEn": "Log-shaped cake with chocolate and cream for the holidays."
     }
   ]
 }
