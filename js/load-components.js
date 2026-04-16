@@ -83,6 +83,7 @@ async function loadNavbarFooter() {
 
     // Set active nav link based on current page
     setActiveNavLink();
+    initGooeyNav();
   } catch (error) {
     console.error('Error loading components:', error);
   }
@@ -99,6 +100,34 @@ function setActiveNavLink() {
     }
   });
 }
+
+function initGooeyNav() {
+  const navLinks = document.querySelectorAll('.gooey-nav .nav-link');
+  if (!navLinks.length) return;
+
+  navLinks.forEach(link => {
+    link.addEventListener('mouseenter', () => {
+      for (let i = 0; i < 11; i += 1) {
+        const particle = document.createElement('span');
+        particle.className = 'gooey-particle';
+        const size = Math.floor(Math.random() * 12) + 10;
+        particle.style.width = `${size}px`;
+        particle.style.height = `${size}px`;
+        particle.style.left = `${Math.random() * 100}%`;
+        particle.style.top = `${Math.random() * 100}%`;
+        particle.style.setProperty('--dx', `${Math.floor(Math.random() * 80) - 40}px`);
+        particle.style.setProperty('--dy', `${Math.floor(Math.random() * -70) - 20}px`);
+        particle.style.animation = `gooey-pop ${Math.random() * 0.4 + 0.9}s ease forwards`;
+        link.appendChild(particle);
+
+        setTimeout(() => {
+          particle.remove();
+        }, 1200);
+      }
+    });
+  });
+}
+
 
 // Load components when DOM is ready
 if (document.readyState === 'loading') {
