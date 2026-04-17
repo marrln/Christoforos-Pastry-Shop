@@ -1,4 +1,6 @@
 
+const SHOW_MENU_PRICES = false;
+
 function createMenuCard(item) {
     const card = document.createElement('div');
     card.className = 'menu-card';
@@ -37,14 +39,16 @@ function createMenuCard(item) {
     descDiv.textContent = item.description;
 
     // Create price element
-    const priceDiv = document.createElement('div');
-    priceDiv.className = 'item-price';
-    priceDiv.textContent = item.price;
+    if (SHOW_MENU_PRICES && item.price) {
+        const priceDiv = document.createElement('div');
+        priceDiv.className = 'item-price';
+        priceDiv.textContent = item.price;
+        contentDiv.appendChild(priceDiv);
+    }
 
     // Assemble card
     contentDiv.appendChild(nameDiv);
     contentDiv.appendChild(descDiv);
-    contentDiv.appendChild(priceDiv);
     card.appendChild(imageDiv);
     card.appendChild(contentDiv);
     return card;
