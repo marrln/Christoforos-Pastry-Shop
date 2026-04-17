@@ -6,6 +6,7 @@ const translations = {
   // Navigation
   "nav-home": "Home",
   "nav-menu": "Menu",
+  "nav-order": "Build Your Cake",
   "nav-about": "About Us",
 
   // Index - Hero / Carousel
@@ -50,6 +51,30 @@ const translations = {
   // Menu page
   "menu-page-title": "Our Menu",
   "menu-page-subtitle": "Discover our flavours",
+
+  // Cake order page
+  "cake-order-title": "Build Your Cake",
+  "cake-order-subtitle": "Choose shape, flavor, decorations and how many people it serves.",
+  "cake-order-intro": "Design a custom cake and we’ll email you a confirmation when it is received.",
+  "form-shape-label": "Cake Shape",
+  "form-shape-placeholder": "Select a shape",
+  "form-flavor-label": "Flavor",
+  "form-flavor-placeholder": "Choose a flavor",
+  "form-serves-label": "Serves",
+  "form-decoration-label": "Decoration Options",
+  "form-email-label": "Email",
+  "form-phone-label": "Phone Number",
+  "form-note-label": "Additional Notes",
+  "form-kilos-label": "Estimated weight",
+  "form-kilos-value": "Estimated kilos: {kilos}",
+  "form-submit": "Send Request",
+  "form-success": "Thank you! Your cake request was sent.",
+  "form-error": "Please check your details and try again.",
+  "form-invalid-email": "Please enter a valid email address.",
+  "form-invalid-phone": "Please enter a valid phone number.",
+  "form-required": "Please fill in all required fields.",
+  "form-info-title": "How it works",
+  "form-info-text": "Choose the cake shape, flavor and decorations. We will calculate the estimated kilos based on servings and send an order summary to your email.",
 
   // Menu categories
   "cat-brunch": "Brunch",
