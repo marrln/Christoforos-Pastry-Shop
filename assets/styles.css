@@ -536,13 +536,13 @@ main > section.menu-section.active {
   animation: fadeInMenu 0.4s ease-in-out;
 }
 
-.menu-section > .grid {
-  grid-template-columns: repeat(3, 1fr);
+.menu-section .grid {
+  grid-template-columns: 1fr;
 }
 
-@media (max-width: 900px) {
-  .menu-section > .grid {
-    grid-template-columns: 1fr !important;
+@media (min-width: 900px) {
+  .menu-section .grid {
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 
