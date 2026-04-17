@@ -10,10 +10,11 @@ function createMenuCard(item) {
     imageDiv.className = 'item-image';
 
     // Check if this item has a custom picture (from JSON)
-    if (item.picture && item.picture.src) {
+    const pictureSrc = item.picture && (typeof item.picture === 'string' ? item.picture : item.picture.src);
+    if (pictureSrc) {
         const img = document.createElement('img');
-        img.src = item.picture.src;
-        img.alt = item.picture.alt || item.name;
+        img.src = pictureSrc;
+        img.alt = (typeof item.picture === 'object' && item.picture.alt) ? item.picture.alt : item.name;
         imageDiv.appendChild(img);
     } else {
         // Use icon from JSON or default
