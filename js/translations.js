@@ -105,6 +105,13 @@ const translations = {
   "about-val3": "Warm, friendly service",
   "about-val4": "Fresh & pure ingredients",
 
+  // Document titles
+  "document-title-index": "Christoforos",
+  "document-title-menu": "Our Sweets - Christoforos",
+  "document-title-cake": "Οrder Your Cake - Christoforos",
+  "document-title-about": "About Us - Christoforos",
+  "document-title-404": "404 - Christoforos",
+
   // 404 page
   "404-title": "Oops! Page not found",
   "404-desc": "It looks like you've lost your way. This page doesn't exist.",
