@@ -6,7 +6,8 @@
       "nameEn": "Ferrero Cake",
       "price": "€4.50",
       "description": "Με τραγανή βάση feuilletine, mousse φουντουκιού, crémeux πραλίνας φουντουκιού, ψιλοκομμένα φουντούκια και επικάλυψη σοκολάτας με αμύγδαλο.",
-      "descriptionEn": "Crunchy feuilletine base with hazelnut mousse, praline crémeux, chopped hazelnuts and chocolate-almond topping."
+      "descriptionEn": "Crunchy feuilletine base with hazelnut mousse, praline crémeux, chopped hazelnuts and chocolate-almond topping.",
+      "picture": "assets/menu/pastry/ferrero.avif"
     },
     {
       "id": "pastry-2",
@@ -14,7 +15,8 @@
       "nameEn": "Black Forest Cake",
       "price": "€4.20",
       "description": "Παντεσπάνι σοκολάτας με mousse σοκολάτας 54%, κρέμα βανίλιας, ολόκληρα μαυροκέρασα και χειροποίητη επικάλυψη κόκκινων φρούτων.",
-      "descriptionEn": "Chocolate sponge with 54% chocolate mousse, vanilla cream, whole sour cherries and handmade berry compote topping."
+      "descriptionEn": "Chocolate sponge with 54% chocolate mousse, vanilla cream, whole sour cherries and handmade berry compote topping.",
+      "picture": "assets/menu/pastry/black-forest.avif"
     },
     {
       "id": "pastry-3",
@@ -22,7 +24,8 @@
       "nameEn": "Almond Cake",
       "price": "€3.80",
       "description": "Λευκό παντεσπάνι με κρέμα patisserie βανίλιας, σαντιγί και ψιλοκομμένα καβουρδισμένα αμύγδαλα.",
-      "descriptionEn": "White sponge with vanilla patisserie cream, whipped cream and toasted sliced almonds."
+      "descriptionEn": "White sponge with vanilla patisserie cream, whipped cream and toasted sliced almonds.",
+      "picture": "assets/menu/pastry/amygdalo.avif"
     },
     {
       "id": "pastry-4",
@@ -30,7 +33,8 @@
       "nameEn": "Pontikaki Cake",
       "price": "€4.50",
       "description": "Με ganache montée σοκολάτας 54%, παντεσπάνι σοκολάτας και γλάσο bitter σοκολάτας.",
-      "descriptionEn": "54% chocolate ganache montée with chocolate sponge and bitter chocolate glaze."
+      "descriptionEn": "54% chocolate ganache montée with chocolate sponge and bitter chocolate glaze.",
+      "picture": "assets/menu/pastry/pasta-pontikaki.avif"
     },
     {
       "id": "pastry-5",
@@ -38,7 +42,8 @@
       "nameEn": "Chocolatina Cake",
       "price": "€4.50",
       "description": "Με κρέμα Σεράνο, παντεσπάνι σοκολάτας και ganache σοκολάτας 54%.",
-      "descriptionEn": "Serano cream layered with chocolate sponge and rich 54% chocolate ganache."
+      "descriptionEn": "Serano cream layered with chocolate sponge and rich 54% chocolate ganache.",
+      "picture": "assets/menu/pastry/sokolatina.avif"
     },
     {
       "id": "pastry-6",
@@ -46,7 +51,8 @@
       "nameEn": "Milk Chocolate Mousse Cake",
       "price": "€4.50",
       "description": "Με mousse σοκολάτας, crémeux βανίλιας και τραγανή γεύση feuilletine.",
-      "descriptionEn": "Milk chocolate mousse with vanilla crémeux and crunchy feuilletine."
+      "descriptionEn": "Milk chocolate mousse with vanilla crémeux and crunchy feuilletine.",
+      "picture": "assets/menu/pastry/chocolate_mousse.webp"
     },
     {
       "id": "pastry-7",
@@ -54,7 +60,8 @@
       "nameEn": "Cookies Cake",
       "price": "€4.50",
       "description": "Με μπισκότο bavaroise, παντεσπάνι σοκολάτας, πραλίνα φουντουκιού, κομμάτια μπισκότου και γλάσο σοκολάτας γάλακτος.",
-      "descriptionEn": "Bavaroise cookie base with chocolate sponge, hazelnut praline, cookie pieces and milk chocolate glaze."
+      "descriptionEn": "Bavaroise cookie base with chocolate sponge, hazelnut praline, cookie pieces and milk chocolate glaze.",
+      "picture": "assets/menu/pastry/cookies.avif"
     },
     {
       "id": "pastry-8",
@@ -62,7 +69,8 @@
       "nameEn": "Tricolore Cake",
       "price": "€4.50",
       "description": "Παντεσπάνι σοκολάτας με mousse σοκολάτας 54%, mousse σοκολάτας γάλακτος, mousse λευκής σοκολάτας και γλάσο σοκολάτας γάλακτος.",
-      "descriptionEn": "Chocolate sponge with 54% chocolate mousse, milk chocolate mousse, white chocolate mousse and milk chocolate glaze."
+      "descriptionEn": "Chocolate sponge with 54% chocolate mousse, milk chocolate mousse, white chocolate mousse and milk chocolate glaze.",
+      "picture": "assets/menu/pastry/tricolor.avif"
     },
     {
       "id": "pastry-9",
@@ -70,15 +78,8 @@
       "nameEn": "Berry Noir Cake",
       "price": "€4.90",
       "description": "Παντεσπάνι σοκολάτας με mousse σοκολάτας γάλακτος, bavaroise βανίλιας, coulis μύρτιλου και λευκή σοκολάτα με μύρτιλο και ηλιόσπορο.",
-      "descriptionEn": "Chocolate sponge with milk chocolate mousse, vanilla bavaroise, blueberry coulis and white chocolate topped with blueberries and sunflower seeds."
-    },
-    {
-      "id": "pastry-10",
-      "name": "Πάστα Μήλο & Κανέλα",
-      "nameEn": "Apple & Cinnamon Cake",
-      "price": "€4.50",
-      "description": "Με mousse λευκής σοκολάτας και κανέλας, μήλο compote, επικάλυψη βούτυρο κακάο και γλάσο λευκής σοκολάτας.",
-      "descriptionEn": "White chocolate and cinnamon mousse with apple compote, cocoa butter topping and white chocolate glaze."
+      "descriptionEn": "Chocolate sponge with milk chocolate mousse, vanilla bavaroise, blueberry coulis and white chocolate topped with blueberries and sunflower seeds.",
+      "picture": "assets/menu/pastry/berry_noir.avif"
     }
   ],
   "individual": [
@@ -88,7 +89,8 @@
       "nameEn": "Tiramisu",
       "price": "€4.50",
       "description": "Παντεσπάνι σοκολάτας με κρέμα mascarpone, σιρόπι espresso και Baileys.",
-      "descriptionEn": "Chocolate sponge cake with mascarpone cream, espresso syrup and Baileys."
+      "descriptionEn": "Chocolate sponge cake with mascarpone cream, espresso syrup and Baileys.",
+      "picture": "assets/menu/individual/tiramisu_individual.avif"
     },
     {
       "id": "individual-2",
@@ -96,7 +98,8 @@
       "nameEn": "Cheesecake",
       "price": "€4.50",
       "description": "Bavaroise κρέμα τυριού με άρωμα λεμονιού, βουτυρένιο μπισκότο και σπιτική μαρμελάδα κεράσι-μύρτιλο.",
-      "descriptionEn": "Lemon-scented cheese bavaroise on a buttery biscuit base with homemade cherry and blueberry jam."
+      "descriptionEn": "Lemon-scented cheese bavaroise on a buttery biscuit base with homemade cherry and blueberry jam.",
+      "picture": "assets/menu/individual/cheesecake.avif"
     },
     {
       "id": "individual-3",
@@ -104,7 +107,8 @@
       "nameEn": "Coffee Lotus Cheesecake",
       "price": "€4.90",
       "description": "Mousse τυριού με espresso, πραλίνα Speculoos, βουτυρένιο μπισκότο και θρύμματα μπισκότου Speculoos.",
-      "descriptionEn": "Cheese mousse flavored with espresso, Speculoos praline, buttery biscuit and crushed Speculoos cookie."
+      "descriptionEn": "Cheese mousse flavored with espresso, Speculoos praline, buttery biscuit and crushed Speculoos cookie.",
+      "picture": "assets/menu/individual/lotus_individual.avif"
     },
     {
       "id": "individual-4",
@@ -112,7 +116,8 @@
       "nameEn": "Chocolate Syrup Cake",
       "price": "€4.90",
       "description": "Σιροπιασμένο κέικ σοκολάτας με πλούσια ganache 54%.",
-      "descriptionEn": "Chocolate-soaked cake finished with rich 54% chocolate ganache."
+      "descriptionEn": "Chocolate-soaked cake finished with rich 54% chocolate ganache.",
+      "picture": "assets/menu/individual/sokolatopita.avif"
     },
     {
       "id": "individual-5",
@@ -120,7 +125,8 @@
       "nameEn": "Profiterole",
       "price": "€4.50",
       "description": "Σουδάκια γεμιστά με βανίλιας κρέμα και σάλτσα bitter σοκολάτας.",
-      "descriptionEn": "Choux puffs filled with vanilla cream and topped with bitter chocolate sauce."
+      "descriptionEn": "Choux puffs filled with vanilla cream and topped with bitter chocolate sauce.",
+      "picture": "assets/menu/individual/profiterole_individual.avif"
     },
     {
       "id": "individual-6",
@@ -128,7 +134,8 @@
       "nameEn": "Red Velvet Cake",
       "price": "€4.90",
       "description": "Κόκκινο παντεσπάνι με mousse τυριού και σπιτική μαρμελάδα φράουλα.",
-      "descriptionEn": "Red sponge cake with cream cheese mousse and homemade strawberry jam."
+      "descriptionEn": "Red sponge cake with cream cheese mousse and homemade strawberry jam.",
+      "picture": "assets/menu/individual/red-velvet.avif"
     },
     {
       "id": "individual-7",
@@ -136,7 +143,8 @@
       "nameEn": "Carrot Cake",
       "price": "€4.50",
       "description": "Κέικ καρότου με ζεστά μπαχαρικά, κρέμα τυριού και ψιλοκομμένα καρύδια.",
-      "descriptionEn": "Spiced carrot cake with cream cheese frosting and chopped walnuts."
+      "descriptionEn": "Spiced carrot cake with cream cheese frosting and chopped walnuts.",
+      "picture": "assets/menu/individual/carrot_cake.avif"
     },
     {
       "id": "individual-8",
@@ -144,7 +152,8 @@
       "nameEn": "Lemon Pie Tart",
       "price": "€4.50",
       "description": "Βουτυρένια τάρτα με κρέμα λεμονιού και καψαλισμένη ιταλική μαρέγκα.",
-      "descriptionEn": "Buttery tart with lemon cream and caramelized Italian meringue."
+      "descriptionEn": "Buttery tart with lemon cream and caramelized Italian meringue.",
+      "picture": "assets/menu/individual/lemon_tart.avif"
     },
     {
       "id": "individual-9",
@@ -152,7 +161,8 @@
       "nameEn": "Stevia Chocolate Mousse",
       "price": "€4.90",
       "description": "Σοκολατένιο mousse με γλυκαντικό stevia και ganache σοκολάτας stevia.",
-      "descriptionEn": "Chocolate mousse sweetened with stevia and finished with stevia chocolate ganache."
+      "descriptionEn": "Chocolate mousse sweetened with stevia and finished with stevia chocolate ganache.",
+      "picture": "assets/menu/individual/mousse_stevia.avif"
     },
     {
       "id": "individual-10",
@@ -160,7 +170,8 @@
       "nameEn": "Millefeuille",
       "price": "€3.80",
       "description": "Καραμελωμένη σφολιάτα με κρέμα patisserie βανίλιας και ιταλική μαρέγκα.",
-      "descriptionEn": "Caramelized puff pastry layered with vanilla patisserie cream and Italian meringue."
+      "descriptionEn": "Caramelized puff pastry layered with vanilla patisserie cream and Italian meringue.",
+      "picture": "assets/menu/individual/millefeuille.avif"
     },
     {
       "id": "individual-11",
@@ -173,18 +184,20 @@
     {
       "id": "individual-12",
       "name": "Κωκ",
-      "nameEn": "Coconut Syrup Cake",
+      "nameEn": "Kok",
       "price": "€3.80",
       "description": "Σιροπιασμένο κέικ με κρέμα patisserie βανίλιας και γλάσο σοκολάτας.",
-      "descriptionEn": "Syrup-soaked cake with vanilla patisserie cream and chocolate glaze."
+      "descriptionEn": "Syrup-soaked cake with vanilla patisserie cream and chocolate glaze.",
+      "picture": "assets/menu/individual/kok.avif"
     },
     {
       "id": "individual-13",
       "name": "Τρουφάκι",
-      "nameEn": "Chocolate Truffle Choux",
+      "nameEn": "Troufaki",
       "price": "€3.80",
       "description": "Choux με γέμιση κρέμας patisserie σοκολάτας και επικάλυψη μαύρης σοκολάτας τρούφας.",
-      "descriptionEn": "Choux puff filled with chocolate patisserie cream and coated in dark truffle chocolate."
+      "descriptionEn": "Choux puff filled with chocolate patisserie cream and coated in dark truffle chocolate.",
+      "picture": "assets/menu/individual/troufaki.avif"
     },
     {
       "id": "individual-14",
@@ -192,7 +205,8 @@
       "nameEn": "Ekmek",
       "price": "€4.90",
       "description": "Σιροπιασμένο κανταΐφι με κρέμα patisserie βανίλιας, αμύγδαλο, σαντιγί και ψιλοκομμένο φιστίκι Αιγίνης.",
-      "descriptionEn": "Syrup-soaked kataifi with vanilla patisserie cream, almonds, whipped cream and chopped Aegina pistachios."
+      "descriptionEn": "Syrup-soaked kataifi with vanilla patisserie cream, almonds, whipped cream and chopped Aegina pistachios.",
+      "picture": "assets/menu/individual/ekmek.avif"
     },
     {
       "id": "individual-15",
@@ -200,7 +214,8 @@
       "nameEn": "Babas",
       "price": "€4.00",
       "description": "Σιροπιασμένο σαβαρέν με ξύσμα πορτοκαλιού, αρωματισμένο με cognac και γεμισμένο με σαντιγί.",
-      "descriptionEn": "Syrup-soaked savarin with orange zest, cognac aroma and whipped cream filling."
+      "descriptionEn": "Syrup-soaked savarin with orange zest, cognac aroma and whipped cream filling.",
+      "picture": "assets/menu/individual/babas.avif"
     },
     {
       "id": "individual-16",
@@ -208,7 +223,8 @@
       "nameEn": "Fruit Tart",
       "price": "€4.00",
       "description": "Τάρτα βουτύρου με κρέμα patisserie βανίλιας, σαντιγί και φρέσκα φρούτα εποχής.",
-      "descriptionEn": "Butter tart with vanilla patisserie cream, whipped cream and seasonal fresh fruit."
+      "descriptionEn": "Butter tart with vanilla patisserie cream, whipped cream and seasonal fresh fruit.",
+      "picture": "assets/menu/individual/fruit_tart.avif"
     },
     {
       "id": "individual-17",
@@ -216,7 +232,8 @@
       "nameEn": "Byzantino",
       "price": "€4.90",
       "description": "Σιροπιασμένο ραβανί με ξύσμα λεμονιού, mousse λευκής σοκολάτας, σαντιγί και κανέλα.",
-      "descriptionEn": "Syrup-soaked ravani with lemon zest, white chocolate mousse, whipped cream and cinnamon."
+      "descriptionEn": "Syrup-soaked ravani with lemon zest, white chocolate mousse, whipped cream and cinnamon.",
+      "picture": "assets/menu/individual/byzantino.avif"
     },
     {
       "id": "individual-18",
@@ -224,7 +241,8 @@
       "nameEn": "Bounty Cake",
       "price": "€4.90",
       "description": "Τάρτα βουτύρου με bavaroise καρύδας, crémeux σοκολάτας γάλακτος, crumble καρύδας και γλάσο λευκής σοκολάτας.",
-      "descriptionEn": "Butter tart with coconut bavaroise, milk chocolate crémeux, coconut crumble and white chocolate glaze."
+      "descriptionEn": "Butter tart with coconut bavaroise, milk chocolate crémeux, coconut crumble and white chocolate glaze.",
+      "picture": "assets/menu/individual/bounty.avif"
     },
     {
       "id": "individual-19",
@@ -242,7 +260,8 @@
       "nameEn": "Kataifi",
       "price": "€3.80",
       "description": "Κανταΐφι με τραγανή υφή, αμύγδαλο και αρωματικό σιρόπι.",
-      "descriptionEn": "Crispy kataifi pastry with almonds and fragrant syrup."
+      "descriptionEn": "Crispy kataifi pastry with almonds and fragrant syrup.",
+      "picture": "assets/menu/individualsyropy/kantaifi.avif"
     },
     {
       "id": "individualsyropy-2",
@@ -250,7 +269,8 @@
       "nameEn": "Mini Almond Kataifi Nests",
       "price": "€3.80",
       "description": "Τέσσερις μικρές φωλιές κανταΐφι με ψιλοκομμένο αμύγδαλο και σιρόπι.",
-      "descriptionEn": "Four mini kataifi nests with chopped almonds and sweet syrup."
+      "descriptionEn": "Four mini kataifi nests with chopped almonds and sweet syrup.",
+      "picture": "assets/menu/individualsyropy/mini_follies.avif"
     },
     {
       "id": "individualsyropy-3",
@@ -258,15 +278,8 @@
       "nameEn": "Baklava",
       "price": "€3.80",
       "description": "Χρυσαφένιος μπακλαβάς με καρύδια και μελωμένο σιρόπι.",
-      "descriptionEn": "Golden baklava with walnuts and honeyed syrup."
-    },
-    {
-      "id": "individualsyropy-4",
-      "name": "Ραβανί",
-      "nameEn": "Revani",
-      "price": "€4.50",
-      "description": "Αφράτο ραβανί σιροπιασμένο με άρωμα λεμονιού.",
-      "descriptionEn": "Moist revani soaked in syrup with a hint of lemon."
+      "descriptionEn": "Golden baklava with walnuts and honeyed syrup.",
+      "picture": "assets/menu/individualsyropy/baklava.avif"
     },
     {
       "id": "individualsyropy-5",
@@ -274,7 +287,8 @@
       "nameEn": "Galaktoboureko",
       "price": "€4.50",
       "description": "Με βελούδινη κρέμα και τραγανό φύλλο κρούστας, σιροπιασμένο με άρωμα λεμονιού.",
-      "descriptionEn": "Creamy custard enveloped in crispy phyllo dough, soaked in lemon-scented syrup."
+      "descriptionEn": "Creamy custard enveloped in crispy phyllo dough, soaked in lemon-scented syrup.",
+      "picture": "assets/menu/individualsyropy/galaktompoureko.avif"
     }
   ],
   "family": [
@@ -284,7 +298,8 @@
       "nameEn": "Profiterole Gondola",
       "price": "€20.00",
       "description": "Ολόκληρη γόνδολα με σουδάκια, κρέμα βανίλιας και σάλτσα σοκολάτας.",
-      "descriptionEn": "Whole gondola-style profiterole with choux puffs, vanilla cream and chocolate sauce."
+      "descriptionEn": "Whole gondola-style profiterole with choux puffs, vanilla cream and chocolate sauce.",
+      "picture": "assets/menu/family/profiterole_gondola.avif"
     },
     {
       "id": "family-2",
@@ -308,7 +323,8 @@
       "nameEn": "Ekmek",
       "price": "€18.00",
       "description": "Σιροπιασμένο ραβανί με βελούδινη κρέμα βανίλιας και άρωμα λεμονιού.",
-      "descriptionEn": "Syrup-soaked revani with velvety vanilla custard and a hint of lemon."
+      "descriptionEn": "Syrup-soaked revani with velvety vanilla custard and a hint of lemon.",
+      "picture": "assets/menu/family/ekmek_family.avif"
     },
     {
       "id": "family-5",
@@ -324,7 +340,8 @@
       "nameEn": "Tiramisu Cheesecake",
       "price": "€30.00",
       "description": "Κρέμα mascarpone με espresso και στρώσεις μπισκότου σε cheesecake.",
-      "descriptionEn": "Mascarpone cream with espresso and biscuit layers in a cheesecake."
+      "descriptionEn": "Mascarpone cream with espresso and biscuit layers in a cheesecake.",
+      "picture": "assets/menu/family/tiramisu_family.avif"
     },
     {
       "id": "family-7",
@@ -342,7 +359,8 @@
       "nameEn": "Black Forest Cake",
       "price": "€22.50",
       "description": "Αφράτη τούρτα με σοκολατένιο παντεσπάνι, κεράσια και ελαφριά σαντιγί.",
-      "descriptionEn": "Light cake with chocolate sponge, cherries and whipped cream."
+      "descriptionEn": "Light cake with chocolate sponge, cherries and whipped cream.",
+      "picture": "assets/menu/cake/black_forest.avif"
     },
     {
       "id": "cake-2",
@@ -350,7 +368,8 @@
       "nameEn": "Profiterole Cake",
       "price": "€22.00",
       "description": "Σουδάκια, κρέμα βανίλιας και σάλτσα σοκολάτας σε τούρτα γεύσης προφιτερόλ.",
-      "descriptionEn": "Profiterole-style cake with choux puffs, vanilla cream and chocolate sauce."
+      "descriptionEn": "Profiterole-style cake with choux puffs, vanilla cream and chocolate sauce.",
+      "picture": "assets/menu/cake/profiterole.avif"
     },
     {
       "id": "cake-3",
@@ -358,7 +377,8 @@
       "nameEn": "Milk Chocolate Mousse Cake",
       "price": "€22.00",
       "description": "Βελούδινη μους σοκολάτας γάλακτος πάνω σε τραγανή βάση.",
-      "descriptionEn": "Velvety milk chocolate mousse on a crisp base."
+      "descriptionEn": "Velvety milk chocolate mousse on a crisp base.",
+      "picture": "assets/menu/cake/milk_chocolate.avif"
     },
     {
       "id": "cake-4",
@@ -366,7 +386,8 @@
       "nameEn": "Caramel Cake with Chocolate & Vanilla",
       "price": "€22.00",
       "description": "Στρώσεις καραμέλας, σοκολάτας και βανίλιας για εκλεκτή ισορροπία.",
-      "descriptionEn": "Layers of caramel, chocolate and vanilla for a refined balance."
+      "descriptionEn": "Layers of caramel, chocolate and vanilla for a refined balance.",
+      "picture": "assets/menu/cake/caramel.avif"
     },
     {
       "id": "cake-5",
@@ -374,7 +395,8 @@
       "nameEn": "Ferrero Cake",
       "price": "€22.00",
       "description": "Σοκολατένιες και φουντουκένιες νότες σε πλούσια, κρεμώδη τούρτα.",
-      "descriptionEn": "Rich cake with chocolate and hazelnut notes in a creamy finish."
+      "descriptionEn": "Rich cake with chocolate and hazelnut notes in a creamy finish.",
+      "picture": "assets/menu/cake/ferrero.avif"
     },
     {
       "id": "cake-6",
@@ -382,7 +404,8 @@
       "nameEn": "Almond Cake",
       "price": "€22.00",
       "description": "Άρωμα αμυγδάλου με απαλή κρέμα και τραγανή επίστρωση.",
-      "descriptionEn": "Almond-scented cake with smooth cream and a crisp topping."
+      "descriptionEn": "Almond-scented cake with smooth cream and a crisp topping.",
+      "picture": "assets/menu/cake/amugdalo.avif"
     },
     {
       "id": "cake-7",
@@ -390,7 +413,8 @@
       "nameEn": "Red Velvet Cake",
       "price": "€22.00",
       "description": "Βελούδινο κόκκινο παντεσπάνι, κρέμα τυριού και χειροποίητη μαρμελάδα φράουλας.",
-      "descriptionEn": "Velvety red sponge with cream cheese frosting and homemade strawberry jam."
+      "descriptionEn": "Velvety red sponge with cream cheese frosting and homemade strawberry jam.",
+      "picture": "assets/menu/cake/red_velvet.avif"
     },
     {
       "id": "cake-8",
@@ -398,7 +422,8 @@
       "nameEn": "Chocolateina Cake",
       "price": "€22.00",
       "description": "Πλούσια σοκολατένια τούρτα με έντονη γεύση και αφράτη υφή.",
-      "descriptionEn": "Decadent chocolate cake with intense flavor and airy texture."
+      "descriptionEn": "Decadent chocolate cake with intense flavor and airy texture.",
+      "picture": "assets/menu/cake/chocolatina.avif"
     },
     {
       "id": "cake-9",
@@ -406,7 +431,8 @@
       "nameEn": "Tricolor Cake",
       "price": "€22.00",
       "description": "Τρίχρωμη τούρτα με σοκολάτα, κρέμα βανίλιας και φράουλα.",
-      "descriptionEn": "Three-layer cake with chocolate, vanilla cream and strawberry."
+      "descriptionEn": "Three-layer cake with chocolate, vanilla cream and strawberry.",
+      "picture": "assets/menu/cake/tricolore.avif"
     },
     {
       "id": "cake-10",
@@ -414,7 +440,8 @@
       "nameEn": "Mixed Biscuit Cake",
       "price": "€22.00",
       "description": "Τούρτα με ανάμεικτα μπισκότα και κρέμα για πλούσιο χαρακτήρα.",
-      "descriptionEn": "Cake with mixed biscuits and cream for a rich character."
+      "descriptionEn": "Cake with mixed biscuits and cream for a rich character.",
+      "picture": "assets/menu/cake/cookie.avif"
     },
     {
       "id": "cake-11",
@@ -422,7 +449,8 @@
       "nameEn": "Strawberry Cake",
       "price": "€22.00",
       "description": "Φρέσκιες φράουλες και απαλή κρέμα σε ελαφριά τούρτα.",
-      "descriptionEn": "Fresh strawberries and soft cream in a light cake."
+      "descriptionEn": "Fresh strawberries and soft cream in a light cake.",
+      "picture": "assets/menu/cake/strawberry.avif"
     }
   ],
   "cakeicecream": [
@@ -474,7 +502,8 @@
       "nameEn": "Kataifi Pastry",
       "price": "€18.20",
       "description": "Τραγανό κανταΐφι με αμύγδαλο και γλυκό σιρόπι βανίλιας.",
-      "descriptionEn": "Crispy kataifi with almonds and sweet vanilla syrup."
+      "descriptionEn": "Crispy kataifi with almonds and sweet vanilla syrup.",
+      "picture": "assets/menu/syropy/kantaifi.avif"
     },
     {
       "id": "syropy-3",
@@ -482,7 +511,8 @@
       "nameEn": "Almond Kataifi Nests",
       "price": "€18.20",
       "description": "Μοντέρνες φωλιές κανταΐφι γεμιστές με αμύγδαλο και μέλι.",
-      "descriptionEn": "Modern kataifi nests filled with almonds and honey."
+      "descriptionEn": "Modern kataifi nests filled with almonds and honey.",
+      "picture": "assets/menu/syropy/follies.avif"
     },
     {
       "id": "syropy-4",
@@ -490,7 +520,8 @@
       "nameEn": "Baklava",
       "price": "€18.20",
       "description": "Παραδοσιακό μπακλαβά με φιστίκια και πλούσιο σιρόπι.",
-      "descriptionEn": "Traditional baklava with nuts and rich syrup."
+      "descriptionEn": "Traditional baklava with nuts and rich syrup.",
+      "picture": "assets/menu/syropy/baklavas.avif"
     },
     {
       "id": "syropy-5",
@@ -498,7 +529,8 @@
       "nameEn": "Galaktoboureko",
       "price": "€18.20",
       "description": "Φύλλο με κρέμα βανίλιας, τραγανή υφή και σιρόπι με άρωμα λεμονιού.",
-      "descriptionEn": "Phyllo-wrapped vanilla custard with crisp texture and lemon syrup."
+      "descriptionEn": "Phyllo-wrapped vanilla custard with crisp texture and lemon syrup.",
+      "picture": "assets/menu/syropy/galaktoboureko.avif"
     }
   ],
   "bisquit": [
@@ -508,7 +540,8 @@
       "nameEn": "Sugar-Free Viennese Biscuits",
       "price": "€4.25",
       "description": "Απαλά μπισκότα με βουτυρώδη υφή και χωρίς ζάχαρη.",
-      "descriptionEn": "Soft, buttery biscuits made without sugar."
+      "descriptionEn": "Soft, buttery biscuits made without sugar.",
+      "picture": "assets/menu/bisquit/viennese.avif"
     },
     {
       "id": "bisquit-2",
@@ -516,7 +549,8 @@
       "nameEn": "Fasting Orange Cookies",
       "price": "€4.25",
       "description": "Αρωματικά κουλουράκια με φυσικό πορτοκάλι και νηστίσιμη συνταγή.",
-      "descriptionEn": "Aromatic cookies with natural orange and a vegeterian-friendly recipe."
+      "descriptionEn": "Aromatic cookies with natural orange and a vegeterian-friendly recipe.",
+      "picture": "assets/menu/bisquit/orange_cookie.avif"
     },
     {
       "id": "bisquit-3",
@@ -524,7 +558,8 @@
       "nameEn": "Smyrneika Cookies",
       "price": "€4.25",
       "description": "Παραδοσιακά κουλουράκια με μαστίχα και φίνα υφή.",
-      "descriptionEn": "Traditional Smyrneika cookies with mastic and delicate texture."
+      "descriptionEn": "Traditional Smyrneika cookies with mastic and delicate texture.",
+      "picture": "assets/menu/bisquit/smyrneika.avif"
     },
     {
       "id": "bisquit-4",
@@ -532,7 +567,8 @@
       "nameEn": "Petit Four with Apricot Jam & Chocolate",
       "price": "€4.25",
       "description": "Μικρό μπισκότο γεμιστό με βερύκοκο και καλυμμένο με σοκολάτα υγείας.",
-      "descriptionEn": "Small cookie filled with apricot jam and coated in dark chocolate."
+      "descriptionEn": "Small cookie filled with apricot jam and coated in dark chocolate.",
+      "picture": "assets/menu/bisquit/petit_four.avif"
     },
     {
       "id": "bisquit-5",
@@ -540,7 +576,8 @@
       "nameEn": "Sugar-Free Vanilla Cookies with Chocolate Chips",
       "price": "€4.25",
       "description": "Μαλακά βανίλιας cookies με σοκολατένιες νιφάδες χωρίς ζάχαρη.",
-      "descriptionEn": "Soft vanilla cookies with sugar-free chocolate chips."
+      "descriptionEn": "Soft vanilla cookies with sugar-free chocolate chips.",
+      "picture": "assets/menu/bisquit/vanilla_cookie.avif"
     },
     {
       "id": "bisquit-6",
@@ -556,7 +593,8 @@
       "nameEn": "Sugar-Free Chocolate Cookies with Chocolate Chips",
       "price": "€4.25",
       "description": "Σοκολατένια cookies με κομμάτια σοκολάτας σε πλούσια υφή.",
-      "descriptionEn": "Chocolate cookies with chunks of chocolate in a rich texture."
+      "descriptionEn": "Chocolate cookies with chunks of chocolate in a rich texture.",
+      "picture": "assets/menu/bisquit/chocolate_cookie.avif"
     },
     {
       "id": "bisquit-8",
@@ -564,7 +602,8 @@
       "nameEn": "Baton Sale",
       "price": "€4.25",
       "description": "Τραγανό μπισκότο με αλμυρή επίγευση και λεπτή υφή.",
-      "descriptionEn": "Crispy biscuit with a savory finish and delicate texture."
+      "descriptionEn": "Crispy biscuit with a savory finish and delicate texture.",
+      "picture": "assets/menu/bisquit/baton.avif"
     },
     {
       "id": "bisquit-9",
@@ -624,7 +663,8 @@
       "nameEn": "Macaron",
       "price": "€6.00",
       "description": "Μακαρόν με τραγανή επιφάνεια και βελούδινη γέμιση.",
-      "descriptionEn": "Macarons with a crisp shell and silky filling."
+      "descriptionEn": "Macarons with a crisp shell and silky filling.",
+      "picture": "assets/menu/treats/macaron.avif"
     },
     {
       "id": "treats-2",
@@ -640,7 +680,8 @@
       "nameEn": "Mini Éclair",
       "price": "€5.75",
       "description": "Μικρά σουδάκια γεμιστά με κρέμα βανίλιας και σοκολάτα.",
-      "descriptionEn": "Mini choux pastries filled with vanilla cream and chocolate."
+      "descriptionEn": "Mini choux pastries filled with vanilla cream and chocolate.",
+      "picture": "assets/menu/treats/mini_eclair.avif"
     },
     {
       "id": "treats-4",
@@ -648,7 +689,8 @@
       "nameEn": "Negrakia",
       "price": "€5.75",
       "description": "Μίνι κέικ με σοκολατένια μους και γλάσο σοκολάτας, πασπαλισμένα με τρούφα σοκολάτας.",
-      "descriptionEn": "Mini cakes with chocolate mousse and chocolate glaze, sprinkled with chocolate sprinkles."
+      "descriptionEn": "Mini cakes with chocolate mousse and chocolate glaze, sprinkled with chocolate sprinkles.",
+      "picture": "assets/menu/treats/negrakia.avif"
     },
     {
       "id": "treats-5",
@@ -656,7 +698,8 @@
       "nameEn": "Pontikakia Tartlets",
       "price": "€5.75",
       "description": "Μικρές σοκολατένιες τάρτες που μοιάζουν με ποντικάκια",
-      "descriptionEn": "Small chocolate tartlets shaped like little mice."
+      "descriptionEn": "Small chocolate tartlets shaped like little mice.",
+      "picture": "assets/menu/treats/pontikakia.avif"
     },
     {
       "id": "treats-6",
@@ -664,7 +707,8 @@
       "nameEn": "Four Seasons Pastries",
       "price": "€5.75",
       "description": "Παστάκια με εναλλαγή γεύσεων και αφράτη υφή.",
-      "descriptionEn": "Pastries with alternating flavors and airy texture."
+      "descriptionEn": "Pastries with alternating flavors and airy texture.",
+      "picture": "assets/menu/treats/four_seasons.avif"
     },
     {
       "id": "treats-7",
@@ -672,7 +716,8 @@
       "nameEn": "Christoforos Trigona Panoramatos",
       "price": "€5.75",
       "description": "Τρίγωνα Πανοράματος με πλούσια γέμιση και τραγανή υφή.",
-      "descriptionEn": "Crispy phyllo dough with rich cream filling."
+      "descriptionEn": "Crispy phyllo dough with rich cream filling.",
+      "picture": "assets/menu/treats/trigona.avif"
     },
     {
       "id": "treats-8",
@@ -680,7 +725,8 @@
       "nameEn": "Chionoules",
       "price": "€5.75",
       "description": "",
-      "descriptionEn": ""
+      "descriptionEn": "",
+      "picture": "assets/menu/treats/chionoules.avif"
     },
     {
       "id": "treats-9",
@@ -688,7 +734,8 @@
       "nameEn": "Mini Lemon Pie",
       "price": "€5.75",
       "description": "Μικρή τάρτα με λεμονάτη κρέμα και τραγανή βάση.",
-      "descriptionEn": "Mini tart with zesty lemon cream and crunchy crust."
+      "descriptionEn": "Mini tart with zesty lemon cream and crunchy crust.",
+      "picture": "assets/menu/treats/lemon_pie.avif"
     },
     {
       "id": "treats-10",
@@ -696,7 +743,8 @@
       "nameEn": "Fruit Tartlets",
       "price": "€5.75",
       "description": "Τάρτες με φρέσκα φρούτα και βελούδινη κρέμα.",
-      "descriptionEn": "Tartlets with fresh fruit and velvet cream."
+      "descriptionEn": "Tartlets with fresh fruit and velvet cream.",
+      "picture": "assets/menu/treats/fruit_tart.avif"
     },
     {
       "id": "treats-11",
@@ -704,7 +752,8 @@
       "nameEn": "Mini Millefeuille",
       "price": "€5.75",
       "description": "Μίνι μιλφέιγ με τραγανές στρώσεις φύλλου και κρέμας.",
-      "descriptionEn": "Mini millefeuille with crisp pastry layers and cream."
+      "descriptionEn": "Mini millefeuille with crisp pastry layers and cream.",
+      "picture": "assets/menu/treats/millefeuille.avif"
     },
     {
       "id": "treats-12",
@@ -712,7 +761,8 @@
       "nameEn": "Amegdalota",
       "price": "€5.75",
       "description": "Παραδοσιακά αμυγδαλωτά με αρωματική κρούστα.",
-      "descriptionEn": "Traditional almond cookies with an aromatic crust."
+      "descriptionEn": "Traditional almond cookies with an aromatic crust.",
+      "picture": "assets/menu/treats/amygdalota.avif"
     },
     {
       "id": "treats-13",
@@ -720,7 +770,8 @@
       "nameEn": "Ergolavoi",
       "price": "€5.75",
       "description": "Παραδοσιακά μπισκότα με φρουτώδη γέμιση.",
-      "descriptionEn": "Traditional cookies with fruity filling."
+      "descriptionEn": "Traditional cookies with fruity filling.",
+      "picture": "assets/menu/treats/ergolavoi.avif"
     },
     {
       "id": "treats-14",
@@ -728,7 +779,8 @@
       "nameEn": "Caramel-Coated Choux Pastries",
       "price": "€5.75",
       "description": "Σουδάκια γεμιστά με κρέμα και γλάσο καραμέλας.",
-      "descriptionEn": "Filled choux pastries topped with caramel glaze."
+      "descriptionEn": "Filled choux pastries topped with caramel glaze.",
+      "picture": "assets/menu/treats/caramel_choux.avif"
     }
   ],
   "wrapped": [
@@ -738,7 +790,8 @@
       "nameEn": "Mixed Pastry",
       "price": "€5.75",
       "description": "Μικτή επιλογή γλυκών με τραγανή βάση και κρεμώδη γέμιση.",
-      "descriptionEn": "Mixed sweet bites with a crisp base and creamy filling."
+      "descriptionEn": "Mixed sweet bites with a crisp base and creamy filling.",
+      "picture": "assets/menu/wrapped/mixed_pastry.avif"
     },
     {
       "id": "wrapped-2",
@@ -746,7 +799,8 @@
       "nameEn": "Wafer Praline Pyramid",
       "price": "€5.75",
       "description": "Πυραμίδα με στρώσεις γκοφρέτας και πραλίνας φουντουκιού.",
-      "descriptionEn": "Pyramid of wafer layers filled with hazelnut praline."
+      "descriptionEn": "Pyramid of wafer layers filled with hazelnut praline.",
+      "picture": "assets/menu/wrapped/pyramid.avif"
     },
     {
       "id": "wrapped-3",
@@ -754,7 +808,8 @@
       "nameEn": "Vegan Piraki",
       "price": "€5.75",
       "description": "Χειροποίητο σφολιατάκι με τραγανή υφή κατάλληλο για νηστεία.",
-      "descriptionEn": "Handmade puff pastry with a crisp texture suitable for fasting."
+      "descriptionEn": "Handmade puff pastry with a crisp texture suitable for fasting.",
+      "picture": "assets/menu/wrapped/vegan_piraki.avif"
     },
     {
       "id": "wrapped-4",
@@ -762,7 +817,8 @@
       "nameEn": "Chocolate Piraki",
       "price": "€5.75",
       "description": "Σφολιατάκι γεμιστό με σοκολατένια κρέμα και επικάλυψη σοκολάτας.",
-      "descriptionEn": "Puff pastry filled with chocolate cream and coated in chocolate."
+      "descriptionEn": "Puff pastry filled with chocolate cream and coated in chocolate.",
+      "picture": "assets/menu/wrapped/chocolate_piraki.avif"
     },
     {
       "id": "wrapped-5",
@@ -770,7 +826,8 @@
       "nameEn": "Kariokes",
       "price": "€5.75",
       "description": "Τραγανό μπισκοτένιο περίβλημα με γέμιση καρυδιού και σοκολάτας.",
-      "descriptionEn": "Crispy biscuit shell filled with walnut and chocolate."
+      "descriptionEn": "Crispy biscuit shell filled with walnut and chocolate.",
+      "picture": "assets/menu/wrapped/kariokes.avif"
     },
     {
       "id": "wrapped-6",
@@ -778,7 +835,8 @@
       "nameEn": "Bueno",
       "price": "€5.75",
       "description": "Σοκολατάκι με κρέμα φουντουκιού και τραγανή γκοφρέτα.",
-      "descriptionEn": "Chocolate treat with hazelnut cream and crisp wafer."
+      "descriptionEn": "Chocolate treat with hazelnut cream and crisp wafer.",
+      "picture": "assets/menu/wrapped/bueno.avif"
     },
     {
       "id": "wrapped-7",
@@ -786,7 +844,8 @@
       "nameEn": "Chocolate Wafer",
       "price": "€5.75",
       "description": "Μικρή γκοφρέτα με σοκολάτα για ελαφριά γλύκα.",
-      "descriptionEn": "Small chocolate wafer for a light sweet bite."
+      "descriptionEn": "Small chocolate wafer for a light sweet bite.",
+      "picture": "assets/menu/wrapped/chocolate_wafer.avif"
     },
     {
       "id": "wrapped-8",
@@ -794,7 +853,8 @@
       "nameEn": "Chocolate & Strawberry Heart",
       "price": "€5.75",
       "description": "Σοκολατένιο γλυκό με νότες φράουλας και καρδιές σοκολάτας.",
-      "descriptionEn": "Chocolate treat with strawberry notes and heart-shaped design."
+      "descriptionEn": "Chocolate treat with strawberry notes and heart-shaped design.",
+      "picture": "assets/menu/wrapped/heart.avif"
     },
     {
       "id": "wrapped-9",
@@ -802,7 +862,8 @@
       "nameEn": "Chocolate Saragli",
       "price": "€5.75",
       "description": "Παραδοσιακό σιροπιαστό γλυκό με σοκολατένια επικάλυψη.",
-      "descriptionEn": "Traditional syrup-soaked sweet topped with chocolate."
+      "descriptionEn": "Traditional syrup-soaked sweet topped with chocolate.",
+      "picture": "assets/menu/wrapped/saragli.avif"
     },
     {
       "id": "wrapped-10",
@@ -810,7 +871,8 @@
       "nameEn": "Bull Pastry with Chocolate Coating",
       "price": "€5.75",
       "description": "Μικρό γλυκό με σοκολατένια επικάλυψη και τραγανή γευστική υφή.",
-      "descriptionEn": "Small pastry with chocolate coating and crunchy texture."
+      "descriptionEn": "Small pastry with chocolate coating and crunchy texture.",
+      "picture": "assets/menu/wrapped/bull.avif"
     },
     {
       "id": "wrapped-11",
@@ -818,7 +880,8 @@
       "nameEn": "Bull Pastry with Almond Coating",
       "price": "€5.75",
       "description": "Γλυκό με αμυγδαλένια κρούστα και βουτυρένια γέμιση.",
-      "descriptionEn": "Pastry with almond coating and buttery filling."
+      "descriptionEn": "Pastry with almond coating and buttery filling.",
+      "picture": "assets/menu/wrapped/bull_almond.avif"
     },
     {
       "id": "wrapped-12",
@@ -826,7 +889,8 @@
       "nameEn": "Bull Pastry with Truffle Coating",
       "price": "€5.75",
       "description": "Γλυκό με επικάλυψη τρούφας και πλούσια σοκολατένια γεύση.",
-      "descriptionEn": "Pastry coated in chocolate sprinkles with rich flavor."
+      "descriptionEn": "Pastry coated in chocolate sprinkles with rich flavor.",
+      "picture": "assets/menu/wrapped/bull_truffle.avif"
     },
     {
       "id": "wrapped-13",
@@ -834,7 +898,8 @@
       "nameEn": "White Chocolate, Strawberry & Biscuit Treat",
       "price": "€5.75",
       "description": "Σοκολατάκι με λευκή σοκολάτα, φράουλα και μπισκότο για λεπτή γεύση.",
-      "descriptionEn": "White chocolate bite with strawberry and biscuit for a delicate taste."
+      "descriptionEn": "White chocolate bite with strawberry and biscuit for a delicate taste.",
+      "picture": "assets/menu/wrapped/white_chocolate.avif"
     }
   ],
   "seasonal":[
