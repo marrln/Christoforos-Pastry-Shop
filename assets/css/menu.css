@@ -1,0 +1,150 @@
+@import "base.css";
+
+/* ========== MENU.HTML ========== */
+
+/* Category Buttons */
+.menu-category-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.3rem 0.8rem;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--primary-07);
+  background: transparent;
+  border: 2px solid var(--primary-03);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.menu-category-btn:hover {
+  background-color: var(--primary-01);
+  border-color: var(--primary-05);
+  color: var(--primary-07);
+}
+.menu-category-btn.active {
+  background-color: var(--primary-07);
+  color: var(--text-light);
+  border-color: var(--primary-07);
+}
+
+/* Menu Sections (show/hide) */
+main > section.menu-section {
+  display: none;
+}
+main > section.menu-section.active {
+  display: block;
+  animation: fadeInMenu 0.4s ease-in-out;
+}
+@keyframes fadeInMenu {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.menu-section .grid {
+  grid-template-columns: 1fr;
+}
+@media (min-width: 900px) {
+  .menu-section .grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* Menu Item Card */
+.menu-card {
+  background: #fff;
+  border-radius: 14px;
+  padding: 1.2rem;
+  transition: transform 0.25s, box-shadow 0.25s;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+.menu-card:hover { transform: translateY(-5px); }
+
+.menu-card .item-image {
+  flex-shrink: 0;
+  width: 100px;
+  height: 100px;
+  border-radius: 12px;
+  background: var(--primary-01);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.2rem;
+  color: var(--primary-05);
+  overflow: hidden;
+}
+.menu-card .item-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.menu-card .item-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.menu-card .item-name {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--primary);
+}
+.menu-card .item-desc {
+  font-size: 0.875rem;
+  color: #666;
+  margin-top: 0.3rem;
+  flex: 1;
+}
+.menu-card .item-price {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--primary);
+  margin-top: 0.7rem;
+}
+
+/* ========== RESPONSIVE (tablet) ========== */
+@media (max-width: 768px) {
+  .menu-category-btn {
+    padding: 0.25rem 0.6rem;
+    font-size: 0.8rem;
+  }
+}
+
+/* ========== RESPONSIVE (small phones) ========== */
+@media (max-width: 480px) {
+  .menu-category-btn {
+    padding: 0.2rem 0.5rem;
+    font-size: 0.7rem;
+  }
+  .menu-card {
+    padding: 0.85rem;
+    gap: 0.75rem;
+  }
+  .menu-card .item-image {
+    width: 70px;
+    height: 70px;
+    font-size: 1.5rem;
+    border-radius: 8px;
+  }
+  .menu-card .item-name { font-size: 0.85rem; }
+  .menu-card .item-desc {
+    font-size: 0.7rem;
+    margin-top: 0.2rem;
+  }
+  .menu-card .item-price {
+    font-size: 0.8rem;
+    margin-top: 0.4rem;
+  }
+  /* Overrides for specific layout quirks */
+  .menu-section > div[class*="py-12"] {
+    padding: 0.25rem 0.5rem !important;
+  }
+  .menu-section > .grid {
+    gap: 0.25rem !important;
+  }
+  .menu-card { gap: 0.25rem !important; }
+  .menu-section { margin-top: 0.1rem !important; }
+}

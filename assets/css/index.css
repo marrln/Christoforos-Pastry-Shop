@@ -1,0 +1,375 @@
+@import "base.css";
+
+/* ========== INDEX.HTML ========== */
+
+/* Hero Carousel */
+#carousel {
+  position: relative;
+  overflow: hidden;
+  width: 100vw;
+  height: 100dvh;
+  background: #1a1a1a;
+  margin-left: calc(-50vw + 50%);
+}
+@media (max-width: 767px) {
+  #carousel {
+    height: 100vh;
+  }
+}
+
+.slide {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  transition: opacity 0.8s ease;
+  display: flex;
+  align-items: flex-end;
+}
+.slide.active {
+  opacity: 1;
+  z-index: 1;
+}
+
+.slide-img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.slide-overlay {
+  position: absolute;
+  inset: 0;
+  background: var(--overlay-gradient);
+}
+
+.slide-caption {
+  position: relative;
+  z-index: 2;
+  padding: 2rem 3rem;
+  margin-bottom: 4rem;
+  color: var(--text-light);
+}
+.slide-caption h2 {
+  font-size: 2rem;
+  font-weight: 800;
+  margin: 0 0 0.4rem;
+  text-shadow: 0 2px 6px rgba(0,0,0,0.5);
+}
+.slide-caption p {
+  font-size: 1rem;
+  margin: 0 0 0.8rem;
+  opacity: 0.9;
+  text-align: left;
+}
+
+/* Carousel Controls */
+.carousel-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+  background: var(--primary-03);
+  color: #fff;
+  border: none;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  font-size: 1.2rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.2s, transform 0.15s ease;
+}
+.carousel-arrow:hover {
+  background: var(--primary);
+}
+.carousel-arrow:active {
+  transform: translateY(-50%) scale(0.95);
+}
+#prev-btn { left: 1rem; }
+#next-btn { right: 1rem; }
+
+/* Dot Indicators */
+#dots {
+  position: absolute;
+  bottom: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 8px;
+  z-index: 10;
+}
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.5);
+  cursor: pointer;
+  transition: background 0.3s;
+}
+.dot.active {
+  background: var(--text-light);
+}
+
+  .reviews-carousel {
+    position: relative;
+    overflow: hidden;
+    min-height: 22rem;
+    border: 1px solid rgba(148, 163, 184, 0.25);
+    border-radius: 2rem;
+    background: var(--primary-01);
+    padding: 1.5rem;
+    margin-top: 2rem;
+  }
+
+  .reviews-slides {
+    position: relative;
+    min-height: 18rem;
+  }
+
+  .review-slide {
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    transition: opacity 0.4s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .review-slide.active {
+    opacity: 1;
+    z-index: 1;
+  }
+
+  .review-card {
+    width: min(100%, 44rem);
+    padding: 2rem;
+    border-radius: 1.75rem;
+    background: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.07);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+  }
+
+  .review-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 8px 24px var(--primary-03);
+  }
+
+  .review-rating {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin-bottom: 1rem;
+    align-items: center;
+  }
+
+  .review-stars {
+    color: #f59e0b;
+    font-size: 1rem;
+    letter-spacing: 0.05em;
+  }
+
+  .review-score {
+    font-weight: 700;
+    color: var(--primary);
+  }
+
+  .review-text {
+    color: var(--text-dark);
+    line-height: 1.8;
+    margin: 0 0 1rem;
+    font-size: 1rem;
+  }
+
+  .review-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    color: var(--text-muted);
+    font-size: 0.95rem;
+  }
+
+  #reviews-dots {
+    position: absolute;
+    bottom: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 0.75rem;
+    z-index: 10;
+  }
+
+  .reviews-carousel .carousel-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+  }
+
+  #reviews-prev {
+    left: 1rem;
+  }
+
+  #reviews-next {
+    right: 1rem;
+  }
+
+#carousel .btn-primary {
+  position: absolute;
+  bottom: 3.5rem;
+  left: 3rem;
+  z-index: 15;
+}
+
+/* Section Headings */
+.section-title {
+  font-size: 1.8rem;
+  font-weight: 800;
+  color: var(--primary);
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+.section-title::after {
+  content: '';
+  display: block;
+  height: 4px;
+  border-radius: 2px;
+  background: var(--primary);
+  margin-top: 6px;
+  width: 100%;
+}
+
+/* Featured Cards */
+.feat-card {
+  background: #fff;
+  border-radius: 16px;
+  overflow: hidden;
+  transition: transform 0.25s, box-shadow 0.25s;
+  cursor: pointer;
+}
+.feat-card:hover {
+  transform: translateY(-6px);
+}
+.feat-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  transition: transform 0.4s;
+}
+.feat-card h3,
+.feat-card h2,
+.feat-card .item-name,
+.feat-card .item-price {
+  color: var(--primary) !important;
+  font-weight: 700;
+  text-align: left;
+}
+.feat-card p {
+  text-align: left;
+}
+.feat-card > div > p:has(+ p) {
+  color: #666;
+}
+
+
+/* ========== AWARDS SECTION ========== */
+#awards a {
+  color: var(--primary);
+  text-decoration: none;
+  transition: text-decoration 0.2s ease, color 0.2s ease;
+}
+#awards a:hover {
+  text-decoration: underline;
+}
+
+.awards-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.award-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 120px;
+  max-width: 180px;
+  padding: 1rem;
+  border-radius: 1rem;
+  background: #fff;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.07);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+.award-card img {
+  max-width: 5rem;
+  max-height: 5rem;
+  width: auto;
+  height: auto;
+}
+.award-card:hover {
+  transform: translateY(-4px) scale(1.03);
+  box-shadow: 0 8px 24px var(--primary-03);
+}
+
+/* ========== RESPONSIVE ========== */
+@media (max-width: 767px) {
+  .slide-caption {
+    padding: 2rem 1rem;
+    margin-bottom: 3rem;
+  }
+  .slide-caption h2 {
+    font-size: 1.3rem;
+  }
+  #carousel .btn-primary {
+    bottom: 2.5rem;
+    left: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .slide-caption {
+    padding: 1.5rem 0.75rem;
+    margin-bottom: 3rem;
+  }
+  .slide-caption h2 {
+    font-size: 1rem;
+  }
+  .slide-caption p {
+    font-size: 0.8rem;
+  }
+  #carousel .btn-primary {
+    padding: 0.45rem 1.1rem;
+    font-size: 0.85rem;
+  }
+  .carousel-arrow {
+    width: 32px !important;
+    height: 32px !important;
+    font-size: 0.85rem !important;
+  }
+  #intro {
+    padding: 0.75rem 1rem !important;
+  }
+  #intro p {
+    font-size: 0.95rem !important;
+  }
+  .feat-card img {
+    height: 120px;
+  }
+  .feat-card h3 {
+    font-size: 0.95rem !important;
+  }
+  .feat-card p {
+    font-size: 0.7rem !important;
+  }
+  .feat-card > div {
+    padding: 0.75rem !important;
+  }
+}

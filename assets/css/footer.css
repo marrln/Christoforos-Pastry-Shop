@@ -1,0 +1,63 @@
+@import "base.css";
+
+/* ========== MAP SECTION ========== */
+#map-section {
+  background: var(--white);
+  position: relative;
+  z-index: 3;
+  margin-top: 0 !important;
+}
+
+.map-container iframe {
+  border-radius: 12px;
+}
+
+/* ========== FOOTER ========== */
+footer {
+  background: var(--primary-07);
+  color: var(--text-light);
+}
+
+footer a {
+  color: var(--white);
+  transition: color 0.2s, text-decoration 0.2s;
+}
+footer a:hover {
+  text-decoration: underline;
+}
+footer p {
+  text-align: left;
+}
+footer .nav-logo + p {
+  margin-top: 1rem;
+}
+
+.social-icon {
+  font-size: 1.4rem;
+  margin-right: 0.8rem;
+  transition: transform 0.2s;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.social-icon img {
+  height: 1.4rem;
+  width: 1.4rem;
+  object-fit: contain;
+  border-radius: 4px;
+}
+
+/* Footer Responsive */
+@media (max-width: 920px) {
+  footer .grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+}
+
+@media (min-width: 921px) {
+  footer .grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8rem;
+  }
+}

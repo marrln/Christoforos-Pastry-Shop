@@ -1,0 +1,255 @@
+@import "base.css";
+
+/* ----- FORMS (unchanged styling, just layout adjustments) ----- */
+.form-select {
+  appearance: none;
+  background-image: linear-gradient(45deg, transparent 50%, #d6d3d1 50%),
+                    linear-gradient(135deg, #d6d3d1 50%, transparent 50%),
+                    radial-gradient(circle at center, rgba(0,0,0,0.25) 10%, transparent 11%);
+  background-position: calc(100% - 1.2rem) calc(50% - 0.15rem),
+                       calc(100% - 0.9rem) calc(50% - 0.15rem),
+                       calc(100% - 1.05rem) 50%;
+  background-size: 0.35rem 0.35rem, 0.35rem 0.35rem, 0.5rem 0.5rem;
+  background-repeat: no-repeat;
+  padding-right: 2.75rem;
+  transition: border-color 0.25s ease, box-shadow 0.25s ease, background-color 0.25s ease;
+}
+.form-select:focus {
+  box-shadow: 0 0 0 3px rgba(241, 74, 166, 0.15);
+}
+.form-select option {
+  color: #111827;
+}
+
+/* ----- SHAPE OPTIONS (grid improved) ----- */
+.shape-option {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.75rem 0.5rem;
+  border-radius: 1.5rem;
+  border: 1px solid #e2e8f0;
+  background: #fff;
+  transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+  cursor: pointer;
+  text-align: center;
+}
+.shape-option:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 24px var(--primary-03);
+}
+.shape-option.selected {
+  border-color: var(--primary-07);
+  box-shadow: 0 8px 12px var(--primary-03);
+}
+.shape-option img {
+  width: 100%;
+  height: auto;
+  max-height: 4rem;
+  object-fit: contain;
+  border-radius: 1rem;
+  margin-bottom: 0.25rem;
+}
+.shape-option span {
+  font-weight: 700;
+  color: var(--text-dark);
+}
+
+/* Shape buttons grid – responsive columns */
+#shape-buttons {
+  display: grid;
+  gap: 0.75rem;
+  grid-template-columns: repeat(2, 1fr);
+}
+@media (min-width: 480px) {
+  #shape-buttons {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (min-width: 768px) {
+  #shape-buttons {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
+
+#number-input-wrapper {
+  margin-top: 1.5rem;
+}
+
+#kilos-display {
+  background: var(--primary-01);
+  border-color: var(--primary-03);
+}
+#form-feedback {
+  min-height: 2rem;
+  color: var(--error);
+}
+
+/* ----- CAKE SECTION (layout improvements) ----- */
+.cake-section {
+  padding: 3.5rem 1.5rem 4rem;
+  background-color: var(--surface-muted);
+}
+.cake-stack {
+  display: flex;
+  justify-content: center;
+}
+.cake-card-header {
+  padding: 2rem 2rem 1rem;
+  background: var(--surface);
+}
+
+.cake-section .section-title {
+  font-size: 1.8rem;
+  font-weight: 800;
+  margin-bottom: 0.5rem;
+  color: var(--primary);
+  line-height: 1.2;
+}
+.cake-section .section-title::after {
+  content: '';
+  display: block;
+  height: 4px;
+  border-radius: 2px;
+  background: var(--primary);
+  margin-top: 6px;
+  width: 100%;
+}
+
+.cake-section-copy {
+  max-width: 42rem;
+  color: var(--text-muted);
+  font-size: 1.05rem;
+  line-height: 1.8;
+}
+
+/* ----- FORM GRID ----- */
+.cake-form-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
+
+
+/* ----- INFO PANEL ------ */
+.cake-info-panel {
+  display: grid;
+  gap: 1.5rem;
+  margin-top: 1.75rem;
+  padding: 1.75rem;
+  border-radius: 1.75rem;
+  border: 1px solid var(--border);
+  background: var(--surface);
+}
+.cake-info-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+}
+.cake-info-badge {
+  display: grid;
+  place-items: center;
+  min-width: 3rem;
+  min-height: 3rem;
+  border-radius: 1rem;
+  background: var(--primary-03);
+  color: var(--primary);
+}
+.cake-info-heading {
+  margin-bottom: 0.35rem;
+  font-size: 1rem;
+  font-weight: 800;
+  color: var(--primary);
+}
+.cake-info-copy {
+  color: var(--text-muted);
+  font-size: 0.98rem;
+  line-height: 1.75;
+}
+
+/* ----- RESPONSIVE (LARGE SCREENS) ----- */
+@media (min-width: 1500px) {
+  .shape-option img {
+    max-height: 5rem;
+  }
+}
+
+/* ----- RESPONSIVE (TABLET & BELOW) ----- */
+@media (max-width: 768px) {
+  .cake-section {
+    padding-top: 2.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .cake-container {
+    padding: 0 0.75rem;
+  }
+  .cake-card-header {
+    padding: 1.5rem 1.5rem 0.75rem;
+  }
+  .cake-section-title,
+  .cake-section .section-title {
+    font-size: 1.6rem;
+  }
+  .cake-section-copy {
+    font-size: 0.98rem;
+  }
+  .cake-info-panel {
+    padding: 1.25rem;
+  }
+  .cake-info-row {
+    gap: 0.75rem;
+  }
+  .cake-info-heading {
+    font-size: 0.95rem;
+  }
+  .cake-info-copy {
+    font-size: 0.92rem;
+  }
+  .shape-option {
+    padding: 0.65rem;
+  }
+  .shape-option span {
+    font-size: 0.92rem;
+  }
+}
+
+/* ----- RESPONSIVE (SMALL PHONES) ----- */
+@media (max-width: 480px) {
+  .cake-section {
+    padding: 2rem 0.75rem 3rem;
+  }
+  .cake-card-header {
+    padding: 1.25rem 1rem 0.5rem;
+  }
+  .cake-section-title,
+  .cake-section .section-title {
+    font-size: 1.4rem;
+  }
+  .cake-section-copy {
+    font-size: 0.95rem;
+  }
+  .cake-info-panel {
+    padding: 1rem;
+  }
+  .cake-info-heading {
+    font-size: 0.92rem;
+  }
+  .cake-info-copy {
+    font-size: 0.88rem;
+  }
+  .shape-option {
+    padding: 0.45rem;
+    border-radius: 1.25rem;
+    font-size: 0.88rem;
+  }
+  .shape-option img {
+    max-height: 2.8rem;
+  }
+  #shape-buttons {
+    gap: 0.55rem;
+  }
+  .shape-option span {
+    font-size: 0.86rem;
+  }
+}

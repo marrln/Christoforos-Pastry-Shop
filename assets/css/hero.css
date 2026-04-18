@@ -1,0 +1,56 @@
+@import "base.css";
+
+/* ========== HERO SECTIONS ========== */
+.hero {
+  background-image: var(--overlay-gradient), url('../cover.avif');
+  background-size: cover;
+  background-position: center;
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: var(--text-light);
+  position: relative;
+  z-index: 1;
+}
+
+.hero h1 {
+  text-shadow: 0 2px 4px rgba(0,0,0,0.6), 0 4px 12px rgba(0,0,0,0.5);
+}
+
+.hero p {
+  text-shadow: 0 1px 3px rgba(0,0,0,0.9), 0 3px 10px rgba(0,0,0,0.75);
+}
+
+/* ========== PARALLAX WRAPPER (Menu page) ========== */
+#parallax-wrapper {
+  position: relative;
+  z-index: 2;
+  background: white;
+}
+
+#parallax-wrapper > div[class*="py-4"][class*="px-4"] {
+  background: var(--white);
+}
+
+/* ========== RESPONSIVE (small phones) ========== */
+@media (max-width: 480px) {
+  #parallax-wrapper main {
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+  }
+
+  #parallax-wrapper > div[class*="py-4"] {
+    padding: 1rem 0.5rem 0.1rem 0.5rem !important;
+  }
+
+  #parallax-wrapper > div[class*="py-4"] .flex {
+    gap: 0.5rem !important;
+  }
+
+  .hero h1 {
+    font-size: 1.875rem !important;
+  }
+}

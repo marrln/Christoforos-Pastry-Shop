@@ -1,0 +1,59 @@
+@import "base.css";
+
+/* ========== ABOUT US PAGE ========== */
+
+/* About Section */
+.about-section {
+  background: var(--primary-01);
+  border-radius: 20px;
+  padding: 2rem;
+}
+
+/* Info Cards */
+.info-card {
+  background: #fff;
+  border-radius: 16px;
+  padding: 2rem;
+  transition: transform 0.25s, box-shadow 0.25s;
+}
+.info-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Value Pills */
+.value-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.55rem 1.4rem;
+  border-radius: 25px;
+  background: var(--primary-05) !important;
+  color: var(--text-light);
+  font-weight: 700;
+  font-size: 0.95rem;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.value-pill:hover {
+  background: var(--primary) !important;
+}
+
+/* Team Photo */
+.photo-placeholder {
+  width: 100%;
+  height: 320px;
+  border-radius: 16px;
+  object-fit: cover;
+  transition: transform 0.4s;
+}
+
+/* ========== RESPONSIVE (small phones) ========== */
+@media (max-width: 480px) {
+  .value-pill {
+    padding: 0.45rem 1.1rem;
+    font-size: 0.75rem;
+    gap: 0.4rem;
+  }
+  .about-section {
+    padding: 1.25rem !important;
+  }
+}

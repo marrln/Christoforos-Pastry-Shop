@@ -1,0 +1,114 @@
+/* ========== CSS VARIABLES ========== */
+:root {
+  --primary: rgb(241, 74, 166);
+  --primary-07: rgba(241, 74, 166, 0.7);
+  --primary-05: rgba(241, 74, 166, 0.5);
+  --primary-03: rgba(241, 74, 166, 0.3);
+  --primary-01: rgba(241, 74, 166, 0.1);
+  --white: #FFFFFF;
+  --surface: #FFFFFF;
+  --surface-muted: #f8fafc;
+  --border: rgba(226, 232, 240, 0.9);
+  --text-dark: #2D2D2D;
+  --text-muted: #64748b;
+  --text-light: #FFFFFF;
+  --shadow: rgba(255,255,255,0.18);
+  --overlay-gradient: linear-gradient(to top, rgba(0,0,0,0.7) 0%, transparent 60%);
+}
+
+/* ========== RESET & BASE ========== */
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+html, body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Tahoma, Verdana;
+  color: var(--text-dark);
+  background-color: var(--white);
+  overflow-x: hidden;
+}
+main { position: relative; }
+p { text-align: justify; }
+
+/* ========== TRANSLATION EFFECT ========== */
+[data-i18n] {
+  opacity: 1;
+  transition: opacity 0.4s ease-in-out;
+}
+[data-i18n].translating { opacity: 0; }
+
+/* ========== BUTTONS ========== */
+.btn-primary {
+  display: inline-block;
+  padding: 0.55rem 1.4rem;
+  border-radius: 25px;
+  background: var(--primary-05) !important;
+  color: var(--text-light);
+  font-weight: 700;
+  text-decoration: none;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.btn-primary:hover {
+  background: var(--primary) !important;
+}
+
+/* ========== UTILITY CLASSES (shadows & transforms) ========== */
+.scale-105 { transform: scale(1.05); }
+.scale-120 { transform: scale(1.2); }
+.shadow-sm { box-shadow: 0 2px 10px rgba(0,0,0,0.07); }
+.shadow-md { box-shadow: 0 2px 12px rgba(0,0,0,0.15); }
+.shadow-lg { box-shadow: 0 8px 24px var(--primary-03); }
+.shadow-frame { box-shadow: 0 4px 20px rgba(0,0,0,0.12); }
+.shadow-info { box-shadow: 0 2px 12px rgba(0,0,0,0.07); }
+.shadow-info-hover { box-shadow: 0 8px 28px var(--primary-01); }
+.shadow-photo { box-shadow: 0 4px 20px rgba(0,0,0,0.15); }
+
+/* Hover overrides (combined) */
+.btn-primary:hover,
+.value-pill:hover,
+.feat-card:hover img {
+  transform: scale(1.05);
+}
+.btn-primary:hover,
+.feat-card:hover,
+.menu-card:hover,
+.value-pill:hover {
+  box-shadow: 0 8px 24px var(--primary-03);
+}
+.info-card:hover {
+  box-shadow: 0 8px 28px var(--primary-01);
+}
+
+/* ========== SCROLL REVEAL ========== */
+section:not(#carousel):not(.hero):not(#map-section):not(.menu-section),
+.feat-card,
+.menu-card,
+.info-card,
+.value-pill {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+.reveal {
+  opacity: 1 !important;
+  transform: translateY(0) !important;
+}
+
+/* ========== RESPONSIVE ========== */
+@media (max-width: 767px) {
+  .section-title {
+    font-size: 1.75rem !important;
+  }
+}
+@media (max-width: 480px) {
+  .section-title {
+    font-size: 1.25rem !important;
+    text-align: center;
+  }
+  p {
+    text-align: left !important;
+  }
+}
