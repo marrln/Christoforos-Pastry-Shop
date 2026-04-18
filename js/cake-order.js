@@ -41,6 +41,8 @@ function validPhone(phone) {
 document.addEventListener('DOMContentLoaded', () => {
   const form = document.getElementById('cake-order-form');
   const servesSelect = document.getElementById('serves-select');
+  const overlaySelect = document.getElementById('overlay-select');
+  const photoPrintCheckbox = document.getElementById('photo-print-checkbox');
   const shapeInput = document.getElementById('shape-input');
   const shapeButtons = document.querySelectorAll('.shape-option');
   const numberWrapper = document.getElementById('number-input-wrapper');
@@ -59,6 +61,14 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   servesSelect.addEventListener('change', () => setKilosDisplay(servesSelect.value));
+  photoPrintCheckbox.addEventListener('change', () => {
+    const usingPhoto = photoPrintCheckbox.checked;
+    overlaySelect.disabled = usingPhoto;
+    if (usingPhoto) {
+      overlaySelect.value = '';
+    }
+  });
+
   shapeButtons.forEach((button) => {
     button.addEventListener('click', () => {
       shapeButtons.forEach((btn) => btn.classList.remove('selected'));

@@ -28,6 +28,8 @@ const translations = {
 
   // Index - Featured section
   "featured-title": "Our Favourites",
+  "reviews-title": "What customers say",
+  "reviews-desc": "Recent high-rated reviews straight from Google Maps, showing why our guests keep coming back.",
   "feat1-name": "Freddo Espresso",
   "feat1-desc": "Iced coffee for summer days",
   "feat2-name": "Profiterole Pancakes",
@@ -54,14 +56,48 @@ const translations = {
 
   // Cake order page
   "cake-order-title": "Build Your Cake",
+  "cake-order-hero-caption": "Build your own cake",
   "cake-order-subtitle": "Choose shape, flavor, decorations and how many people it serves.",
   "cake-order-intro": "Design a custom cake and we’ll email you a confirmation when it is received.",
+  "cake-order-intro-text": "Once you complete the form, we will receive your request and notify you soon.",
   "form-shape-label": "Cake Shape",
   "form-shape-placeholder": "Select a shape",
+  "shape-round": "Round",
+  "shape-square": "Square",
+  "shape-heart": "Heart",
+  "shape-rectangle": "Rectangle",
+  "shape-number": "Number",
   "form-flavor-label": "Flavor",
   "form-flavor-placeholder": "Choose a flavor",
+  "form-flavor-option-vanilla": "Vanilla",
+  "form-flavor-option-chocolate": "Chocolate",
+  "form-flavor-option-red-velvet": "Red Velvet",
+  "form-flavor-option-coffee": "Coffee",
+  "form-flavor-option-lemon": "Lemon",
+  "form-flavor-option-caramel": "Caramel",
+  "form-flavor-option-raspberry": "Raspberry",
+  "form-flavor-option-mixed": "Mixed",
   "form-serves-label": "Serves",
+  "form-serves-placeholder": "Choose how many people",
+  "form-overlay-label": "Overlay",
+  "form-overlay-placeholder": "Choose an overlay",
+  "overlay-chocolate": "Chocolate",
+  "overlay-caramel": "Caramel",
+  "overlay-berry": "Berry",
+  "overlay-vanilla": "Vanilla",
+  "photo-print-label": "Photo print (13 €)",
+  "photo-print-help": "When selected, no other overlay can be added.",
+  "serves-8-10": "8-10 people",
+  "serves-10-12": "10-12 people",
+  "serves-12-14": "12-14 people",
+  "serves-14-16": "14-16 people",
+  "serves-16-20": "16-20 people",
   "form-decoration-label": "Decoration Options",
+  "decoration-chocolate-drip": "Chocolate drip",
+  "decoration-fresh-fruit": "Fresh fruit",
+  "decoration-edible-gold": "Edible gold",
+  "decoration-personalized-message": "Personalized message",
+  "decoration-sprinkles": "Sprinkles",
   "form-email-label": "Email",
   "form-phone-label": "Phone Number",
   "form-note-label": "Additional Notes",
@@ -75,6 +111,12 @@ const translations = {
   "form-required": "Please fill in all required fields.",
   "form-info-title": "How it works",
   "form-info-text": "Choose the cake shape, flavor and decorations. We will calculate the estimated kilos based on servings and send an order summary to your email.",
+  "form-info-bullet1-title": "Clear guidance",
+  "form-info-bullet1-text": "We help you choose the right size for your celebration.",
+  "form-info-bullet2-title": "Email confirmation",
+  "form-info-bullet2-text": "Your request is sent securely via Formspree to our cake team.",
+  "form-info-bullet3-title": "Phone required",
+  "form-info-bullet3-text": "Used only to confirm pickup or delivery details.",
 
   // Menu categories
   "cat-brunch": "Brunch",
@@ -214,6 +256,9 @@ function switchToEnglish() {
       document.querySelectorAll("[data-i18n]").forEach((el) => {
         el.classList.remove("translating");
       });
+      if (typeof window.refreshReviewLanguage === 'function') {
+        window.refreshReviewLanguage();
+      }
     }, 400);
 
     // Update active state on lang buttons
@@ -246,12 +291,11 @@ function switchToGreek() {
       }
       el.classList.remove("translating");
     });
+    if (typeof window.refreshReviewLanguage === 'function') {
+      window.refreshReviewLanguage();
+    }
   }, 400);
 
-  // Update active state on lang buttons
-  document.querySelectorAll(".lang-btn").forEach((btn) => {
-    btn.classList.toggle("lang-active", btn.dataset.lang === "el");
-  });
 }
 
 function initI18n() {

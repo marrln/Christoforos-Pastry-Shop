@@ -6,7 +6,7 @@
   <title data-i18n="document-title-index">Χριστόφορος</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
-  <link rel="stylesheet" href="assets/styles.css" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
   <link rel="icon" type="image/svg+xml" href="assets/icons/favicon.svg" />
 </head>
 <body>
@@ -138,6 +138,28 @@
     </div>
   </section>
 
+  <!-- GOOGLE MAPS REVIEWS -->
+  
+    <section id="reviews" class="py-12 px-6">
+      <div class="max-w-6xl mx-auto">
+        <div class="text-center mb-8">
+          <h2 class="section-title mx-auto" data-i18n="reviews-title">Τι λένε οι πελάτες μας</h2>
+          <p class="max-w-3xl mx-auto text-gray-700 mt-4 text-lg" data-i18n="reviews-desc">
+            Οι κριτικές των πελατών μας στο Google Maps αντικατοπτρίζουν την αγάπη και την εκτίμηση που έχουμε κερδίσει από την τοπική κοινότητα. 
+            Με χιλιάδες θετικές αξιολογήσεις, οι πελάτες μας αναδεικνύουν την ποιότητα των προϊόντων μας, την εξαιρετική εξυπηρέτηση και τη φιλική ατμόσφαιρα που προσφέρουμε.
+            Επισκεφθείτε τη σελίδα μας στο Google Maps για να διαβάσετε τις κριτικές και να δείτε γιατί ο Χριστόφορος είναι ένας αγαπημένος προορισμός για γλυκές απολαύσεις.
+          </p>
+        </div>
+          <div id="reviews-carousel" class="reviews-carousel">
+            <div class="reviews-slides"></div>
+            <button class="carousel-arrow" id="reviews-prev" aria-label="Previous review"><i class="fa fa-chevron-left"></i></button>
+            <button class="carousel-arrow" id="reviews-next" aria-label="Next review"><i class="fa fa-chevron-right"></i></button>
+            <div id="reviews-dots" class="dots"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
   <!-- FEATURED ITEMS -->
   <section class="py-12 px-6">
     <div class="max-w-7xl mx-auto">
@@ -186,6 +208,7 @@
 
   <script src="js/translations.js"></script>
   <script src="js/load-components.js"></script>
+  <script src="js/reviews-carousel.js"></script>
   <script src="js/scroll-reveal.js"></script>
   <script src="js/carousel.js"></script>
 </body>

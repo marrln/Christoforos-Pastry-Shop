@@ -6,116 +6,160 @@
   <title data-i18n="document-title-cake">Φτιάξε την τούρτα σου - Χριστόφορος</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
-  <link rel="stylesheet" href="assets/styles.css" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
   <link rel="icon" type="image/svg+xml" href="assets/icons/favicon.svg" />
 </head>
 <body class="bg-white text-slate-900">
   <main class="make-cake-page">
-    <section class="menu-hero py-20 px-4 text-center", style="background-image: url('assets/cover.avif'); background-size: cover; background-position: center;">
-       <div class="relative z-10">
-      <div class="max-w-4xl mx-auto">
-        <p class="text-pink-600 font-semibold uppercase tracking-[0.4em] mb-4">Φτιάξτε τη δική σας τούρτα</p>
-        <h1 class="text-4xl md:text-5xl font-extrabold mb-5" data-i18n="cake-order-title">Φτιάξε την τούρτα σου</h1>
-        <p class="text-lg md:text-xl opacity-80 max-w-3xl mx-auto" data-i18n="cake-order-subtitle">Επίλεξε σχήμα, γεύση, διακόσμηση και για πόσα άτομα θα είναι.</p>
-      </div>
-    </section>
+    <div class="hero">
+      <h1 class="text-4xl font-extrabold mb-2" data-i18n="cake-order-title">Φτιάξε την τούρτα σου</h1>
+      <p class="text-lg opacity-85 max-w-xl mx-auto" data-i18n="cake-order-subtitle">Επίλεξε σχήμα, γεύση, διακόσμηση και για πόσα άτομα θα είναι.</p>
+    </div>
 
-    <section class="py-14 px-4">
-      <div class="max-w-6xl mx-auto grid">
-        <div class="space-y-6">
-          <div class="rounded-[2rem] border border-pink-100 bg-white p-8 shadow-sm">
-            <div class="mb-6">
-              <h2 class="text-3xl font-bold mb-3" data-i18n="cake-order-intro">Σχεδίασε την ειδική σου τούρτα</h2>
-              <p class="text-slate-600">Μόλις συμπληρώσεις τη φόρμα, θα λάβουμε το αίτημά σου και θα σε ενημερώσουμε σύντομα.</p>
+    <section class="cake-section">
+        <div class="cake-stack">
+            <div class="cake-card-header">
+              <h2 class="section-title" data-i18n="cake-order-intro">Σχεδίασε την ειδική σου τούρτα</h2>
+              <p class="cake-section-copy" data-i18n="cake-order-intro-text">Μόλις συμπληρώσεις τη φόρμα, θα λάβουμε το αίτημά σου και θα σε ενημερώσουμε σύντομα.</p>
+              <div class="cake-info-panel">
+                <div>
+                  <h4 class="text-xl font-bold mb-3" data-i18n="form-info-title">Πώς λειτουργεί</h4>
+                  <p class="text-slate-700" data-i18n="form-info-text">Επίλεξε σχήμα τούρτας, γεύση και διακοσμήσεις. Θα υπολογίσουμε τα εκτιμώμενα κιλά βάσει σερβιρίσματος και θα στείλουμε περίληψη παραγγελίας στο email σου.</p>
+                </div>
+
+                <div class="cake-info-row">
+                  <span class="cake-info-badge"><i class="fas fa-check"></i></span>
+                  <div>
+                    <h4 class="cake-info-heading" data-i18n="form-info-bullet1-title">Καθαρή καθοδήγηση</h4>
+                    <p class="cake-info-copy" data-i18n="form-info-bullet1-text">Σε βοηθάμε να επιλέξεις το σωστό μέγεθος για την εκδήλωσή σου.</p>
+                  </div>
+                </div>
+
+                <div class="cake-info-row">
+                  <span class="cake-info-badge"><i class="fas fa-envelope"></i></span>
+                  <div>
+                    <h4 class="cake-info-heading" data-i18n="form-info-bullet2-title">Επιβεβαίωση email</h4>
+                    <p class="cake-info-copy" data-i18n="form-info-bullet2-text">Το αίτημά σου αποστέλλεται με ασφάλεια στην ομάδα μας μέσω Formspree.</p>
+                  </div>
+                </div>
+
+                <div class="flex items-start gap-4">
+                  <span class="cake-info-badge"><i class="fas fa-phone"></i></span>
+                  <div>
+                    <h4 class="cake-info-heading" data-i18n="form-info-bullet3-title">Απαιτείται τηλέφωνο</h4>
+                    <p class="cake-info-copy" data-i18n="form-info-bullet3-text">Χρησιμοποιείται μόνο για να επιβεβαιώσουμε τις λεπτομέρειες παραλαβής ή παράδοσης.</p>
+                  </div>
+                </div>
             </div>
 
             <form id="cake-order-form" action="https://formspree.io/f/your-form-id" method="POST" class="space-y-6 rounded-[1.5rem] bg-slate-50 p-6">
               <!-- Replace action with your Formspree endpoint -->
-              <div class="grid gap-5 sm:grid-cols-3">
-                <label class="space-y-4 sm:col-span-2">
-                  <span class="font-semibold" data-i18n="form-shape-label">Σχήμα τούρτας</span>
+              <div class="grid gap-5 cake-form-grid">
+                <div class="space-y-4 cake-form-left">
+                  <label class="font-semibold block" for="shape-input" data-i18n="form-shape-label">Σχήμα τούρτας</label>
                   <input type="hidden" name="shape" id="shape-input" required />
-                  <div id="shape-buttons" class="grid gap-3 sm:grid-cols-3">
+                  <div id="shape-buttons" class="grid gap-3">
                     <button type="button" class="shape-option" data-value="Round">
                       <img src="assets/icons/cakes/circle2.png" alt="Round" />
-                      <span>Στρογγυλή</span>
+                      <span data-i18n="shape-round">Στρογγυλή</span>
                     </button>
                     <button type="button" class="shape-option" data-value="Square">
                       <img src="assets/icons/cakes/square2.png" alt="Square" />
-                      <span>Τετράγωνη</span>
+                      <span data-i18n="shape-square">Τετράγωνη</span>
                     </button>
                     <button type="button" class="shape-option" data-value="Heart">
                       <img src="assets/icons/cakes/heart2.png" alt="Heart" />
-                      <span>Καρδιά</span>
+                      <span data-i18n="shape-heart">Καρδιά</span>
                     </button>
                     <button type="button" class="shape-option" data-value="Rectangle">
                       <img src="assets/icons/cakes/rectangle2.png" alt="Rectangle" />
-                      <span>Ορθογώνια</span>
+                      <span data-i18n="shape-rectangle">Ορθογώνια</span>
                     </button>
                     <button type="button" class="shape-option" data-value="Number">
                       <img src="assets/icons/cakes/number2.png" alt="Number" />
-                      <span>Αριθμός</span>
+                      <span data-i18n="shape-number">Αριθμός</span>
                     </button>
                   </div>
-                </label>
+                </div>
 
-                <label class="space-y-2 sm:col-span-1">
-                  <span class="font-semibold" data-i18n="form-flavor-label">Γεύση</span>
-                  <select name="flavor" required class="form-select w-full rounded-2xl border border-slate-200 bg-white px-4 py-3 outline-none transition focus:border-pink-300 focus:ring-2 focus:ring-pink-100">
-                    <option value="" disabled selected data-i18n="form-flavor-placeholder">Επίλεξε γεύση</option>
-                    <option value="Vanilla">Βανίλια</option>
-                    <option value="Chocolate">Σοκολάτα</option>
-                    <option value="Red Velvet">Red Velvet</option>
-                    <option value="Coffee">Καφές</option>
-                    <option value="Lemon">Λεμόνι</option>
-                    <option value="Caramel">Καραμέλα</option>
-                    <option value="Raspberry">Σμέουρο</option>
-                    <option value="Mixed">Μικτή</option>
-                  </select>
+                <div class="space-y-8 cake-form-right">
+                  <div>
+                    <label class="font-semibold block" data-i18n="form-flavor-label">Γεύση</label>
+                    <select name="flavor" required class="form-select w-full rounded-2xl border border-slate-200 bg-white px-4 py-3 outline-none transition focus:border-pink-300 focus:ring-2 focus:ring-pink-100">
+                      <option value="" disabled selected data-i18n="form-flavor-placeholder">Επίλεξε γεύση</option>
+                      <option value="Vanilla" data-i18n="form-flavor-option-vanilla">Βανίλια</option>
+                      <option value="Chocolate" data-i18n="form-flavor-option-chocolate">Σοκολάτα</option>
+                      <option value="Red Velvet" data-i18n="form-flavor-option-red-velvet">Red Velvet</option>
+                      <option value="Coffee" data-i18n="form-flavor-option-coffee">Καφές</option>
+                      <option value="Lemon" data-i18n="form-flavor-option-lemon">Λεμόνι</option>
+                      <option value="Caramel" data-i18n="form-flavor-option-caramel">Καραμέλα</option>
+                      <option value="Raspberry" data-i18n="form-flavor-option-raspberry">Σμέουρο</option>
+                      <option value="Mixed" data-i18n="form-flavor-option-mixed">Μικτή</option>
+                    </select>
+                  </div>
 
-                  <div id="number-input-wrapper" class="hidden mt-4">
+                  <div>
+                    <label class="font-semibold block" data-i18n="form-serves-label">Για πόσα άτομα</label>
+                    <select id="serves-select" name="serves" required class="form-select w-full rounded-2xl border border-slate-200 bg-white px-4 py-3 outline-none transition focus:border-pink-300 focus:ring-2 focus:ring-pink-100">
+                      <option value="" disabled selected data-i18n="form-serves-placeholder">Επίλεξε πόσα άτομα</option>
+                      <option value="8-10" data-i18n="serves-8-10">8-10 άτομα</option>
+                      <option value="10-12" data-i18n="serves-10-12">10-12 άτομα</option>
+                      <option value="12-14" data-i18n="serves-12-14">12-14 άτομα</option>
+                      <option value="14-16" data-i18n="serves-14-16">14-16 άτομα</option>
+                      <option value="16-20" data-i18n="serves-16-20">16-20 άτομα</option>
+                    </select>
+                  </div>
+
+                  <div>
+                    <label class="font-semibold block" data-i18n="form-overlay-label">Επικάλυψη</label>
+                    <select id="overlay-select" name="overlay" class="form-select w-full rounded-2xl border border-slate-200 bg-white px-4 py-3 outline-none transition focus:border-pink-300 focus:ring-2 focus:ring-pink-100">
+                      <option value="" disabled selected data-i18n="form-overlay-placeholder">Επίλεξε επικάλυψη</option>
+                      <option value="Chocolate" data-i18n="overlay-chocolate">Σοκολάτα</option>
+                      <option value="Caramel" data-i18n="overlay-caramel">Καραμέλα</option>
+                      <option value="Berry" data-i18n="overlay-berry">Βατόμουρο</option>
+                      <option value="Vanilla" data-i18n="overlay-vanilla">Βανίλια</option>
+                    </select>
+                  </div>
+
+                  <div class="rounded-2xl border border-slate-200 bg-white p-4">
+                    <label class="inline-flex items-center gap-3">
+                      <input id="photo-print-checkbox" type="checkbox" name="photoPrint" value="Photo Print" class="mt-1 h-4 w-4 rounded border-slate-300 text-pink-600 focus:ring-pink-500" />
+                      <span data-i18n="photo-print-label">Εκτύπωση φωτογραφίας (13 €)</span>
+                    </label>
+                    <p class="text-sm text-slate-600 mt-2" data-i18n="photo-print-help">Όταν επιλέγεται, δεν μπορεί να προστεθεί άλλη επικάλυψη.</p>
+                  </div>
+
+                  <div id="number-input-wrapper" class="hidden">
                     <label class="space-y-2">
                       <span class="font-semibold" data-i18n="form-number-label">Αριθμός στην τούρτα</span>
                       <input id="cake-number-input" type="text" name="cakeNumber" placeholder="Π.χ. 21" class="w-full rounded-2xl border border-slate-200 bg-white px-4 py-3 outline-none transition focus:border-pink-300 focus:ring-2 focus:ring-pink-100" />
                     </label>
                   </div>
-                </label>
-              </div>
-
-              <div class="space-y-2">
-                <label class="font-semibold" data-i18n="form-serves-label">Για πόσα άτομα</label>
-                <select id="serves-select" name="serves" required class="form-select w-full rounded-2xl border border-slate-200 bg-white px-4 py-3 outline-none transition focus:border-pink-300 focus:ring-2 focus:ring-pink-100">
-                  <option value="" disabled selected>Επίλεξε πόσα άτομα</option>
-                  <option value="8-10">8-10 άτομα</option>
-                  <option value="10-12">10-12 άτομα</option>
-                  <option value="12-14">12-14 άτομα</option>
-                  <option value="14-16">14-16 άτομα</option>
-                  <option value="16-20">16-20 άτομα</option>
-                </select>
+                </div>
               </div>
 
               <div class="space-y-3 rounded-3xl border border-slate-200 bg-white p-4">
-                <div class="font-semibold" data-i18n="form-decoration-label">Decoration Options</div>
+                <div class="font-semibold" data-i18n="form-decoration-label">Επιλογές διακόσμησης</div>
                 <div class="grid gap-3 sm:grid-cols-2">
                   <label class="inline-flex items-start gap-3">
                     <input type="checkbox" name="decorations[]" value="Chocolate Drip" class="mt-1 h-4 w-4 rounded border-slate-300 text-pink-600 focus:ring-pink-500" />
-                    <span>Chocolate drip</span>
+                    <span data-i18n="decoration-chocolate-drip">Σοκολατένιο drip</span>
                   </label>
                   <label class="inline-flex items-start gap-3">
                     <input type="checkbox" name="decorations[]" value="Fresh Fruit" class="mt-1 h-4 w-4 rounded border-slate-300 text-pink-600 focus:ring-pink-500" />
-                    <span>Fresh fruit</span>
+                    <span data-i18n="decoration-fresh-fruit">Φρέσκα φρούτα</span>
                   </label>
                   <label class="inline-flex items-start gap-3">
                     <input type="checkbox" name="decorations[]" value="Edible Gold" class="mt-1 h-4 w-4 rounded border-slate-300 text-pink-600 focus:ring-pink-500" />
-                    <span>Edible gold</span>
+                    <span data-i18n="decoration-edible-gold">Βρώσιμο χρυσό</span>
                   </label>
                   <label class="inline-flex items-start gap-3">
                     <input type="checkbox" name="decorations[]" value="Personalized Message" class="mt-1 h-4 w-4 rounded border-slate-300 text-pink-600 focus:ring-pink-500" />
-                    <span>Personalized message</span>
+                    <span data-i18n="decoration-personalized-message">Προσωποποιημένο μήνυμα</span>
                   </label>
                   <label class="inline-flex items-start gap-3 sm:col-span-2">
                     <input type="checkbox" name="decorations[]" value="Sprinkles" class="mt-1 h-4 w-4 rounded border-slate-300 text-pink-600 focus:ring-pink-500" />
-                    <span>Sprinkles</span>
+                    <span data-i18n="decoration-sprinkles">Τρούφα</span>
                   </label>
                 </div>
               </div>
@@ -148,37 +192,7 @@
             </form>
           </div>
         </div>
-<!-- 
-        <aside class="space-y-6 rounded-[2rem] border border-pink-100 bg-pink-50 p-8 shadow-sm">
-          <div>
-            <h3 class="text-2xl font-bold mb-3" data-i18n="form-info-title">Πώς λειτουργεί</h3>
-            <p class="text-slate-700" data-i18n="form-info-text">Επίλεξε σχήμα τούρτας, γεύση και διακοσμήσεις. Θα υπολογίσουμε τα εκτιμώμενα κιλά βάσει σερβιρίσματος και θα στείλουμε περίληψη παραγγελίας στο email σου.</p>
-          </div>
-          <div class="space-y-4 rounded-3xl border border-slate-200 bg-white p-6">
-            <div class="flex items-start gap-4">
-              <span class="flex h-11 w-11 items-center justify-center rounded-2xl bg-pink-100 text-pink-700"><i class="fas fa-check"></i></span>
-              <div>
-                <h4 class="font-semibold">Clear guidance</h4>
-                <p class="text-sm opacity-80">We help you choose the right size for your celebration.</p>
-              </div>
-            </div>
-            <div class="flex items-start gap-4">
-              <span class="flex h-11 w-11 items-center justify-center rounded-2xl bg-pink-100 text-pink-700"><i class="fas fa-envelope"></i></span>
-              <div>
-                <h4 class="font-semibold">Email confirmation</h4>
-                <p class="text-sm opacity-80">Your request is sent securely via Formspree to our cake team.</p>
-              </div>
-            </div>
-            <div class="flex items-start gap-4">
-                <span class="flex h-11 w-11 items-center justify-center rounded-2xl bg-pink-100 text-pink-700"><i class="fas fa-phone"></i></span>
-                <div>
-                <h4 class="font-semibold">Απαιτείται τηλέφωνο</h4>
-                <p class="text-sm opacity-80">Χρησιμοποιείται μόνο για να επιβεβαιώσουμε τις λεπτομέρειες παραλαβής ή παράδοσης.</p>
-              </div>
-            </div>
-          </div>
-        </aside> -->
-      <!-- </div> -->
+      </div>
     </section>
   </main>
 

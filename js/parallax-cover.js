@@ -1,7 +1,7 @@
 // Parallax Cover Effect (covers 2/3 of hero, leaves 1/3 visible)
 window.addEventListener('load', () => {
   const parallaxWrapper = document.querySelector('#parallax-wrapper');
-  const hero = document.querySelector('.menu-hero, .about-hero');
+  const hero = document.querySelector('.hero');
 
   if (!parallaxWrapper || !hero) return;
 
