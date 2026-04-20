@@ -1,4 +1,11 @@
 // ── Carousel ──────────────────────────────────────────────────────────────
+function updateAppHeight() {
+  document.documentElement.style.setProperty('--app-height', `${window.innerHeight}px`);
+}
+
+window.addEventListener('resize', updateAppHeight);
+updateAppHeight();
+
 const slides = document.querySelectorAll('.slide');
 const dots   = document.querySelectorAll('.dot');
 let current  = 0;
