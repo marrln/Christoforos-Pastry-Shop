@@ -2,7 +2,7 @@
 // Exclude carousel, navbar, hero sections, and map from scroll reveal
 
 const revealOptions = {
-  threshold: 0.15,
+  threshold: 0.1,
   rootMargin: '0px 0px -100px 0px'
 };
 
