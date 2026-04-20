@@ -1,165 +1,26 @@
-// Cup of Cake - English translations only
+// Christoforos - English translations only
 // Greek is the default language stored in HTML as data-i18n attribute text content
 // When language switches to English, only these translations are applied
 
-const translations = {
-  // Navigation
-  "nav-home": "Home",
-  "nav-menu": "Menu",
-  "nav-order": "Build Your Cake",
-  "nav-about": "About Us",
+let translationData = null;
+let translations = {};
 
-  // Index - Hero / Carousel
-  "slide1-title": "Fresh Coffee",
-  "slide1-desc": "Aromatic coffee from selected beans",
-  "slide2-title": "Chocolate Waffles",
-  "slide2-desc": "Crispy waffles with hot chocolate and vanilla ice cream",
-  "slide3-title": "Seasonal Drinks",
-  "slide3-desc": "Hot and cold beverages for every season",
-  "slide4-title": "Sweets & Pastry",
-  "slide4-desc": "Homemade sweets made with love",
-  "slide5-title": "Brunch Delights",
-  "slide5-desc": "The perfect brunch to start your day",
-  "carousel-btn-order": "Order Now",
+async function loadTranslations() {
+  if (translationData) return translationData;
 
-  // Index - Intro section
-  "intro-title": "Welcome to Cup of Cake",
-  "intro-text": "At Cup of Cake we believe every moment deserves a sweet reward. From the morning coffee to the evening dessert, we offer you the best taste experience in Athens.",
-
-  // Index - Featured section
-  "featured-title": "Our Favourites",
-  "reviews-title": "What customers say",
-  "reviews-desc": "Recent high-rated reviews straight from Google Maps, showing why our guests keep coming back.",
-  "feat1-name": "Freddo Espresso",
-  "feat1-desc": "Iced coffee for summer days",
-  "feat2-name": "Profiterole Pancakes",
-  "feat2-desc": "3 pieces. With dark chocolate profiterole sauce, whipped cream & vanilla",
-  "feat3-name": "Red Velvet",
-  "feat3-desc": "With cream cheese buttercream & homemade strawberry jam",
-  "feat4-name": "Banoffee Waffles",
-  "feat4-desc": "With Bavarian cream, caramel spread, banana, caramel syrup & crushed butter biscuit",
-  "view-menu-btn": "View our full menu",
-
-  // Footer
-  "footer-hours-title": "Opening Hours",
-  "footer-hours-weekdays": "Monday - Friday: 06:00-21:00",
-  "footer-hours-saturday": "Saturday: 07:00-21:00",
-  "footer-hours-sunday": "Sunday: 08:00-18:00",
-  "footer-address": "Morigianni 83 & Irakleous, Peristeri 12133, Athens",
-  "footer-phone": "Tel.: +30 210 574 7222",
-  "footer-copy": "© 2026 Cup of Cake. All rights reserved.",
-  "footer-map-title": "Find us here",
-
-  // Menu page
-  "menu-page-title": "Our Menu",
-  "menu-page-subtitle": "Discover our flavours",
-
-  // Cake order page
-  "cake-order-title": "Build Your Cake",
-  "cake-order-hero-caption": "Build your own cake",
-  "cake-order-subtitle": "Choose shape, flavor, decorations and how many people it serves.",
-  "cake-order-intro": "Design a custom cake and we’ll email you a confirmation when it is received.",
-  "cake-order-intro-text": "Once you complete the form, we will receive your request and notify you soon.",
-  "form-shape-label": "Cake Shape",
-  "form-shape-placeholder": "Select a shape",
-  "shape-round": "Round",
-  "shape-square": "Square",
-  "shape-heart": "Heart",
-  "shape-rectangle": "Rectangle",
-  "shape-number": "Number",
-  "form-flavor-label": "Flavor",
-  "form-flavor-placeholder": "Choose a flavor",
-  "form-flavor-option-vanilla": "Vanilla",
-  "form-flavor-option-chocolate": "Chocolate",
-  "form-flavor-option-red-velvet": "Red Velvet",
-  "form-flavor-option-coffee": "Coffee",
-  "form-flavor-option-lemon": "Lemon",
-  "form-flavor-option-caramel": "Caramel",
-  "form-flavor-option-raspberry": "Raspberry",
-  "form-flavor-option-mixed": "Mixed",
-  "form-serves-label": "Serves",
-  "form-serves-placeholder": "Choose how many people",
-  "form-overlay-label": "Overlay",
-  "form-overlay-placeholder": "Choose an overlay",
-  "overlay-chocolate": "Chocolate",
-  "overlay-caramel": "Caramel",
-  "overlay-berry": "Berry",
-  "overlay-vanilla": "Vanilla",
-  "photo-print-label": "Photo print (13 €)",
-  "photo-print-help": "When selected, no other overlay can be added.",
-  "serves-8-10": "8-10 people",
-  "serves-10-12": "10-12 people",
-  "serves-12-14": "12-14 people",
-  "serves-14-16": "14-16 people",
-  "serves-16-20": "16-20 people",
-  "form-decoration-label": "Decoration Options",
-  "decoration-chocolate-drip": "Chocolate drip",
-  "decoration-fresh-fruit": "Fresh fruit",
-  "decoration-edible-gold": "Edible gold",
-  "decoration-personalized-message": "Personalized message",
-  "decoration-sprinkles": "Sprinkles",
-  "form-email-label": "Email",
-  "form-phone-label": "Phone Number",
-  "form-note-label": "Additional Notes",
-  "form-kilos-label": "Estimated weight",
-  "form-kilos-value": "Estimated kilos: {kilos}",
-  "form-submit": "Send Request",
-  "form-success": "Thank you! Your cake request was sent.",
-  "form-error": "Please check your details and try again.",
-  "form-invalid-email": "Please enter a valid email address.",
-  "form-invalid-phone": "Please enter a valid phone number.",
-  "form-required": "Please fill in all required fields.",
-  "form-info-title": "How it works",
-  "form-info-text": "Choose the cake shape, flavor and decorations. We will calculate the estimated kilos based on servings and send an order summary to your email.",
-  "form-info-bullet1-title": "Clear guidance",
-  "form-info-bullet1-text": "We help you choose the right size for your celebration.",
-  "form-info-bullet2-title": "Email confirmation",
-  "form-info-bullet2-text": "Your request is sent securely via Formspree to our cake team.",
-  "form-info-bullet3-title": "Phone required",
-  "form-info-bullet3-text": "Used only to confirm pickup or delivery details.",
-
-  // Menu categories
-  "cat-brunch": "Brunch",
-  "cat-waffles": "Waffles",
-  "cat-pancakes": "Sweet Pancakes",
-  "cat-sweets": "Sweets",
-  "cat-sandwiches": "Sandwiches",
-  "cat-sfolies": "Pastries",
-  "cat-snacks": "Snacks",
-  "cat-coffees": "Coffees",
-  "cat-drinks": "Drinks",
-  "cat-soft": "Soft Drinks",
-
-  // NOTE: Menu item translations (names & descriptions) are now loaded from data/menu.json
-  // This reduces the size of this file and provides a single source of truth for menu content
-
-  // About page
-  "about-page-title": "About Us",
-  "about-story-title": "Our Story",
-  "about-story-text": "Cup of Cake was born out of a love for great coffee and handmade sweets. We opened this year with a small shop in Peristeri, and our goal is to become a favorite destination for anyone looking for a break from the daily routine and a sweet indulgence. With care and passion for flavor, we offer aromatic coffee, freshly made desserts, and delicious brunch options every day.",
-  "about-mission-title": "Our Mission",
-  "about-mission-text": "Our goal is to offer a unique experience with every visit. We use only fresh, high-quality ingredients and love experimenting with new flavors, like our incredibly delicious profiterole pancakes. We want to become part of your everyday life, offering not just tasty products but also a space where you can relax, work, or meet up with friends.",
-  "about-atmosphere-title": "Our Atmosphere",
-  "about-atmosphere-text": "Our space is designed for you to enjoy a quick break from your daily routine. Comfortable seating, beautiful decor, and relaxing music are here to welcome you every day—whether you're stopping by for your morning coffee or an afternoon dessert with friends.",
-  "about-values-title": "Our Values",
-  "about-val1": "Handmade sweets made with love",
-  "about-val2": "Quality in every detail",
-  "about-val3": "Warm, friendly service",
-  "about-val4": "Fresh & pure ingredients",
-
-  // Document titles
-  "document-title-index": "Christoforos",
-  "document-title-menu": "Our Sweets - Christoforos",
-  "document-title-cake": "Οrder Your Cake - Christoforos",
-  "document-title-about": "About Us - Christoforos",
-  "document-title-404": "404 - Christoforos",
-
-  // 404 page
-  "404-title": "Oops! Page not found",
-  "404-desc": "It looks like you've lost your way. This page doesn't exist.",
-  "404-btn": "Back to Home",
-
-};
+  try {
+    const response = await fetch('data/translations.json');
+    translationData = await response.json();
+    translations = Object.values(translationData).reduce((result, section) => {
+      return Object.assign(result, section);
+    }, {});
+    return translationData;
+  } catch (error) {
+    console.error('Error loading translations:', error);
+    translations = {};
+    return null;
+  }
+}
 
 // ── Menu data cache ──────────────────────────────────────────────────────────
 let menuData = null;
@@ -228,8 +89,8 @@ function switchToEnglish() {
   localStorage.setItem("coc-lang", "en");
   document.documentElement.lang = "en";
 
-  // Load menu data before translating
-  loadMenuData().then(() => {
+  // Load translations and menu data before translating
+  Promise.all([loadTranslations(), loadMenuData()]).then(() => {
     // Add fade-out effect to all translatable elements
     document.querySelectorAll("[data-i18n]").forEach((el) => {
       el.classList.add("translating");
@@ -294,6 +155,11 @@ function switchToGreek() {
     if (typeof window.refreshReviewLanguage === 'function') {
       window.refreshReviewLanguage();
     }
+
+    // Update active state on lang buttons when switching back to Greek
+    document.querySelectorAll(".lang-btn").forEach((btn) => {
+      btn.classList.toggle("lang-active", btn.dataset.lang === "el");
+    });
   }, 400);
 
 }
@@ -304,8 +170,8 @@ function initI18n() {
 
   // Then apply the appropriate language
   if (currentLang === "en") {
-    // Load menu data asynchronously before applying English translations
-    loadMenuData().then(() => {
+    // Load translations and menu data asynchronously before applying English translations
+    Promise.all([loadTranslations(), loadMenuData()]).then(() => {
       // Apply English immediately without animation on page load
       document.querySelectorAll("[data-i18n]").forEach((el) => {
         const key = el.getAttribute("data-i18n");
